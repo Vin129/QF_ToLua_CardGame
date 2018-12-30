@@ -1,0 +1,1296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{90BFAAB2-26FA-060F-6255-50A66A8853DA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneOSX:2</UnityBuildTarget>
+    <UnityVersion>2017.4.10f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2017_4_10;UNITY_2017_4;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2017_4_10;UNITY_2017_4;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Mono/lib/mono/unity/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Mono/lib/mono/unity/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.XML">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Mono/lib/mono/unity/System.XML.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Mono/lib/mono/unity/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Mono/lib/mono/unity/Boo.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Mono/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIAutomation">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>/Applications/Unity/Unity2017.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>/Users/vin129/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>/Users/vin129/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>/Users/vin129/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesignerRuntime">
+      <HintPath>Assets/QFramework/Framework/9.ZEDkit/3rd/Behavior Designer/Runtime/BehaviorDesignerRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="ProtobufNet">
+      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/ProtobufNet.dll</HintPath>
+    </Reference>
+    <Reference Include="QFramework.Log">
+      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/QFramework.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="CString">
+      <HintPath>Assets/QFramework/ScriptKit/ToLua/Plugins/CString.dll</HintPath>
+    </Reference>
+    <Reference Include="Debugger">
+      <HintPath>Assets/QFramework/ScriptKit/ToLua/Plugins/Debugger.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="ObjectFactory.csproj">
+      <Project>{1D527F62-0973-82CD-0F4B-5A431BB560EB}</Project>
+      <Name>ObjectFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.Async.Editor.csproj">
+      <Project>{563CD0CC-17BA-5561-0993-B79624F15579}</Project>
+      <Name>UniRx.Async.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{27D79D8D-558D-B61A-7B9D-B46758AE7244}</Project>
+      <Name>UniRx</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.Async.csproj">
+      <Project>{0C124D0D-0BB9-A882-745C-17BD2F6ED3CD}</Project>
+      <Name>UniRx.Async</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\QFramework\Framework\0.Libs\0.Extension\DotNetExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\0.Extension\JsonDotNetExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\0.Extension\UnityAPIExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\1.DataStructure\Array\ResizableArray.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\1.DataStructure\AStar\AStar.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\1.DataStructure\AStar\AStarNode.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\1.DataStructure\AStar\GridManager.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\1.DataStructure\AStar\PriorityQueue.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\1.DataStructure\AStar\TestAStar.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\1.DataStructure\BinaryHeap\BinaryHeap.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\1.DataStructure\BinaryHeap\IBinaryHeapElement.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\CatLib\App.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\CatLib\Application.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\CatLib\ApplicationEvents.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\CatLib\DebugLevels.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\CatLib\Facade.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\CatLib\IApplication.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\CatLib\IBootstrap.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\CatLib\IServiceProvider.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\CatLib\IServiceProviderType.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Attribute\ExcludeFromCodeCoverageAttribute.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Attribute\PriorityAttribute.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Container\Bindable.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Container\BindData.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Container\BindDataExtend.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Container\Container.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Container\ContainerExtend.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Container\GivenData.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Container\IBindable.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Container\IBindData.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Container\IContainer.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Container\IGivenData.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Container\IMethodBind.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Container\InjectAttribute.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Container\IParams.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Container\IVariant.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Container\MethodBind.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Container\MethodContainer.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Container\Params.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Container\UnresolvableException.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Events\Dispatcher.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Events\DispatcherExtend.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Events\Event.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Events\IDispatcher.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Events\IEvent.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Exception\AssertException.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Exception\RuntimeException.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\FilterChain\FilterChain.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\FilterChain\IFilterChain.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Guard\Guard.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\QuickList\InternalList.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\QuickList\IQuickList.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\QuickList\QuickList.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\SortSet\ISortSet.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\SortSet\SortSet.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Template\IManaged.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Template\IManager.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Template\ISingleManaged.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Template\ISingleManager.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Template\Managed.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Template\Manager.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Template\SingleManaged.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Template\SingleManager.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Util\Arr.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Util\Dict.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Util\Enum.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Util\IAwait.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Util\IReferenceCount.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Util\ReferenceCount.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Util\Str.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Util\SystemTime.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Util\Util.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\2.Catlib.Core\Support\Util\Version.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\AsyncConnect.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\AsyncDisconnect.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\AsyncIOOperation.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\AsyncReceive.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\AsyncSend.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\AsyncSocketOperation.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\FlexiMemberIgnoreAttribute.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\FlexiMemberIncludeAttribute.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\FlexiMemberOrderAttribute.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\FlexiSerializableAttribute.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\FlexiSerializationLayout.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\FlexiSerializationOptions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\FlexiSerializer.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\FlexiSocket.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\IActionListener.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\IFlexiSerializer.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\IProtocol.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\ISocketClient.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\ISocketClientToken.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\ISocketServer.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\MessageStructure.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\SocketDelegate.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\Dispatcher\Dispatcher.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\Dispatcher\IDispatcher.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\Enums\ContentReadAction.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\Enums\HttpAction.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\Enums\HttpCompletionOption.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\Example\ExampleSceneManagerController.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\Helpers\AuthHelper.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpActions\HttpBase.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpActions\HttpDelete.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpActions\HttpGet.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpActions\HttpPatch.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpActions\HttpPost.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpActions\HttpPut.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpClient.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpContent\ByteArrayContent.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpContent\FormUrlEncodedContent.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpContent\IHttpContent.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpContent\MultiPartContent.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpContent\MultipartFormDataContent.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpContent\StreamContent.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpContent\StringContent.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\Messages\HttpResponseMessage.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\Messages\UploadStatusMessage.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpHelper.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\NetworkUtil.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\4.Platform\Device.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\5.Singleton\Scripts\ISingleton.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\5.Singleton\Scripts\MonoSingleton.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\5.Singleton\Scripts\MonoSingletonCreator.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\5.Singleton\Scripts\MonoSingletonPath.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\5.Singleton\Scripts\MonoSingletonProperty.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\5.Singleton\Scripts\Singleton.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\5.Singleton\Scripts\SingletonCreator.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\5.Singleton\Scripts\SingletonProperty.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\AnimatorExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\CanvasElementExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\DropdownExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\GameObjectExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\GenericBindings.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\ImageExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\InputFieldExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\MaterialExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\MonoBehaviourExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\ParticleSystemExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\RectTransformExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\ScrollBarExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\ScrollRectExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\SliderExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\TextExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\ToggleExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\TransformExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\BindingTypes.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Converters\DoubleToFloatConverter.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Converters\IConverter.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Converters\TextToDateConverter.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Converters\TextToDoubleConverter.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Converters\TextToFloatConverter.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Converters\TextToIntConverter.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Converters\TextToTimeSpanConverter.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Exceptions\SetterNotProvidedException.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Extensions\IObservableExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Extensions\IReactivePropertyExtensions.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Filters\DynamicSampleFilter.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Filters\IFilter.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Filters\SampleFilter.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+    <Compile Include="Assets\QFramework\Framework\0.Libs\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\1.FSM\FSM.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\1.FSM\FSMLite.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\DelayAction.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\EventAction.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\IAction.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\KeyEventAction.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\NodeAction.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\NodeActionSystem.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\OnlyBeginAction.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\UntilAction.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\EventInjector.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Extensions\ActionChain.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Extensions\IActionChain.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Extensions\IActionChainExtention.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Extensions\IActionExtension.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Extensions\RepeatNodeChain.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Extensions\SequenceNodeChain.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Node\INode.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Node\RepeatNode.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Node\SequenceNode.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Node\SpawnNode.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Node\TimelineNode.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\ProcessNode.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\SupportOther\DOTweenAction.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\Timer\TimeItem.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\Timer\Timer.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\Timer\TimerHelper.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\Timer\TimerManager.cs" />
+    <Compile Include="Assets\QFramework\Framework\1.ActionKit\Timer\TimeUtil.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\DataTable\AssetData.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\DataTable\AssetDataGroup.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\DataTable\EditorRuntimeAssetDataCollector.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\DataTable\ResDatas.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\DisposableObject.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\IEnumeratorTask.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Res\AbstractRes.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Res\AssetBundleRes.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Res\AssetRes.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Res\BaseRes.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Res\InternalRes.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Res\IRes.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Res\LocalImageRes.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Res\NetImageRes.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Res\SceneRes.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResDownloader\HttpDownloaderMgr.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResDownloader\ResDownloader.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResFactory.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResKitUtil.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResLoader\DefaultLoaderStrategy.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResLoader\IResLoader.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResLoader\IResLoaderStrategy.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResLoader\ResLoader.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResMgr.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\AudioManager.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\AudioPlayer.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\AudioUnit.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\CoroutineCommand\AudioSoundNode.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\CoroutineCommand\AudioVoiceNode.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\Msg\AddRetainAudioMsg.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\Msg\AudioMusicMsg.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\Msg\AudioSoundMsg.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\Msg\AudioVoiceMsg.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\Msg\RemoteRetainAudioMsg.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\3.Pool\Cache\SimpleObjectCache.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\3.Pool\Pool\IPool.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\3.Pool\Pool\NonPublicObjectPool.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\3.Pool\Pool\Pool.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\3.Pool\Pool\SafeObjectPool.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\3.Pool\Pool\SimpleObjectPool.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\4.IO\EditorFileUtils.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\4.IO\FileMgr.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\4.IO\FilePath.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\4.IO\PathHelper.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\4.IO\SerializeHelper.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\4.IO\ZipMgr.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\4.IO\ZipUtil.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\5.RefCounter\SafeARC.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\5.RefCounter\SimpleRC.cs" />
+    <Compile Include="Assets\QFramework\Framework\2.ResKit\5.RefCounter\UnsafeARC.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Deprecated\QUIMark.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Engine\UI\Helper\UIEffectHelper.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Extension\QUICameraUtil.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Extension\UIPointerDownEventListener.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Extension\UIPointerUpEventListener.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Extension\UIRectTransform.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Extension\UISpriteAnimation.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Gesture\DragMe.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Component\UIComponent.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Component\UIElement.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Component\UIElementList.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Component\UIScrollPage.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Component\UIScrollPageMark.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Component\UITransition.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Res\DefaultPanelLoader.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Res\IPanelLoader.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\System\IMark.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\System\IPanel.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\System\UIManager.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\System\UIMark.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\System\UIPanel.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\System\UIStack.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Transition\FadeInOut.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Transition\FadeOut.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Transition\ITransition.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Transition\UITransition.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\UI\UITransitionPanel.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\UI\UITransitionPanelComponents.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\UIPanelTester.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Util\UIEventListener.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\2.Event\CollisionTriggerListener.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\2.Event\EventSystem.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\3.ManagerOfManagers\IManager.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\3.ManagerOfManagers\QMgrBehaviour.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\3.ManagerOfManagers\QMonoBehaviour.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\3.ManagerOfManagers\QMsg.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\3.ManagerOfManagers\QMsgCenter.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\3.ManagerOfManagers\QMsgSpan.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\4.Guide\Scripts\CircleGuideCtrl.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\4.Guide\Scripts\GuideCtrl.cs" />
+    <Compile Include="Assets\QFramework\Framework\3.UIKit\4.Guide\Scripts\RectGuideCtrl.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Attribute\ButtonAttribute.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Attribute\ButtonExAttribute.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Attribute\ShowIfAndAttribute.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Attribute\ShowIfAttribute.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Example\Attribute\AttributeExample.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Example\FinReferencer\GetTestFindReferencer.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Example\FinReferencer\TestFindReferencer.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Example\UnityEditorRushTools\AutoReferencerExample.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Example\UnityEditorRushTools\CalledByEditorExample.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Example\UnityEditorRushTools\EditorToolkitTips.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Platform.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\TreeView\Scripts\TreeNode.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\View\GUIButton.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\View\GUITextField.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\View\GUIView.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\View\IOnGUIView.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\View\LayoutButton.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\View\LayoutLabel.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\View\LayoutVertical.cs" />
+    <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\View\OnGUIEvent.cs" />
+    <Compile Include="Assets\QFramework\Framework\5.ScriptCollection\DontDestroyOnLoad.cs" />
+    <Compile Include="Assets\QFramework\Framework\5.ScriptCollection\Empty4Raycast.cs" />
+    <Compile Include="Assets\QFramework\Framework\5.ScriptCollection\Hide.cs" />
+    <Compile Include="Assets\QFramework\Framework\5.ScriptCollection\Math.cs" />
+    <Compile Include="Assets\QFramework\Framework\5.ScriptCollection\ParticleScaler.cs" />
+    <Compile Include="Assets\QFramework\Framework\6.PackageManager\Framework.cs" />
+    <Compile Include="Assets\QFramework\Framework\6.PackageManager\FrameworkSettingData.cs" />
+    <Compile Include="Assets\QFramework\Framework\6.PackageManager\Login\GetTokenAction.cs" />
+    <Compile Include="Assets\QFramework\Framework\6.PackageManager\Login\RegisterAction.cs" />
+    <Compile Include="Assets\QFramework\Framework\6.PackageManager\Login\User.cs" />
+    <Compile Include="Assets\QFramework\Framework\6.PackageManager\Util\DjangoPost.cs" />
+    <Compile Include="Assets\QFramework\Framework\8.ShaderLib\Scripts\PostFXBehaviour.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Actions\BehaviorTreeReference.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Actions\Idle.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Actions\Log.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Actions\PerformInterruption.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Actions\Reflection\GetFieldValue.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Actions\Reflection\GetPropertyValue.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Actions\Reflection\InvokeMethod.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Actions\Reflection\SetFieldValue.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Actions\Reflection\SetPropertyValue.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Actions\RestartBehaviorTree.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Actions\SendEvent.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Actions\StartBehaviorTree.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Actions\StopBehaviorTree.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Actions\Wait.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animation\Blend.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animation\CrossFade.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animation\CrossFadeQueued.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animation\GetAnimatePhysics.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animation\IsPlaying.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animation\Play.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animation\PlayQueued.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animation\Rewind.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animation\Sample.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animation\SetAnimatePhysics.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animation\SetWrapMode.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animation\Stop.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\CrossFade.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\GetApplyRootMotion.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\GetBoolParameter.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\GetDeltaPosition.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\GetDeltaRotation.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\GetFloatParameter.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\GetGravityWeight.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\GetIntegerParameter.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\GetLayerWeight.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\GetSpeed.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\GetStringToHash.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\InterruptMatchTarget.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\IsInTransition.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\IsName.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\IsParameterControlledByCurve.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\MatchTarget.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\Play.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\SetApplyRootMotion.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\SetBoolParameter.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\SetFloatParameter.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\SetIntegerParameter.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\SetLayerWeight.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\SetLookAtPosition.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\SetLookAtWeight.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\SetSpeed.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\SetTrigger.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\StartPlayback.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\StartRecording.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\StopPlayback.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\StopRecording.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Animator\WaitForState.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetIgnoreListenerPause.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetIgnoreListenerVolume.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetLoop.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetMaxDistance.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetMinDistance.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetMute.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetPitch.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetPriority.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetSpread.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetTime.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetTimeSamples.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetVolume.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\IsPlaying.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\Pause.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\Play.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\PlayDelayed.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\PlayOneShot.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\PlayScheduled.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetAudioClip.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetIgnoreListenerPause.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetIgnoreListenerVolume.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetLoop.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetMaxDistance.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetMinDistance.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetMute.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetPan.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetPanLevel.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetPitch.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetPriority.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetRolloffMode.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetScheduledEndTime.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetScheduledStartTime.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetSpread.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetTime.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetVelocityUpdateMode.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetVolume.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\AudioSource\Stop.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Behaviour\GetIsEnabled.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Behaviour\IsEnabled.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Behaviour\SetIsEnabled.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\BoxCollider\GetCenter.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\BoxCollider\GetSize.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\BoxCollider\SetCenter.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\BoxCollider\SetSize.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\BoxCollider2D\GetSize.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\BoxCollider2D\SetSize.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CapsuleCollider\GetCenter.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CapsuleCollider\GetDirection.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CapsuleCollider\GetHeight.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CapsuleCollider\GetRadius.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CapsuleCollider\SetCenter.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CapsuleCollider\SetDirection.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CapsuleCollider\SetHeight.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CapsuleCollider\SetRadius.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CharacterController\GetCenter.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CharacterController\GetHeight.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CharacterController\GetRadius.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CharacterController\GetSlopeLimit.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CharacterController\GetStepOffset.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CharacterController\GetVelocity.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CharacterController\HasColliderHit.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CharacterController\IsGrounded.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CharacterController\Move.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CharacterController\SetCenter.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CharacterController\SetHeight.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CharacterController\SetRadius.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CharacterController\SetSlopeLimit.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CharacterController\SetStepOffset.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CharacterController\SimpleMove.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CircleCollider2D\GetCenter.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CircleCollider2D\GetRadius.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CircleCollider2D\SetCenter.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\CircleCollider2D\SetRadius.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Debug\DrawLine.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Debug\DrawRay.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Debug\LogFormat.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Debug\LogValue.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\GameObject\ActiveInHierarchy.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\GameObject\ActiveSelf.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\GameObject\CompareLayer.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\GameObject\CompareTag.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\GameObject\Destroy.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\GameObject\DestroyImmediate.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\GameObject\Find.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\GameObject\FindGameObjectsWithTag.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\GameObject\FindWithTag.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\GameObject\GetComponent.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\GameObject\GetTag.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\GameObject\Instantiate.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\GameObject\SendMessage.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\GameObject\SetActive.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\GameObject\SetTag.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Input\GetAcceleration.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Input\GetAxis.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Input\GetAxisRaw.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Input\GetButton.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Input\GetKey.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Input\GetMouseButton.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Input\GetMousePosition.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Input\IsButtonDown.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Input\IsButtonUp.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Input\IsKeyDown.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Input\IsKeyUp.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Input\IsMouseDown.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Input\IsMouseUp.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\LayerMask\GetLayer.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\LayerMask\SetLayer.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\GetColor.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\GetCookieSize.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\GetIntensity.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\GetRange.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\GetShadowBias.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\GetShadowStrength.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\GetSpotAngle.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\SetColor.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\SetCookie.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\SetCookieSize.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\SetCullingMask.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\SetIntensity.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\SetRange.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\SetShadowBias.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\SetShadows.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\SetShadowSoftness.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\SetShadowSoftnessFade.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\SetShadowStrength.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\SetSpotAngle.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Light\SetType.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\BoolComparison.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\BoolFlip.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\BoolOperator.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\FloatAbs.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\FloatClamp.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\FloatComparison.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\FloatOperator.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\IntAbs.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\IntClamp.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\IntComparison.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\IntOperator.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\IsFloatPositive.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\IsIntPositive.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\Lerp.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\LerpAngle.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\RandomBool.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\RandomFloat.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\RandomInt.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\SetBool.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\SetFloat.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Math\SetInt.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\GetAcceleration.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\GetAngularSpeed.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\GetDestination.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\GetIsStopped.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\GetRemainingDistance.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\GetSpeed.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\IsStopped.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\Move.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\ResetPath.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\Resume.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\SetAcceleration.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\SetAngularSpeed.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\SetDestination.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\SetIsStopped.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\SetSpeed.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\Stop.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\Warp.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Network\IsClient.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Network\IsServer.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\Clear.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\GetDuration.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\GetEmissionRate.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\GetEnableEmission.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\GetGravityModifier.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\GetLoop.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\GetMaxParticles.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\GetParticleCount.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\GetPlaybackSpeed.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\GetTime.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\IsAlive.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\IsPaused.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\IsPlaying.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\IsStopped.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\Pause.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\Play.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetEmissionRate.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetEnableEmission.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetGravityModifier.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetLoop.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetMaxParticles.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetPlaybackSpeed.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetStartColor.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetStartDelay.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetStartLifetime.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetStartRotation.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetStartSize.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetStartSpeed.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetTime.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\Simulate.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\Stop.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Physics\Linecast.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Physics\Raycast.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Physics\Spherecast.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Physics2D\Circlecast.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Physics2D\Linecast.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Physics2D\Raycast.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\DeleteAll.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\DeleteKey.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\GetFloat.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\GetInt.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\GetString.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\HasKey.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\Save.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\SetFloat.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\SetInt.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\SetString.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Quaternion\Angle.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Quaternion\AngleAxis.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Quaternion\Dot.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Quaternion\Euler.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Quaternion\FromToRotation.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Quaternion\Identity.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Quaternion\Inverse.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Quaternion\Lerp.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Quaternion\LookRotation.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Quaternion\RotateTowards.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Quaternion\Slerp.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Renderer\IsVisible.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Renderer\SetMaterial.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\AddExplosionForce.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\AddForce.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\AddForceAtPosition.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\AddRelativeForce.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\AddRelativeTorque.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\AddTorque.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetAngularDrag.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetAngularVelocity.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetCenterOfMass.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetDrag.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetFreezeRotation.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetIsKinematic.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetMass.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetPosition.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetRotation.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetUseGravity.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetVelocity.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\IsKinematic.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\IsSleeping.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\MovePosition.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\MoveRotation.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetAngularDrag.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetAngularVelocity.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetCenterOfMass.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetConstraints.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetDrag.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetFreezeRotation.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetIsKinematic.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetMass.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetPosition.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetRotation.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetUseGravity.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetVelocity.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\Sleep.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\UseGravity.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody\WakeUp.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\AddForce.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\AddForceAtPosition.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\AddTorque.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\GetAngularDrag.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\GetAngularVelocity.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\GetDrag.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\GetGravtyScale.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\GetIsKinematic.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\GetMass.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\GetPosition.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\GetRotation.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\GetVelocity.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\IsKinematic.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\IsSleeping.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\MovePosition.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\MoveRotation.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\SetAngularDrag.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\SetAngularVelocity.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\SetDrag.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\SetGravityScale.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\SetIsKinematic.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\SetMass.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\SetVelocity.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\Sleep.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\WakeUp.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedBool.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedColor.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedFloat.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedGameObject.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedGameObjectList.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedInt.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedObject.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedObjectList.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedQuaternion.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedRect.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedString.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedTransform.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedTransformList.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedVector2.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedVector3.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedVector4.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedBool.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedColor.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedFloat.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedGameObject.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedGameObjectList.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedInt.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedObject.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedObjectList.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedQuaternion.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedRect.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedString.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedTransform.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedTransformList.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedVector2.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedVector3.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedVector4.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SharedGameObjectsToGameObjectList.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SharedGameObjectToTransform.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SharedTransformsToTransformList.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SharedTransformToGameObject.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SphereCollider\GetCenter.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SphereCollider\GetRadius.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SphereCollider\SetCenter.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\SphereCollider\SetRadius.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\String\BuildString.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\String\CompareTo.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\String\Format.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\String\GetLength.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\String\GetRandomString.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\String\GetSubstring.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\String\IsNullOrEmpty.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\String\Replace.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\String\SetString.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Time\GetDeltaTime.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Time\GetRealtimeSinceStartup.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Time\GetTime.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Time\GetTimeScale.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Time\SetTimeScale.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Timeline\IsPaused.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Timeline\IsPlaying.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Timeline\Pause.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Timeline\Play.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Timeline\Resume.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Timeline\Stop.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\Find.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\FindChild.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\GetAngleToTarget.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\GetChild.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\GetChildCount.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\GetEulerAngles.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\GetForwardVector.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\GetLocalEulerAngles.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\GetLocalPosition.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\GetLocalRotation.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\GetLocalScale.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\GetParent.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\GetPosition.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\GetRightVector.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\GetRotation.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\GetUpVector.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\IsChildOf.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\LookAt.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\Rotate.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\RotateAround.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\SetEulerAngles.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\SetForwardVector.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\SetLocalEulerAngles.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\SetLocalPosition.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\SetLocalRotation.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\SetLocalScale.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\SetParent.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\SetPosition.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\SetRightVector.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\SetRotation.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\SetUpVector.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Transform\Translate.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector2\ClampMagnitude.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector2\Distance.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector2\Dot.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector2\GetMagnitude.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector2\GetRightVector.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector2\GetSqrMagnitude.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector2\GetUpVector.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector2\GetVector3.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector2\GetXY.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector2\Lerp.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector2\MoveTowards.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector2\Multiply.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector2\Normalize.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector2\Operator.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector2\SetValue.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector2\SetXY.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\Angle.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\ClampMagnitude.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\Distance.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\Dot.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\GetForwardVector.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\GetMagnitude.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\GetRightVector.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\GetSqrMagnitude.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\GetUpVector.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\GetVector2.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\GetXYZ.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\Lerp.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\MoveTowards.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\Multiply.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\Normalize.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\Operator.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\RotateTowards.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\SetValue.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Basic Tasks\Vector3\SetXYZ.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\BehaviorTree.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Composites\Parallel.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Composites\ParallelComplete.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Composites\ParallelSelector.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Composites\PrioritySelector.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Composites\RandomSelector.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Composites\RandomSequence.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Composites\Selector.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Composites\SelectorEvaluator.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Composites\Sequence.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Composites\UtilitySelector.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Conditionals\HasReceivedEvent.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Conditionals\Physics\HasEnteredCollision.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Conditionals\Physics\HasEnteredCollision2D.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Conditionals\Physics\HasEnteredTrigger.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Conditionals\Physics\HasEnteredTrigger2D.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Conditionals\Physics\HasExitedCollision.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Conditionals\Physics\HasExitedCollision2D.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Conditionals\Physics\HasExitedTrigger.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Conditionals\Physics\HasExitedTrigger2D.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Conditionals\RandomProbability.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Conditionals\Reflection\CompareFieldValue.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Conditionals\Reflection\ComparePropertyValue.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Decorators\ConditionalEvaluator.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Decorators\Interrupt.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Decorators\Inverter.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Decorators\Repeater.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Decorators\ReturnFailure.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Decorators\ReturnSuccess.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Decorators\TaskGuard.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Decorators\UntilFailure.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Decorators\UntilSuccess.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\EntryTask.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\ExternalBehaviorTree.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Object Drawers\FloatSliderAttribute.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Object Drawers\IntSliderAttribute.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedAnimationCurve.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedBool.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedColor.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedFloat.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedGameObject.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedGameObjectList.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedInt.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedMaterial.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedObject.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedObjectList.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedQuaternion.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedRect.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedString.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedTransform.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedTransformList.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedVector2.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedVector2Int.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedVector3.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedVector3Int.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedVector4.cs" />
+    <Compile Include="Assets\QFramework\Framework\9.ZEDkit\Scripts\BD\BDMachineEx.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\LuaComponent.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\LuaMain.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\LuaInterface_EventObjectWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\LuaInterface_LuaConstructorWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\LuaInterface_LuaFieldWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\LuaInterface_LuaMethodWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\LuaInterface_LuaOutWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\LuaInterface_LuaPropertyWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\System_ArrayWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\System_Collections_Generic_Dictionary_KeyCollectionWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\System_Collections_Generic_Dictionary_ValueCollectionWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\System_Collections_Generic_DictionaryWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\System_Collections_Generic_KeyValuePairWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\System_Collections_Generic_ListWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\System_Collections_IEnumeratorWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\System_Collections_ObjectModel_ReadOnlyCollectionWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\System_DelegateWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\System_EnumWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\System_NullObjectWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\System_ObjectWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\System_StringWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\System_TypeWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\UnityEngine_CoroutineWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\UnityEngine_ObjectWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaAttributes.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaBaseRef.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaBeatEvent.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaDLL.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaEvent.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaException.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaFileUtils.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaFunction.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaMatchType.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaMethodCache.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaMisc.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaStackOp.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaState.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaStatePtr.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaStatic.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaTable.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaThread.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaUnityLibs.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\LuaValueType.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\ObjectPool.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\ObjectTranslator.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\ToLua.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\TypeChecker.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Core\TypeTraits.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\01_HelloWorld\HelloWorld.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\02_ScriptsFromFile\ScriptsFromFile.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\03_CallLuaFunction\CallLuaFunction.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\04_AccessingLuaVariables\AccessingLuaVariables.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\05_LuaCoroutine\TestCoroutine.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\06_LuaCoroutine2\TestCoroutine2.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\07_LuaThread\TestLuaThread.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\08_AccessingArray\AccessingArray.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\09_Dictionary\System_Collections_Generic_Dictionary_int_TestAccount_KeyCollectionWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\09_Dictionary\System_Collections_Generic_Dictionary_int_TestAccount_ValueCollectionWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\09_Dictionary\System_Collections_Generic_Dictionary_int_TestAccountWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\09_Dictionary\System_Collections_Generic_KeyValuePair_int_TestAccountWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\09_Dictionary\TestAccountWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\09_Dictionary\UseDictionary.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\10_Enum\AccessingEnum.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\11_Delegate\TestDelegate.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\11_Delegate\TestEventListener.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\11_Delegate\TestEventListenerWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\12_GameObject\TestGameObject.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\13_CustomLoader\TestCustomLoader.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\14_Out\TestOutArg.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\15_ProtoBuffer\TestProtoBuffer.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\15_ProtoBuffer\TestProtol.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\15_ProtoBuffer\TestProtolWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\16_Int64\TestInt64.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\17_Inherit\TestInherit.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\18_Bundle\TestABLoader.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\19_cjson\TestCJson.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\20_utf8\TestUTF8.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\21_String\TestString.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\22_Reflection\TestReflection.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\23_List\UseList.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\24_Struct\PassStruct.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\Performance\TestPerformance.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\TestErrorStack\TestInstantiate.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\TestErrorStack\TestInstantiate2.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\TestErrorStack\TestLuaStack.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\TestOverload\TestExport_SpaceWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\TestOverload\TestExportWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Examples\TestOverload\TestOverload.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Misc\LuaClient.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Misc\LuaCoroutine.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Misc\LuaLooper.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Misc\LuaProfiler.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Misc\LuaResLoader.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Reflection\LuaConstructor.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Reflection\LuaField.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Reflection\LuaMethod.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Reflection\LuaProperty.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Reflection\LuaReflection.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Source\Generate\DelegateFactory.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Source\Generate\LuaBinder.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Source\LuaConst.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\UILuaPanel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\readme.txt" />
+    <None Include="Assets\QFramework\Framework\0.Libs\6.UniRx\ReadMe.txt" />
+    <None Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Editor\UniRx.Async.Editor.asmdef" />
+    <None Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UniRx.Async.asmdef" />
+    <None Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UniRx.asmdef" />
+    <None Include="Assets\QFramework\Framework\0.Libs\Plugins\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\QFramework\Framework\0.Libs\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\QFramework\Framework\0.Libs\Plugins\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\QFramework\Framework\0.Libs\Plugins\JsonDotNet\Assemblies\AOT\Newtonsoft.Json.XML" />
+    <None Include="Assets\QFramework\Framework\0.Libs\Plugins\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.XML" />
+    <None Include="Assets\QFramework\Framework\0.Libs\Plugins\JsonDotNet\Assemblies\Windows\Newtonsoft.Json.XML" />
+    <None Include="Assets\QFramework\Framework\0.Libs\Plugins\JsonDotNet\link.xml" />
+    <None Include="Assets\QFramework\Framework\2.ResKit\3.Pool\ObjectFactory\ObjectFactory.asmdef" />
+    <None Include="Assets\QFramework\Framework\3.UIKit\4.Guide\Shader\CircleGuideShader.shader" />
+    <None Include="Assets\QFramework\Framework\3.UIKit\4.Guide\Shader\RectGuideShader.shader" />
+    <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\Common.cginc" />
+    <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\FBM.cginc" />
+    <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\Feature.cginc" />
+    <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\Framework2D.cginc" />
+    <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\Framework3D.cginc" />
+    <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\Framework3D_DefaultRender.cginc" />
+    <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\Framework3D_Terrain.cginc" />
+    <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\Hash.cginc" />
+    <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\Math.cginc" />
+    <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\Noise.cginc" />
+    <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\SDF.cginc" />
+    <None Include="Assets\QFramework\Framework\6.PackageManager\TestData\simpletext.txt" />
+    <None Include="Assets\QFramework\Framework\8.ShaderLib\CGInclude\GaussianBlur.cginc" />
+    <None Include="Assets\QFramework\Framework\8.ShaderLib\CGInclude\Gray.cginc" />
+    <None Include="Assets\QFramework\Framework\8.ShaderLib\CGInclude\PostFX.cginc" />
+    <None Include="Assets\QFramework\Framework\8.ShaderLib\CGInclude\UI.cginc" />
+    <None Include="Assets\QFramework\Framework\8.ShaderLib\CGInclude\UIGrabPass.cginc" />
+    <None Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Editor\GridShader.shader" />
+    <None Include="Assets\QFramework\Framework\notice.txt" />
+    <None Include="Assets\QFramework\Framework\readme.txt" />
+    <None Include="Assets\QFramework\ScriptKit\ToLua\link.xml" />
+    <None Include="Assets\QFramework\ScriptKit\ToLua\readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

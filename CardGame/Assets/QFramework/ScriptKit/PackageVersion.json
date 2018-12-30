@@ -1,0 +1,16 @@
+{
+  "Version": "v0.0.4",
+  "Type": 0,
+  "AccessRight": 0,
+  "DownloadUrl": null,
+  "InstallPath": "Assets/QFramework/ScriptKit/",
+  "Readme": {
+    "version": "v0.0.4",
+    "content": " 导入 ToLua 模块",
+    "author": "凉鞋的MacBook Pro (2)",
+    "date": "2018-12-30"
+  },
+  "Name": "ScriptKit",
+  "VersionNumber": 4,
+  "FileName": "ScriptKit_v0.0.4.unitypackage"
+}
