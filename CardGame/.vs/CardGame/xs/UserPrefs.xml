@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{90BFAAB2-26FA-060F-6255-50A66A8853DA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/QFramework/Framework/3.UIKit/1.UI/Script/UIPanelTester.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/QFramework/ScriptKit/UILuaPanel.cs">
     <Files>
       <File FileName="Assets/QFramework/ScriptKit/LuaComponent.cs" Line="182" Column="39" />
       <File FileName="Assets/QFramework/ScriptKit/LuaMain.cs" Line="9" Column="1" />
-      <File FileName="Assets/QFramework/ScriptKit/UILuaPanel.cs" Line="59" Column="37" />
+      <File FileName="Assets/QFramework/ScriptKit/UILuaPanel.cs" Line="3" Column="32" />
       <File FileName="Assets/QFramework/Framework/3.UIKit/1.UI/Script/System/UIPanel.cs" Line="54" Column="31" />
       <File FileName="Assets/QFramework/ScriptKit/ILuaComponentBind.cs" Line="8" Column="45" />
       <File FileName="Assets/QFramework/Framework/3.UIKit/1.UI/Script/System/IPanel.cs" Line="34" Column="19" />

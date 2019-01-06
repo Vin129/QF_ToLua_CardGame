@@ -1,16 +1,16 @@
 {
-  "Version": "v0.0.5",
+  "Version": "v0.0.6",
   "Type": 0,
   "AccessRight": 0,
   "DownloadUrl": null,
   "InstallPath": "Assets/QFramework/ScriptKit/",
   "Readme": {
-    "version": "v0.0.5",
-    "content": "fix 0 error",
+    "version": "v0.0.6",
+    "content": "update UILuaPanel",
     "author": "vin129的MacBook Pro",
     "date": "2019-01-06"
   },
   "Name": "ScriptKit",
-  "VersionNumber": 5,
-  "FileName": "ScriptKit_v0.0.5.unitypackage"
+  "VersionNumber": 6,
+  "FileName": "ScriptKit_v0.0.6.unitypackage"
 }
