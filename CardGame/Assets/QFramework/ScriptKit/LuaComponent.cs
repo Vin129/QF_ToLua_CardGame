@@ -142,42 +142,50 @@ namespace QFramework
 			}
 		}
 
-		void Awake()
-		{
-			if (Initilize(LuaPath))
-				CallLuaFunction(LuaMain.FuncName.Awake);
-		}
+		//void Awake()
+		//{
+		//	if (Initilize(LuaPath))
+		//		CallLuaFunction(LuaMain.FuncName.Awake);
+		//}
 
-		void OnEnable()
-		{
-			CallLuaFunction(LuaMain.FuncName.OnEnable);
-		}
+		//void OnEnable()
+		//{
+		//	CallLuaFunction(LuaMain.FuncName.OnEnable);
+		//}
 
-		void Start()
-		{
-			CallLuaFunction(LuaMain.FuncName.Start);
-		}
+		//void Start()
+		//{
+		//	CallLuaFunction(LuaMain.FuncName.Start);
+		//}
 
-		void Update()
-		{
-			CallLuaFunction(LuaMain.FuncName.Update);
-		}
+		//void Update()
+		//{
+		//	CallLuaFunction(LuaMain.FuncName.Update);
+		//}
 
-		void OnDisable()
-		{
-			CallLuaFunction(LuaMain.FuncName.OnDisable);
-		}
+		//void OnDisable()
+		//{
+		//	CallLuaFunction(LuaMain.FuncName.OnDisable);
+		//}
 
-		void OnDestroy()
-		{
-			CallLuaFunction(LuaMain.FuncName.OnDestroy);
+		//void OnDestroy()
+		//{
+		//	CallLuaFunction(LuaMain.FuncName.OnDestroy);
 
-			if (null != mSelfLuaTable)
-			{
-				mSelfLuaTable.Dispose();
-				mSelfLuaTable = null;
-			}
-		}
+		//	if (null != mSelfLuaTable)
+		//	{
+		//		mSelfLuaTable.Dispose();
+		//		mSelfLuaTable = null;
+		//	}
+		//}
+
+        public void DisposeLuaTable(){
+              if (null != mSelfLuaTable)
+              {
+                  mSelfLuaTable.Dispose();
+                  mSelfLuaTable = null;
+              }
+        }
 
 		void onClick()
 		{

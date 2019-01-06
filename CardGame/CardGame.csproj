@@ -1154,6 +1154,7 @@
     <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedVector3Int.cs" />
     <Compile Include="Assets\QFramework\Framework\9.ZEDkit\3rd\Behavior Designer\Runtime\Variables\SharedVector4.cs" />
     <Compile Include="Assets\QFramework\Framework\9.ZEDkit\Scripts\BD\BDMachineEx.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ILuaComponentBind.cs" />
     <Compile Include="Assets\QFramework\ScriptKit\LuaComponent.cs" />
     <Compile Include="Assets\QFramework\ScriptKit\LuaMain.cs" />
     <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\LuaInterface_EventObjectWrap.cs" />

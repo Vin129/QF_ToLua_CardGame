@@ -2802,7 +2802,7 @@
         "items": [
           {
             "version": "v0.0.5",
-            "content": "add framework binding",
+            "content": "fix 0 error",
             "author": "liangxie",
             "date": "now"
           },
@@ -2819,11 +2819,27 @@
           "Version": "v0.0.5",
           "Type": 0,
           "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.0.5_2XS6r17.unitypackage",
+          "InstallPath": "Assets/QFramework/ScriptKit/",
+          "Readme": {
+            "version": "v0.0.5",
+            "content": "fix 0 error",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "ScriptKit",
+          "VersionNumber": 5,
+          "FileName": "ScriptKit_v0.0.5.unitypackage"
+        },
+        {
+          "Version": "v0.0.5",
+          "Type": 0,
+          "AccessRight": 0,
           "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.0.5.unitypackage",
           "InstallPath": "Assets/QFramework/ScriptKit/",
           "Readme": {
             "version": "v0.0.5",
-            "content": "add framework binding",
+            "content": "fix 0 error",
             "author": "liangxie",
             "date": "now"
           },
@@ -2849,7 +2865,7 @@
         }
       ],
       "Version": "v0.0.5",
-      "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.0.5.unitypackage",
+      "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.0.5_2XS6r17.unitypackage",
       "InstallPath": "Assets/QFramework/ScriptKit/",
       "Type": 0,
       "AccessRight": 0,

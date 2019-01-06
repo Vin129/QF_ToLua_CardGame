@@ -6,9 +6,9 @@
   "InstallPath": "Assets/QFramework/ScriptKit/",
   "Readme": {
     "version": "v0.0.5",
-    "content": "add framework binding",
-    "author": "LIANGXIE",
-    "date": "2018-12-30"
+    "content": "fix 0 error",
+    "author": "vin129的MacBook Pro",
+    "date": "2019-01-06"
   },
   "Name": "ScriptKit",
   "VersionNumber": 5,

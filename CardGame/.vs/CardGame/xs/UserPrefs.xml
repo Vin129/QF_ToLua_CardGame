@@ -1,23 +1,13 @@
 ﻿<Properties StartupConfiguration="{90BFAAB2-26FA-060F-6255-50A66A8853DA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/QFramework/ScriptKit/ToLua/Source/Generate/QFramework_QMonoBehaviourWrap.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/QFramework/Framework/3.UIKit/1.UI/Script/UIPanelTester.cs">
     <Files>
-      <File FileName="Assets/QFramework/ScriptKit/LuaComponent.cs" Line="1" Column="1" />
-      <File FileName="Assets/QFramework/ScriptKit/LuaMain.cs" Line="75" Column="32" />
-      <File FileName="Assets/QFramework/ScriptKit/UILuaPanel.cs" Line="30" Column="9" />
-      <File FileName="Assets/QFramework/Framework/3.UIKit/1.UI/Script/System/UIPanel.cs" Line="128" Column="20" />
-      <File FileName="Assets/QFramework/Framework/3.UIKit/1.UI/Script/System/IPanel.cs" Line="40" Column="12" />
-      <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/LuaConst.cs" Line="1" Column="1" />
-      <File FileName="Assets/QFramework/ScriptKit/ToLua/Core/LuaFunction.cs" Line="58" Column="34" />
-      <File FileName="Assets/QFramework/ScriptKit/ToLua/Core/LuaFileUtils.cs" Line="1" Column="1" />
-      <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/DelegateFactory.cs" Line="1" Column="1" />
-      <File FileName="Assets/QFramework/ScriptKit/ToLua/Core/LuaException.cs" Line="104" Column="33" />
-      <File FileName="Assets/QFramework/ScriptKit/ToLua/Editor/Custom/CustomSettings.cs" Line="168" Column="36" />
-      <File FileName="Assets/QFramework/ScriptKit/ToLua/Core/LuaState.cs" Line="38" Column="42" />
-      <File FileName="Assets/QFramework/ScriptKit/ToLua/Core/LuaValueType.cs" Line="94" Column="52" />
-      <File FileName="Assets/QFramework/ScriptKit/ToLua/Misc/LuaClient.cs" Line="154" Column="36" />
-      <File FileName="Assets/QFramework/ScriptKit/ToLua/Editor/ToLuaExport.cs" Line="822" Column="31" />
-      <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/QFramework_QMgrBehaviourWrap.cs" Line="99" Column="26" />
-      <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/QFramework_QMonoBehaviourWrap.cs" Line="96" Column="26" />
+      <File FileName="Assets/QFramework/ScriptKit/LuaComponent.cs" Line="182" Column="39" />
+      <File FileName="Assets/QFramework/ScriptKit/LuaMain.cs" Line="9" Column="1" />
+      <File FileName="Assets/QFramework/ScriptKit/UILuaPanel.cs" Line="59" Column="37" />
+      <File FileName="Assets/QFramework/Framework/3.UIKit/1.UI/Script/System/UIPanel.cs" Line="54" Column="31" />
+      <File FileName="Assets/QFramework/ScriptKit/ILuaComponentBind.cs" Line="8" Column="45" />
+      <File FileName="Assets/QFramework/Framework/3.UIKit/1.UI/Script/System/IPanel.cs" Line="34" Column="19" />
+      <File FileName="Assets/QFramework/Framework/3.UIKit/1.UI/Script/UIPanelTester.cs" Line="33" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

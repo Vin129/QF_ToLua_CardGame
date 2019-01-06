@@ -1,5 +1,6 @@
 /****************************************************************************
  * Copyright (c) 2018.12 liangxie
+ * Copyright (c) 2019.1  vin129
  * 
  * http://qframework.io
  * https://github.com/liangxiegame/QFramework
@@ -25,8 +26,108 @@
 
 namespace QFramework
 {
-	public class UILuaPanel : UIPanel
-	{
-        
-	}
+    using UnityEngine;
+    [RequireComponent(typeof(LuaComponent))]
+    public class UILuaPanel : UIPanel, ILuaComponentBind
+    {
+        void Awake()
+        {
+            
+        }
+
+        protected void InitUI(IUIData uiData = null)
+        {
+            
+        }
+
+        protected void RegisterUIEvent()
+        {
+            
+        }
+
+        void OnEnable()
+        {
+            CallLuaFunction(LuaMain.FuncName.OnEnable);
+        }
+
+        void Start()
+        {
+            CallLuaFunction(LuaMain.FuncName.Start);
+        }
+
+        void Update()
+        {
+            CallLuaFunction(LuaMain.FuncName.Update);
+        }
+
+        void OnDisable()
+        {
+            CallLuaFunction(LuaMain.FuncName.OnDisable);
+        }
+
+        private void OnDestroy()
+        {
+            base.OnDestroy();
+            LuaDispose();
+        }
+
+        #region LuaComponent 
+
+        public LuaComponent LuaCp;
+
+        public string LuaPath
+        {
+            get
+            {
+                if (LuaCp)
+                    return LuaCp.LuaPath;
+                else
+                    return null;
+            }
+
+            set
+            {
+                if (LuaCp)
+                {
+                    LuaCp.LuaPath = value;
+                    // TODO:ReLoad??
+                }
+            }
+        }
+
+        public void BindLuaComponent()
+        {
+            if (LuaCp == null)
+                LuaCp = GetComponent<LuaComponent>();
+            if (LuaCp == null)
+            {
+                Log.E("Not find LuaComponet");
+                return;
+            }
+
+            if (LuaCp.Initilize(LuaPath))
+                CallLuaFunction(LuaMain.FuncName.Awake);
+        }
+
+        public void LuaDispose()
+        {
+            CallLuaFunction(LuaMain.FuncName.OnDestroy);
+            if (LuaCp)
+                LuaCp.DisposeLuaTable();
+        }
+
+        public void CallLuaFunction(string funcName)
+        {
+            if (LuaCp == null)
+                LuaCp = GetComponent<LuaComponent>();
+            if (LuaCp == null)
+            {
+                Log.E("Not find LuaComponet");
+                return;
+            }
+            LuaCp.CallLuaFunction(funcName);
+        }
+        #endregion
+    }
+
 }
