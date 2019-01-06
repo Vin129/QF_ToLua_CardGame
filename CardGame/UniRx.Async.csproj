@@ -284,6 +284,33 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="BehaviorDesignerRuntime">
+      <HintPath>Assets/QFramework/Framework/9.ZEDkit/3rd/Behavior Designer/Runtime/BehaviorDesignerRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesignerEditor">
+      <HintPath>Assets/QFramework/Framework/9.ZEDkit/3rd/Behavior Designer/Editor/BehaviorDesignerEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="QFramework.Log">
+      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/QFramework.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="ProtobufNet">
+      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/ProtobufNet.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="CString">
+      <HintPath>Assets/QFramework/ScriptKit/ToLua/Plugins/CString.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>/Users/vin129/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -301,36 +328,6 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>/Users/vin129/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenEditor">
-      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="BehaviorDesignerEditor">
-      <HintPath>Assets/QFramework/Framework/9.ZEDkit/3rd/Behavior Designer/Editor/BehaviorDesignerEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="BehaviorDesignerRuntime">
-      <HintPath>Assets/QFramework/Framework/9.ZEDkit/3rd/Behavior Designer/Runtime/BehaviorDesignerRuntime.dll</HintPath>
-    </Reference>
-    <Reference Include="ProtobufNet">
-      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/ProtobufNet.dll</HintPath>
-    </Reference>
-    <Reference Include="QFramework.Log">
-      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/QFramework.Log.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
-    <Reference Include="CString">
-      <HintPath>Assets/QFramework/ScriptKit/ToLua/Plugins/CString.dll</HintPath>
-    </Reference>
-    <Reference Include="Debugger">
-      <HintPath>Assets/QFramework/ScriptKit/ToLua/Plugins/Debugger.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

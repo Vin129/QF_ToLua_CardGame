@@ -5,6 +5,60 @@
       "readme": {
         "items": [
           {
+            "version": "v0.0.38",
+            "content": "support webgl",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.37",
+            "content": "support webgl",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.36",
+            "content": "add Http Post API",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.35",
+            "content": "add http delete API",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.34",
+            "content": "add Http Patch API",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.33",
+            "content": "add Http Patch API",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.32",
+            "content": "add CrossPlatform API",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.31",
+            "content": "DotNet Extension 支持其他 .Net 平台",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.30",
+            "content": "support 2018.2",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
             "version": "v0.0.29",
             "content": "move unused module",
             "author": "liangxie",
@@ -37,6 +91,150 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.38",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/0.Libs_v0.0.38.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/0.Libs/",
+          "Readme": {
+            "version": "v0.0.38",
+            "content": "support webgl",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "0.Libs",
+          "VersionNumber": 38,
+          "FileName": "0.Libs_v0.0.38.unitypackage"
+        },
+        {
+          "Version": "v0.0.37",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/0.Libs_v0.0.37.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/0.Libs/",
+          "Readme": {
+            "version": "v0.0.37",
+            "content": "support webgl",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "0.Libs",
+          "VersionNumber": 37,
+          "FileName": "0.Libs_v0.0.37.unitypackage"
+        },
+        {
+          "Version": "v0.0.36",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/0.Libs_v0.0.36.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/0.Libs/",
+          "Readme": {
+            "version": "v0.0.36",
+            "content": "add Http Post API",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "0.Libs",
+          "VersionNumber": 36,
+          "FileName": "0.Libs_v0.0.36.unitypackage"
+        },
+        {
+          "Version": "v0.0.35",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/0.Libs_v0.0.35.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/0.Libs/",
+          "Readme": {
+            "version": "v0.0.35",
+            "content": "add http delete API",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "0.Libs",
+          "VersionNumber": 35,
+          "FileName": "0.Libs_v0.0.35.unitypackage"
+        },
+        {
+          "Version": "v0.0.34",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/0.Libs_v0.0.34.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/0.Libs/",
+          "Readme": {
+            "version": "v0.0.34",
+            "content": "add Http Patch API",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "0.Libs",
+          "VersionNumber": 34,
+          "FileName": "0.Libs_v0.0.34.unitypackage"
+        },
+        {
+          "Version": "v0.0.33",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/0.Libs_v0.0.33.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/0.Libs/",
+          "Readme": {
+            "version": "v0.0.33",
+            "content": "add Http Patch API",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "0.Libs",
+          "VersionNumber": 33,
+          "FileName": "0.Libs_v0.0.33.unitypackage"
+        },
+        {
+          "Version": "v0.0.32",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/0.Libs_v0.0.32.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/0.Libs/",
+          "Readme": {
+            "version": "v0.0.32",
+            "content": "add CrossPlatform API",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "0.Libs",
+          "VersionNumber": 32,
+          "FileName": "0.Libs_v0.0.32.unitypackage"
+        },
+        {
+          "Version": "v0.0.31",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/0.Libs_v0.0.31.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/0.Libs/",
+          "Readme": {
+            "version": "v0.0.31",
+            "content": "DotNet Extension 支持其他 .Net 平台",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "0.Libs",
+          "VersionNumber": 31,
+          "FileName": "0.Libs_v0.0.31.unitypackage"
+        },
+        {
+          "Version": "v0.0.30",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/0.Libs_v0.0.30.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/0.Libs/",
+          "Readme": {
+            "version": "v0.0.30",
+            "content": "support 2018.2",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "0.Libs",
+          "VersionNumber": 30,
+          "FileName": "0.Libs_v0.0.30.unitypackage"
+        },
         {
           "Version": "v0.0.29",
           "Type": 0,
@@ -118,18 +316,60 @@
           "FileName": "0.Libs_v0.0.25.unitypackage"
         }
       ],
-      "Version": "v0.0.29",
-      "DownloadUrl": "http://liangxiegame.com/media/0.Libs_v0.0.29.unitypackage",
+      "Version": "v0.0.38",
+      "DownloadUrl": "http://liangxiegame.com/media/0.Libs_v0.0.38.unitypackage",
       "InstallPath": "Assets/QFramework/Framework/0.Libs/",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 29,
+      "VersionNumber": 38,
       "Installed": true
     },
     {
       "Name": "1.ActionKit",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.21",
+            "content": "add Http Post Action",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.20",
+            "content": "add HttpDeleteAction",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.19",
+            "content": "add Http Patch Action",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.18",
+            "content": "add Http Patch Action",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.17",
+            "content": "add Network Action",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.16",
+            "content": "add HttpGetAction",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.15",
+            "content": "add action queue",
+            "author": "liangxie",
+            "date": "now"
+          },
           {
             "version": "v0.0.14",
             "content": "add dotween node",
@@ -163,6 +403,118 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.21",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/1.ActionKit_v0.0.21.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/1.ActionKit/",
+          "Readme": {
+            "version": "v0.0.21",
+            "content": "add Http Post Action",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "1.ActionKit",
+          "VersionNumber": 21,
+          "FileName": "1.ActionKit_v0.0.21.unitypackage"
+        },
+        {
+          "Version": "v0.0.20",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/1.ActionKit_v0.0.20.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/1.ActionKit/",
+          "Readme": {
+            "version": "v0.0.20",
+            "content": "add HttpDeleteAction",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "1.ActionKit",
+          "VersionNumber": 20,
+          "FileName": "1.ActionKit_v0.0.20.unitypackage"
+        },
+        {
+          "Version": "v0.0.19",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/1.ActionKit_v0.0.19.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/1.ActionKit/",
+          "Readme": {
+            "version": "v0.0.19",
+            "content": "add Http Patch Action",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "1.ActionKit",
+          "VersionNumber": 19,
+          "FileName": "1.ActionKit_v0.0.19.unitypackage"
+        },
+        {
+          "Version": "v0.0.18",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/1.ActionKit_v0.0.18.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/1.ActionKit/",
+          "Readme": {
+            "version": "v0.0.18",
+            "content": "add Http Patch Action",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "1.ActionKit",
+          "VersionNumber": 18,
+          "FileName": "1.ActionKit_v0.0.18.unitypackage"
+        },
+        {
+          "Version": "v0.0.17",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/1.ActionKit_v0.0.17.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/1.ActionKit/",
+          "Readme": {
+            "version": "v0.0.17",
+            "content": "add Network Action",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "1.ActionKit",
+          "VersionNumber": 17,
+          "FileName": "1.ActionKit_v0.0.17.unitypackage"
+        },
+        {
+          "Version": "v0.0.16",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/1.ActionKit_v0.0.16.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/1.ActionKit/",
+          "Readme": {
+            "version": "v0.0.16",
+            "content": "add HttpGetAction",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "1.ActionKit",
+          "VersionNumber": 16,
+          "FileName": "1.ActionKit_v0.0.16.unitypackage"
+        },
+        {
+          "Version": "v0.0.15",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/1.ActionKit_v0.0.15.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/1.ActionKit/",
+          "Readme": {
+            "version": "v0.0.15",
+            "content": "add action queue",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "1.ActionKit",
+          "VersionNumber": 15,
+          "FileName": "1.ActionKit_v0.0.15.unitypackage"
+        },
         {
           "Version": "v0.0.14",
           "Type": 0,
@@ -244,18 +596,42 @@
           "FileName": "1.ActionKit_v0.0.10.unitypackage"
         }
       ],
-      "Version": "v0.0.14",
-      "DownloadUrl": "http://liangxiegame.com/media/1.ActionKit_v0.0.14.unitypackage",
+      "Version": "v0.0.21",
+      "DownloadUrl": "http://liangxiegame.com/media/1.ActionKit_v0.0.21.unitypackage",
       "InstallPath": "Assets/QFramework/Framework/1.ActionKit/",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 14,
+      "VersionNumber": 21,
       "Installed": true
     },
     {
       "Name": "2.ResKit",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.14",
+            "content": "webgl support",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.13",
+            "content": "add audio manager",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.12",
+            "content": "add runtime debug info key F1",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.11",
+            "content": "add stop voice",
+            "author": "liangxie",
+            "date": "now"
+          },
           {
             "version": "v0.0.10",
             "content": "Move Exampe 2 Example Module",
@@ -265,6 +641,70 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.14",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/2.ResKit_v0.0.14.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/2.ResKit/",
+          "Readme": {
+            "version": "v0.0.14",
+            "content": "webgl support",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "2.ResKit",
+          "VersionNumber": 14,
+          "FileName": "2.ResKit_v0.0.14.unitypackage"
+        },
+        {
+          "Version": "v0.0.13",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/2.ResKit_v0.0.13.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/2.ResKit/",
+          "Readme": {
+            "version": "v0.0.13",
+            "content": "add audio manager",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "2.ResKit",
+          "VersionNumber": 13,
+          "FileName": "2.ResKit_v0.0.13.unitypackage"
+        },
+        {
+          "Version": "v0.0.12",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/2.ResKit_v0.0.12.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/2.ResKit/",
+          "Readme": {
+            "version": "v0.0.12",
+            "content": "add runtime debug info key F1",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "2.ResKit",
+          "VersionNumber": 12,
+          "FileName": "2.ResKit_v0.0.12.unitypackage"
+        },
+        {
+          "Version": "v0.0.11",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/2.ResKit_v0.0.11.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/2.ResKit/",
+          "Readme": {
+            "version": "v0.0.11",
+            "content": "add stop voice",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "2.ResKit",
+          "VersionNumber": 11,
+          "FileName": "2.ResKit_v0.0.11.unitypackage"
+        },
         {
           "Version": "v0.0.10",
           "Type": 0,
@@ -282,18 +722,30 @@
           "FileName": "2.ResKit_v0.0.10.unitypackage"
         }
       ],
-      "Version": "v0.0.10",
-      "DownloadUrl": "http://liangxiegame.com/media/2.ResKit_v0.0.10.unitypackage",
+      "Version": "v0.0.14",
+      "DownloadUrl": "http://liangxiegame.com/media/2.ResKit_v0.0.14.unitypackage",
       "InstallPath": "Assets/QFramework/Framework/2.ResKit/",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 10,
+      "VersionNumber": 14,
       "Installed": true
     },
     {
       "Name": "3.UIKit",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.18",
+            "content": "designer => .Designer",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.17",
+            "content": "component=>designer",
+            "author": "liangxie",
+            "date": "now"
+          },
           {
             "version": "v0.0.16",
             "content": "remove warning",
@@ -321,6 +773,38 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.18",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/3.UIKit_v0.0.18.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/3.UIKit/",
+          "Readme": {
+            "version": "v0.0.18",
+            "content": "designer => .Designer",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "3.UIKit",
+          "VersionNumber": 18,
+          "FileName": "3.UIKit_v0.0.18.unitypackage"
+        },
+        {
+          "Version": "v0.0.17",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/3.UIKit_v0.0.17.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/3.UIKit/",
+          "Readme": {
+            "version": "v0.0.17",
+            "content": "component=>designer",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "3.UIKit",
+          "VersionNumber": 17,
+          "FileName": "3.UIKit_v0.0.17.unitypackage"
+        },
         {
           "Version": "v0.0.16",
           "Type": 0,
@@ -386,12 +870,12 @@
           "FileName": "3.UIKit_v0.0.13.unitypackage"
         }
       ],
-      "Version": "v0.0.16",
-      "DownloadUrl": "http://liangxiegame.com/media/3.UIKit_v0.0.16.unitypackage",
+      "Version": "v0.0.18",
+      "DownloadUrl": "http://liangxiegame.com/media/3.UIKit_v0.0.18.unitypackage",
       "InstallPath": "Assets/QFramework/Framework/3.UIKit/",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 16,
+      "VersionNumber": 18,
       "Installed": true
     },
     {
@@ -519,6 +1003,18 @@
       "readme": {
         "items": [
           {
+            "version": "v0.0.57",
+            "content": "dialog=> log",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.56",
+            "content": "add audio manager's volume",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
             "version": "v0.0.55",
             "content": "reimport improvements",
             "author": "liangxie",
@@ -533,6 +1029,38 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.57",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/6.PackageManager_v0.0.57.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/6.PackageManager/",
+          "Readme": {
+            "version": "v0.0.57",
+            "content": "dialog=> log",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "6.PackageManager",
+          "VersionNumber": 57,
+          "FileName": "6.PackageManager_v0.0.57.unitypackage"
+        },
+        {
+          "Version": "v0.0.56",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/6.PackageManager_v0.0.56.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/6.PackageManager/",
+          "Readme": {
+            "version": "v0.0.56",
+            "content": "add audio manager's volume",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "6.PackageManager",
+          "VersionNumber": 56,
+          "FileName": "6.PackageManager_v0.0.56.unitypackage"
+        },
         {
           "Version": "v0.0.55",
           "Type": 0,
@@ -566,12 +1094,12 @@
           "FileName": "6.PackageManager_v0.0.54.unitypackage"
         }
       ],
-      "Version": "v0.0.55",
-      "DownloadUrl": "http://liangxiegame.com/media/6.PackageManager_v0.0.55.unitypackage",
+      "Version": "v0.0.57",
+      "DownloadUrl": "http://liangxiegame.com/media/6.PackageManager_v0.0.57.unitypackage",
       "InstallPath": "Assets/QFramework/Framework/6.PackageManager/",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 55,
+      "VersionNumber": 57,
       "Installed": true
     },
     {
@@ -775,6 +1303,24 @@
       "readme": {
         "items": [
           {
+            "version": "v0.0.37",
+            "content": "update component 2 designer",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.36",
+            "content": "rename refcount example",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
+            "version": "v0.0.35",
+            "content": "add ActionQueue Example",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
             "version": "v0.0.34",
             "content": "change folder",
             "author": "liangxie",
@@ -837,6 +1383,54 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.37",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/Example_v0.0.37.unitypackage",
+          "InstallPath": "Assets/QFramework/Example/",
+          "Readme": {
+            "version": "v0.0.37",
+            "content": "update component 2 designer",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "Example",
+          "VersionNumber": 37,
+          "FileName": "Example_v0.0.37.unitypackage"
+        },
+        {
+          "Version": "v0.0.36",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/Example_v0.0.36.unitypackage",
+          "InstallPath": "Assets/QFramework/Example/",
+          "Readme": {
+            "version": "v0.0.36",
+            "content": "rename refcount example",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "Example",
+          "VersionNumber": 36,
+          "FileName": "Example_v0.0.36.unitypackage"
+        },
+        {
+          "Version": "v0.0.35",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/Example_v0.0.35.unitypackage",
+          "InstallPath": "Assets/QFramework/Example/",
+          "Readme": {
+            "version": "v0.0.35",
+            "content": "add ActionQueue Example",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "Example",
+          "VersionNumber": 35,
+          "FileName": "Example_v0.0.35.unitypackage"
+        },
         {
           "Version": "v0.0.34",
           "Type": 0,
@@ -998,12 +1592,12 @@
           "FileName": "Example_v0.0.25.unitypackage"
         }
       ],
-      "Version": "v0.0.34",
-      "DownloadUrl": "http://liangxiegame.com/media/Example_v0.0.34.unitypackage",
+      "Version": "v0.0.37",
+      "DownloadUrl": "http://liangxiegame.com/media/Example_v0.0.37.unitypackage",
       "InstallPath": "Assets/QFramework/Example/",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 34,
+      "VersionNumber": 37,
       "Installed": false
     },
     {
@@ -1011,26 +1605,8 @@
       "readme": {
         "items": [
           {
-            "version": "v0.0.14",
-            "content": "change type to Framework Module",
-            "author": "liangxie",
-            "date": "now"
-          },
-          {
-            "version": "v0.0.13",
-            "content": "delete:Publish Example.",
-            "author": "liangxie",
-            "date": "now"
-          },
-          {
-            "version": "v0.0.12",
-            "content": "delete:Publish Example.",
-            "author": "liangxie",
-            "date": "now"
-          },
-          {
             "version": "v0.0.11",
-            "content": "commit:delete ZED9587.",
+            "content": "Package Manager Data Structure Improvements",
             "author": "liangxie",
             "date": "now"
           },
@@ -1050,62 +1626,14 @@
       },
       "PackageVersions": [
         {
-          "Version": "v0.0.14",
+          "Version": "v0.0.11",
           "Type": 0,
           "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/Framework_v0.0.14.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework",
-          "Readme": {
-            "version": "v0.0.14",
-            "content": "change type to Framework Module",
-            "author": "liangxie",
-            "date": "now"
-          },
-          "Name": "Framework",
-          "VersionNumber": 14,
-          "FileName": "Framework_v0.0.14.unitypackage"
-        },
-        {
-          "Version": "v0.0.13",
-          "Type": 4,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/Framework_v0.0.13.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework",
-          "Readme": {
-            "version": "v0.0.13",
-            "content": "delete:Publish Example.",
-            "author": "liangxie",
-            "date": "now"
-          },
-          "Name": "Framework",
-          "VersionNumber": 13,
-          "FileName": "Framework_v0.0.13.unitypackage"
-        },
-        {
-          "Version": "v0.0.12",
-          "Type": 4,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/Framework_v0.0.12.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework",
-          "Readme": {
-            "version": "v0.0.12",
-            "content": "delete:Publish Example.",
-            "author": "liangxie",
-            "date": "now"
-          },
-          "Name": "Framework",
-          "VersionNumber": 12,
-          "FileName": "Framework_v0.0.12.unitypackage"
-        },
-        {
-          "Version": "v0.0.11",
-          "Type": 4,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/Framework_v0.0.11.unitypackage",
+          "DownloadUrl": "http://liangxiegame.com/media/Framework_v0.0.11_8F8O0lO.unitypackage",
           "InstallPath": "Assets/QFramework/Framework",
           "Readme": {
             "version": "v0.0.11",
-            "content": "commit:delete ZED9587.",
+            "content": "Package Manager Data Structure Improvements",
             "author": "liangxie",
             "date": "now"
           },
@@ -1117,7 +1645,7 @@
           "Version": "v0.0.10",
           "Type": 0,
           "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/Framework_v0.0.10_du6SaW3.unitypackage",
+          "DownloadUrl": "http://liangxiegame.com/media/Framework_v0.0.10_MN3OJEO.unitypackage",
           "InstallPath": "Assets/QFramework/Framework",
           "Readme": {
             "version": "v0.0.10",
@@ -1133,7 +1661,7 @@
           "Version": "v0.0.10",
           "Type": 0,
           "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/Framework_v0.0.10_MN3OJEO.unitypackage",
+          "DownloadUrl": "http://liangxiegame.com/media/Framework_v0.0.10_du6SaW3.unitypackage",
           "InstallPath": "Assets/QFramework/Framework",
           "Readme": {
             "version": "v0.0.10",
@@ -1162,12 +1690,12 @@
           "FileName": "Framework_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.14",
-      "DownloadUrl": "http://liangxiegame.com/media/Framework_v0.0.14.unitypackage",
+      "Version": "v0.0.11",
+      "DownloadUrl": "http://liangxiegame.com/media/Framework_v0.0.11_8F8O0lO.unitypackage",
       "InstallPath": "Assets/QFramework/Framework",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 14,
+      "VersionNumber": 11,
       "Installed": true
     },
     {
@@ -1356,7 +1884,7 @@
         "items": [
           {
             "version": "v0.0.3",
-            "content": "add other solution",
+            "content": "add pixel font",
             "author": "liangxie",
             "date": "now"
           },
@@ -1383,7 +1911,23 @@
           "InstallPath": "Assets/QFramework/PixelKit/",
           "Readme": {
             "version": "v0.0.3",
-            "content": "add other solution",
+            "content": "add pixel font",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "PixelKit",
+          "VersionNumber": 3,
+          "FileName": "PixelKit_v0.0.3.unitypackage"
+        },
+        {
+          "Version": "v0.0.3",
+          "Type": 3,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/PixelKit_v0.0.3_WxehiOl.unitypackage",
+          "InstallPath": "Assets/QFramework/PixelKit/",
+          "Readme": {
+            "version": "v0.0.3",
+            "content": "add pixel font",
             "author": "liangxie",
             "date": "now"
           },
@@ -1749,6 +2293,12 @@
       "readme": {
         "items": [
           {
+            "version": "v0.0.3",
+            "content": "add material",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
@@ -1763,6 +2313,22 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.3",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/PostFXFireParticleShader_v0.0.3.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/PostFXFireParticleShader/",
+          "Readme": {
+            "version": "v0.0.3",
+            "content": "add material",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "PostFXFireParticleShader",
+          "VersionNumber": 3,
+          "FileName": "PostFXFireParticleShader_v0.0.3.unitypackage"
+        },
         {
           "Version": "v0.0.2",
           "Type": 1,
@@ -1796,12 +2362,12 @@
           "FileName": "PostFXFireParticleShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.2",
-      "DownloadUrl": "http://liangxiegame.com/media/PostFXFireParticleShader_v0.0.2.unitypackage",
+      "Version": "v0.0.3",
+      "DownloadUrl": "http://liangxiegame.com/media/PostFXFireParticleShader_v0.0.3.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/PostFXFireParticleShader/",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 2,
+      "VersionNumber": 3,
       "Installed": false
     },
     {
@@ -2011,6 +2577,12 @@
       "readme": {
         "items": [
           {
+            "version": "v0.0.4",
+            "content": "add material",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
@@ -2031,6 +2603,22 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.4",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/PostFXScreenRaindropShader_v0.0.4.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/PostFXScreenRaindropShader/",
+          "Readme": {
+            "version": "v0.0.4",
+            "content": "add material",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "PostFXScreenRaindropShader",
+          "VersionNumber": 4,
+          "FileName": "PostFXScreenRaindropShader_v0.0.4.unitypackage"
+        },
         {
           "Version": "v0.0.3",
           "Type": 1,
@@ -2080,18 +2668,24 @@
           "FileName": "PostFXScreenRaindropShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.3",
-      "DownloadUrl": "http://liangxiegame.com/media/PostFXScreenRaindropShader_v0.0.3.unitypackage",
+      "Version": "v0.0.4",
+      "DownloadUrl": "http://liangxiegame.com/media/PostFXScreenRaindropShader_v0.0.4.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/PostFXScreenRaindropShader/",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 3,
+      "VersionNumber": 4,
       "Installed": false
     },
     {
       "Name": "PostFXSnowShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.3",
+            "content": "add material",
+            "author": "liangxie",
+            "date": "now"
+          },
           {
             "version": "v0.0.2",
             "content": "更改类型",
@@ -2107,6 +2701,22 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.3",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/PostFXSnowShader_v0.0.3.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/PostFXSnowShader/",
+          "Readme": {
+            "version": "v0.0.3",
+            "content": "add material",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "PostFXSnowShader",
+          "VersionNumber": 3,
+          "FileName": "PostFXSnowShader_v0.0.3.unitypackage"
+        },
         {
           "Version": "v0.0.2",
           "Type": 1,
@@ -2140,12 +2750,12 @@
           "FileName": "PostFXSnowShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.2",
-      "DownloadUrl": "http://liangxiegame.com/media/PostFXSnowShader_v0.0.2.unitypackage",
+      "Version": "v0.0.3",
+      "DownloadUrl": "http://liangxiegame.com/media/PostFXSnowShader_v0.0.3.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/PostFXSnowShader/",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 2,
+      "VersionNumber": 3,
       "Installed": false
     },
     {
@@ -2191,6 +2801,12 @@
       "readme": {
         "items": [
           {
+            "version": "v0.0.5",
+            "content": "add framework binding",
+            "author": "liangxie",
+            "date": "now"
+          },
+          {
             "version": "v0.0.4",
             "content": "导入 ToLua 模块",
             "author": "liangxie",
@@ -2199,6 +2815,22 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.5",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.0.5.unitypackage",
+          "InstallPath": "Assets/QFramework/ScriptKit/",
+          "Readme": {
+            "version": "v0.0.5",
+            "content": "add framework binding",
+            "author": "liangxie",
+            "date": "now"
+          },
+          "Name": "ScriptKit",
+          "VersionNumber": 5,
+          "FileName": "ScriptKit_v0.0.5.unitypackage"
+        },
         {
           "Version": "v0.0.4",
           "Type": 0,
@@ -2216,12 +2848,12 @@
           "FileName": "ScriptKit_v0.0.4.unitypackage"
         }
       ],
-      "Version": "v0.0.4",
-      "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.0.4.unitypackage",
+      "Version": "v0.0.5",
+      "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.0.5.unitypackage",
       "InstallPath": "Assets/QFramework/ScriptKit/",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 4,
+      "VersionNumber": 5,
       "Installed": true
     },
     {

@@ -33,6 +33,24 @@ using UnityEngine;
 
 namespace LuaInterface
 {
+
+    public static class Debugger{
+        public static bool useLog = true;
+
+        public static void Log(object msg,params object[] args){
+            
+        }
+        public static void LogError(object msg, params object[] args)
+        {
+
+        }
+        public static void LogWarning(object msg, params object[] args)
+        {
+
+        }
+    }
+
+
     public class LuaState : LuaStatePtr, IDisposable
     {
         public ObjectTranslator translator = new ObjectTranslator();

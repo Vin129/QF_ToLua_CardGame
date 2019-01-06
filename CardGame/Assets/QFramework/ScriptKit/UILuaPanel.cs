@@ -27,7 +27,6 @@ namespace QFramework
 {
 	public class UILuaPanel : UIPanel
 	{
-		
-
+        
 	}
 }

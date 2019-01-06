@@ -6,11 +6,15 @@ using UnityEditor;
 
 using BindType = ToLuaMenu.BindType;
 using System.Reflection;
+using QFramework;
+//using QFramework.UI;
+//using QFrameworkLua;
+using UnityEngine.UI;
 
 public static class CustomSettings
 {
-    public static string saveDir = Application.dataPath + "/QFramework/ToLua/Source/Generate/";    
-    public static string toluaBaseType = Application.dataPath + "/QFramework/ToLua/ToLua/BaseType/";    
+    public static string saveDir = Application.dataPath + "/QFramework/ScriptKit/ToLua/Source/Generate/";    
+    public static string toluaBaseType = Application.dataPath + "/QFramework/ScriptKit/ToLua/ToLua/BaseType/";    
 
     //导出时强制做为静态类的类型(注意customTypeList 还要添加这个类型才能导出)
     //unity 有些类作为sealed class, 其实完全等价于静态类
@@ -38,6 +42,8 @@ public static class CustomSettings
         _DT(typeof(System.Action<int>)),
         _DT(typeof(System.Comparison<int>)),
         _DT(typeof(System.Func<int, int>)),
+        
+        //_DT(typeof(QVoidDelegate.WithVoid))
     };
 
     //在这里添加你要导出注册到lua的类型列表
@@ -146,6 +152,23 @@ public static class CustomSettings
         _GT(typeof(RenderTexture)),
         _GT(typeof(Resources)),     
         _GT(typeof(LuaProfiler)),
+        
+        
+        _GT(typeof(UIMgr)),
+        _GT(typeof(ResMgr)),
+        _GT(typeof(AudioManager)),
+        _GT(typeof(UIEventListener)),
+        //_GT(typeof(QLuaBehaviour)),
+        //_GT(typeof(QLuaApp)),
+        //_GT(typeof(UGUIEventListener)),
+        
+        _GT(typeof(Image)),
+        _GT(typeof(Toggle)),
+        _GT(typeof(Toggle.ToggleEvent)),
+        _GT(typeof(RectTransform)),
+        _GT(typeof(Rect)),
+        _GT(typeof(Sprite))
+        
     };
 
     public static List<Type> dynamicList = new List<Type>()

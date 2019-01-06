@@ -284,6 +284,33 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="BehaviorDesignerRuntime">
+      <HintPath>Assets/QFramework/Framework/9.ZEDkit/3rd/Behavior Designer/Runtime/BehaviorDesignerRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesignerEditor">
+      <HintPath>Assets/QFramework/Framework/9.ZEDkit/3rd/Behavior Designer/Editor/BehaviorDesignerEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="QFramework.Log">
+      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/QFramework.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="ProtobufNet">
+      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/ProtobufNet.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="CString">
+      <HintPath>Assets/QFramework/ScriptKit/ToLua/Plugins/CString.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>/Users/vin129/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -302,36 +329,6 @@
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>/Users/vin129/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenEditor">
-      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="BehaviorDesignerEditor">
-      <HintPath>Assets/QFramework/Framework/9.ZEDkit/3rd/Behavior Designer/Editor/BehaviorDesignerEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="BehaviorDesignerRuntime">
-      <HintPath>Assets/QFramework/Framework/9.ZEDkit/3rd/Behavior Designer/Runtime/BehaviorDesignerRuntime.dll</HintPath>
-    </Reference>
-    <Reference Include="ProtobufNet">
-      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/ProtobufNet.dll</HintPath>
-    </Reference>
-    <Reference Include="QFramework.Log">
-      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/QFramework.Log.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>Assets/QFramework/Framework/0.Libs/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
-    <Reference Include="CString">
-      <HintPath>Assets/QFramework/ScriptKit/ToLua/Plugins/CString.dll</HintPath>
-    </Reference>
-    <Reference Include="Debugger">
-      <HintPath>Assets/QFramework/ScriptKit/ToLua/Plugins/Debugger.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
@@ -344,10 +341,6 @@
       <Project>{90BFAAB2-26FA-060F-6255-50A66A8853DA}</Project>
       <Name>CardGame</Name>
     </ProjectReference>
-    <ProjectReference Include="ObjectFactory.csproj">
-      <Project>{1D527F62-0973-82CD-0F4B-5A431BB560EB}</Project>
-      <Name>ObjectFactory</Name>
-    </ProjectReference>
     <ProjectReference Include="UniRx.Async.Editor.csproj">
       <Project>{563CD0CC-17BA-5561-0993-B79624F15579}</Project>
       <Name>UniRx.Async.Editor</Name>
@@ -359,6 +352,10 @@
     <ProjectReference Include="UniRx.Async.csproj">
       <Project>{0C124D0D-0BB9-A882-745C-17BD2F6ED3CD}</Project>
       <Name>UniRx.Async</Name>
+    </ProjectReference>
+    <ProjectReference Include="ObjectFactory.csproj">
+      <Project>{1D527F62-0973-82CD-0F4B-5A431BB560EB}</Project>
+      <Name>ObjectFactory</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
