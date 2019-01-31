@@ -65,6 +65,11 @@ namespace QFramework
             CallLuaFunction(LuaMain.FuncName.OnDisable);
         }
 
+        protected override void OnClose()
+        {
+            throw new System.NotImplementedException();
+        }
+
         private void OnDestroy()
         {
             base.OnDestroy();
@@ -127,6 +132,8 @@ namespace QFramework
             }
             LuaCp.CallLuaFunction(funcName);
         }
+
+
         #endregion
     }
 

@@ -94,8 +94,8 @@ public class QFramework_ResMgrWrap
 			{
 				QFramework.ResMgr obj = (QFramework.ResMgr)ToLua.CheckObject<QFramework.ResMgr>(L, 1);
 				string arg0 = ToLua.CheckString(L, 2);
-				QFramework.IRes o = obj.GetRes(arg0);
-				ToLua.PushObject(L, o);
+				//QFramework.IRes o = obj.GetRes(arg0);
+				//ToLua.PushObject(L, o);
 				return 1;
 			}
 			else if (count == 3 && TypeChecker.CheckTypes<bool>(L, 3))
@@ -103,8 +103,8 @@ public class QFramework_ResMgrWrap
 				QFramework.ResMgr obj = (QFramework.ResMgr)ToLua.CheckObject<QFramework.ResMgr>(L, 1);
 				string arg0 = ToLua.CheckString(L, 2);
 				bool arg1 = LuaDLL.lua_toboolean(L, 3);
-				QFramework.IRes o = obj.GetRes(arg0, arg1);
-				ToLua.PushObject(L, o);
+				//QFramework.IRes o = obj.GetRes(arg0, arg1);
+				//ToLua.PushObject(L, o);
 				return 1;
 			}
 			else if (count == 3 && TypeChecker.CheckTypes<string>(L, 3))
@@ -112,8 +112,8 @@ public class QFramework_ResMgrWrap
 				QFramework.ResMgr obj = (QFramework.ResMgr)ToLua.CheckObject<QFramework.ResMgr>(L, 1);
 				string arg0 = ToLua.CheckString(L, 2);
 				string arg1 = ToLua.ToString(L, 3);
-				QFramework.IRes o = obj.GetRes(arg0, arg1);
-				ToLua.PushObject(L, o);
+				//QFramework.IRes o = obj.GetRes(arg0, arg1);
+				//ToLua.PushObject(L, o);
 				return 1;
 			}
 			else if (count == 4)
@@ -122,8 +122,8 @@ public class QFramework_ResMgrWrap
 				string arg0 = ToLua.CheckString(L, 2);
 				string arg1 = ToLua.CheckString(L, 3);
 				bool arg2 = LuaDLL.luaL_checkboolean(L, 4);
-				QFramework.IRes o = obj.GetRes(arg0, arg1, arg2);
-				ToLua.PushObject(L, o);
+				//QFramework.IRes o = obj.GetRes(arg0, arg1, arg2);
+				//ToLua.PushObject(L, o);
 				return 1;
 			}
 			else

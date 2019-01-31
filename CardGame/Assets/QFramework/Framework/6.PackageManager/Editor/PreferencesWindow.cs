@@ -1,5 +1,5 @@
 ﻿/****************************************************************************
- * Copyright 2017 ~ 2018.12 liangxie
+ * Copyright 2017 ~ 2019.1 liangxie
  * 
  * http://qframework.io
  * https://github.com/liangxiegame/QFramework
@@ -23,22 +23,35 @@
  * THE SOFTWARE.
  ****************************************************************************/
 
-namespace QFramework
+using System.Linq;
+
+namespace QFramework.Editor
 {
 	using UnityEngine;
 	using UnityEditor;
 
-	public class PreferencesWindow : EditorWindow
+	public class PreferencesWindow : QEditorWindow
 	{
 		[MenuItem(FrameworkMenuItems.Preferences, false, FrameworkMenuItemsPriorities.Preferences)]
 		private static void Open()
 		{
-			var frameworkConfigEditorWindow = (PreferencesWindow) GetWindow(typeof(PreferencesWindow), true);
-			frameworkConfigEditorWindow.titleContent = new GUIContent("QFramework Settings");
-			frameworkConfigEditorWindow.CurSettingData = FrameworkSettingData.Load();
-			frameworkConfigEditorWindow.position = new Rect(100, 100, 690, 460);
-			frameworkConfigEditorWindow.Init();
-			frameworkConfigEditorWindow.Show();
+			
+			var window = PackageApplication.Container.Resolve<PreferencesWindow>();
+
+			if (window == null)
+			{
+				var frameworkConfigEditorWindow = Create<PreferencesWindow>(true);
+				frameworkConfigEditorWindow.titleContent = new GUIContent("QFramework Settings");
+				frameworkConfigEditorWindow.position = new Rect(100, 100, 690, 460);
+				frameworkConfigEditorWindow.Init();
+				frameworkConfigEditorWindow.Show();
+				
+				PackageApplication.Container.RegisterInstance(frameworkConfigEditorWindow);
+			}
+			else
+			{
+				window.Show();
+			}
 		}
 
 		private const string URL_GITHUB_ISSUE = "https://github.com/liangxiegame/QFramework/issues/new";
@@ -49,35 +62,23 @@ namespace QFramework
 			Application.OpenURL(URL_GITHUB_ISSUE);
 		}
 
-		public FrameworkSettingData CurSettingData;
-
-		private FrameworkPMView mPMView;
-
 		private void Init()
 		{
-			mPMView = new FrameworkPMView();
-			mPMView.Init(this);
+//			AddChild(new FrameworkPMView(this));
+
+			PackageApplication.Container
+				.ResolveAll<IPackageKitView>()
+				.OrderBy(view => view.RenderOrder)
+				.ForEach(view => AddChild(view as GUIView));
 		}
 
-		private void OnGUI()
-		{
-			GUILayout.Label("UI Kit Settings:");
-			GUILayout.BeginVertical("box");
-			
-			CurSettingData.Namespace = EditorGUIUtils.GUILabelAndTextField("Namespace", CurSettingData.Namespace);
-			CurSettingData.UIScriptDir =
-				EditorGUIUtils.GUILabelAndTextField("UI Script Generate Dir", CurSettingData.UIScriptDir);
-			CurSettingData.UIPrefabDir =
-				EditorGUIUtils.GUILabelAndTextField("UI Prefab Dir", CurSettingData.UIPrefabDir);
-
-			if (GUILayout.Button("Apply"))
-			{
-				CurSettingData.Save();
-			}
-
-			GUILayout.EndVertical();
-
-			mPMView.OnGUI();
+		public override void OnGUI()
+		{	
+			base.OnGUI();
+//			if (PackageApplication.Container != null)
+//			{
+//				PackageApplication.SignalEvent<IPackageKitView>(_ => _.OnGUI());
+//			}
 		}
-	}
+	}	
 }

@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-namespace QFramework
+namespace QFramework.Editor
 {
     using System;
     

@@ -1,5 +1,5 @@
 ﻿/****************************************************************************
- * Copyright (c) 2018.8 ~ 12 liangxie
+ * Copyright (c) 2018.8 ~ 2019.1 liangxie
  * 
  * http://qframework.io
  * https://github.com/liangxiegame/QFramework
@@ -30,7 +30,7 @@ using UnityEditor;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace QFramework
+namespace QFramework.Editor
 {
 	public class PackageMaker : EditorWindow
 	{
@@ -107,6 +107,8 @@ namespace QFramework
 
 			var mInstance = (PackageMaker) GetWindow(typeof(PackageMaker), true);
 
+			mInstance.titleContent = new GUIContent(selectObject[0].name);
+			
 			mInstance.position = new Rect(Screen.width / 2, Screen.height / 2, 258, 500);
 
 			mInstance.Show();
@@ -189,6 +191,7 @@ namespace QFramework
 
 		private string mReleaseNote = string.Empty;
 
+		
 		bool inRegisterView = false;
 
 		private void DrawInit()
@@ -221,6 +224,15 @@ namespace QFramework
 			GUILayout.Label("发布说明:", GUILayout.Width(150));
 			mReleaseNote = GUILayout.TextArea(mReleaseNote, GUILayout.Width(250), GUILayout.Height(300));
 
+			GUILayout.BeginHorizontal();
+			GUILayout.Label("文档地址:",GUILayout.Width(52));
+			mPackageVersion.DocUrl = GUILayout.TextField(mPackageVersion.DocUrl, GUILayout.Width(150));
+			if (GUILayout.Button("Paste"))
+			{
+				mPackageVersion.DocUrl = GUIUtility.systemCopyBuffer;
+			}
+			GUILayout.EndHorizontal();
+			
 			if (User.Token.Value.IsNullOrEmpty())
 			{
 				User.Username.Value = EditorGUIUtils.GUILabelAndTextField("username:", User.Username.Value);
@@ -294,8 +306,8 @@ namespace QFramework
 					}
 
 					mPackageVersion.Version = mVersionText;
-					mPackageVersion.Readme = new ReleaseItem(mVersionText, mReleaseNote, SystemInfo.deviceName,
-						DateTime.Now.ToString("yyyy-MM-dd"));
+					mPackageVersion.Readme = new ReleaseItem(mVersionText, mReleaseNote, User.Username.Value,
+						DateTime.Now);
 
 					mPackageVersion.Save();
 

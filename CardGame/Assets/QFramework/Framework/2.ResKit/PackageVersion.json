@@ -1,16 +1,16 @@
 {
-  "Version": "v0.0.14",
+  "Version": "v0.1.0",
   "Type": 0,
   "AccessRight": 0,
-  "DownloadUrl": "http://liangxiegame.com/media/2.ResKit_v0.0.1.unitypackage",
-  "InstallPath": "Assets/QFramework/Framework/2.ResKit/",
+  "DownloadUrl": null,
+  "InstallPath": "Assets/QFramework/Framework/1.ResKit/",
   "Readme": {
-    "version": "v0.0.14",
-    "content": "webgl support",
-    "author": "LIANGXIE",
-    "date": "2019-01-06"
+    "version": "v0.1.0",
+    "content": "adjust folder",
+    "author": "liangxie",
+    "date": "2019 年 01 月 24 日 11:51"
   },
-  "Name": "2.ResKit",
-  "VersionNumber": 14,
-  "FileName": "2.ResKit_v0.0.14.unitypackage"
+  "Name": "1.ResKit",
+  "VersionNumber": 100,
+  "FileName": "1.ResKit_v0.1.0.unitypackage"
 }

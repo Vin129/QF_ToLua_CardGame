@@ -1,16 +1,17 @@
 {
-  "Version": "v0.0.14",
+  "Version": "v0.0.17",
   "Type": 0,
   "AccessRight": 0,
   "DownloadUrl": null,
   "InstallPath": "Assets/QFramework/Framework",
+  "DocUrl": "http://qfdoc.liangxiegame.com/",
   "Readme": {
-    "version": "v0.0.14",
-    "content": "change type to Framework Module",
-    "author": "LIANGXIE",
-    "date": "2018-12-26"
+    "version": "v0.0.17",
+    "content": "fix:load assembly bug",
+    "author": "liangxie",
+    "date": "2019 年 01 月 27 日 16:39"
   },
   "Name": "Framework",
-  "VersionNumber": 14,
-  "FileName": "Framework_v0.0.14.unitypackage"
+  "VersionNumber": 17,
+  "FileName": "Framework_v0.0.17.unitypackage"
 }

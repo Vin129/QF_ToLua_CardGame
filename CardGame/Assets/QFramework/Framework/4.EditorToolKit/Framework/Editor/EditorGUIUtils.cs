@@ -18,7 +18,7 @@ namespace QFramework
 
 			GUILayout.Label (labelContent);
 
-			string retString = EditorGUILayout.TextField (textFieldContent);
+			var retString = EditorGUILayout.TextField (textFieldContent);
 
 			if (horizontal)
 			EditorGUILayout.EndHorizontal();

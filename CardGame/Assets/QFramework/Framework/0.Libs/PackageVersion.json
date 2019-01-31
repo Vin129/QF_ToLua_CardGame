@@ -1,16 +1,17 @@
 {
-  "Version": "v0.0.38",
+  "Version": "v0.1.4",
   "Type": 0,
   "AccessRight": 0,
-  "DownloadUrl": "http://liangxiegame.com/media/0.Libs_v0.0.22.unitypackage",
-  "InstallPath": "Assets/QFramework/Framework/0.Libs/",
+  "DownloadUrl": null,
+  "InstallPath": "Assets/QFramework/Framework/0.Core/",
+  "DocUrl": "http://liangxiegame.com",
   "Readme": {
-    "version": "v0.0.38",
-    "content": "support webgl",
-    "author": "LIANGXIE",
-    "date": "2019-01-06"
+    "version": "v0.1.4",
+    "content": "add assembly definition",
+    "author": "liangxie",
+    "date": "2019 年 01 月 27 日 15:19"
   },
-  "Name": "0.Libs",
-  "VersionNumber": 38,
-  "FileName": "0.Libs_v0.0.38.unitypackage"
+  "Name": "0.Core",
+  "VersionNumber": 104,
+  "FileName": "0.Core_v0.1.4.unitypackage"
 }

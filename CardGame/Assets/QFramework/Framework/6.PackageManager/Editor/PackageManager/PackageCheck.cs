@@ -26,7 +26,7 @@
 using System.Collections.Generic;
 using UnityEditor;
 
-namespace QFramework
+namespace QFramework.Editor
 {
 	[InitializeOnLoad]
 	public class PackageCheck
