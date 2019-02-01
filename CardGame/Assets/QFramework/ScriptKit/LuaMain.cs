@@ -65,7 +65,8 @@ namespace QFramework
 		private void init()
 		{
 #if UNITY_EDITOR
-			LuaFileUtils.Instance.beZip = UseAssetBundleLuaInEditor;
+            //LuaFileUtils.Instance.beZip = UseAssetBundleLuaInEditor;
+            LuaFileUtils.Instance.beZip = false;
 #else
 				LuaFileUtils.Instance.beZip = true;
 			#endif

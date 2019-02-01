@@ -158,6 +158,8 @@ public static class CustomSettings
         _GT(typeof(ResMgr)),
         _GT(typeof(AudioManager)),
         _GT(typeof(UIEventListener)),
+        _GT(typeof(LuaHelper)),
+
         //_GT(typeof(QLuaBehaviour)),
         //_GT(typeof(QLuaApp)),
         //_GT(typeof(UGUIEventListener)),

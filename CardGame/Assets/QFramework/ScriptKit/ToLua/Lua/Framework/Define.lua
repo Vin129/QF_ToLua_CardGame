@@ -9,7 +9,7 @@ QLuaHelper = QFramework.QLuaHelper;
 
 
 QLuaBehavihour = QFramework.QLuaBehavihour
-QUIEventListener = QFramework.UI.UGUIEventListener
+-- QUIEventListener = QFramework.UI.UGUIEventListener
 
 WWW = UnityEngine.WWW;
 GameObject = UnityEngine.GameObject;

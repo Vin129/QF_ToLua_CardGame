@@ -277,25 +277,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UniRx.Async.Editor.csproj">
-      <Project>{563CD0CC-17BA-5561-0993-B79624F15579}</Project>
-      <Name>UniRx.Async.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="UniRx.csproj">
       <Project>{27D79D8D-558D-B61A-7B9D-B46758AE7244}</Project>
       <Name>UniRx</Name>
-    </ProjectReference>
-    <ProjectReference Include="HTTP.csproj">
-      <Project>{46E8254C-6FB6-D5E1-11A3-5CE1DA0936E9}</Project>
-      <Name>HTTP</Name>
     </ProjectReference>
     <ProjectReference Include="QFramework.Core.Runtime.csproj">
       <Project>{7C2CCEFD-3BD3-BBB3-C1F2-D683FFE0B7C1}</Project>
       <Name>QFramework.Core.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="HTTP.csproj">
+      <Project>{46E8254C-6FB6-D5E1-11A3-5CE1DA0936E9}</Project>
+      <Name>HTTP</Name>
+    </ProjectReference>
     <ProjectReference Include="UniRx.Async.csproj">
       <Project>{0C124D0D-0BB9-A882-745C-17BD2F6ED3CD}</Project>
       <Name>UniRx.Async</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.Async.Editor.csproj">
+      <Project>{563CD0CC-17BA-5561-0993-B79624F15579}</Project>
+      <Name>UniRx.Async.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -540,8 +540,10 @@
     <Compile Include="Assets\QFramework\Framework\6.PackageManager\PackageApplication.cs" />
     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Util\DjangoPost.cs" />
     <Compile Include="Assets\QFramework\Framework\8.ShaderLib\Scripts\PostFXBehaviour.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\Demo\Scripts\GameMain.cs" />
     <Compile Include="Assets\QFramework\ScriptKit\ILuaComponentBind.cs" />
     <Compile Include="Assets\QFramework\ScriptKit\LuaComponent.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\LuaHelper.cs" />
     <Compile Include="Assets\QFramework\ScriptKit\LuaMain.cs" />
     <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\LuaInterface_EventObjectWrap.cs" />
     <Compile Include="Assets\QFramework\ScriptKit\ToLua\BaseType\LuaInterface_LuaConstructorWrap.cs" />
@@ -604,6 +606,7 @@
     <Compile Include="Assets\QFramework\ScriptKit\ToLua\Source\Generate\LuaInterface_DebuggerWrap.cs" />
     <Compile Include="Assets\QFramework\ScriptKit\ToLua\Source\Generate\LuaProfilerWrap.cs" />
     <Compile Include="Assets\QFramework\ScriptKit\ToLua\Source\Generate\QFramework_AudioManagerWrap.cs" />
+    <Compile Include="Assets\QFramework\ScriptKit\ToLua\Source\Generate\QFramework_LuaHelperWrap.cs" />
     <Compile Include="Assets\QFramework\ScriptKit\ToLua\Source\Generate\QFramework_MonoSingleton_QFramework_ResMgrWrap.cs" />
     <Compile Include="Assets\QFramework\ScriptKit\ToLua\Source\Generate\QFramework_QMgrBehaviourWrap.cs" />
     <Compile Include="Assets\QFramework\ScriptKit\ToLua\Source\Generate\QFramework_QMonoBehaviourWrap.cs" />

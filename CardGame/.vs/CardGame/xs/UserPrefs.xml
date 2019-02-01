@@ -1,19 +1,30 @@
 ﻿<Properties StartupConfiguration="{90BFAAB2-26FA-060F-6255-50A66A8853DA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/QFramework/ScriptKit/ToLua/Source/Generate/QFramework_ResMgrWrap.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/QFramework/ScriptKit/ToLua/Source/Generate/QFramework_LuaHelperWrap.cs">
     <Files>
-      <File FileName="Assets/QFramework/ScriptKit/LuaComponent.cs" Line="182" Column="39" />
-      <File FileName="Assets/QFramework/ScriptKit/LuaMain.cs" Line="9" Column="1" />
-      <File FileName="Assets/QFramework/ScriptKit/UILuaPanel.cs" Line="3" Column="32" />
-      <File FileName="Assets/QFramework/Framework/3.UIKit/1.UI/Script/System/UIPanel.cs" Line="54" Column="31" />
-      <File FileName="Assets/QFramework/ScriptKit/ILuaComponentBind.cs" Line="8" Column="45" />
-      <File FileName="Assets/QFramework/Framework/3.UIKit/1.UI/Script/System/IPanel.cs" Line="34" Column="19" />
-      <File FileName="Assets/QFramework/Framework/3.UIKit/1.UI/Script/UIPanelTester.cs" Line="33" Column="18" />
-      <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/QFramework_ResMgrWrap.cs" Line="97" Column="1" />
+      <File FileName="Assets/QFramework/ScriptKit/LuaMain.cs" Line="73" Column="13" />
+      <File FileName="Assets/QFramework/ScriptKit/UILuaPanel.cs" Line="1" Column="1" />
+      <File FileName="Assets/QFramework/ScriptKit/ToLua/Editor/Custom/CustomSettings.cs" Line="151" Column="27" />
+      <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/LuaBinder.cs" Line="1" Column="1" />
+      <File FileName="Assets/QFramework/ScriptKit/ToLua/Editor/ToLuaExport.cs" Line="1" Column="1" />
+      <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/LuaConst.cs" Line="5" Column="32" />
+      <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/DelegateFactory.cs" Line="1" Column="1" />
+      <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/QFramework_QMgrBehaviourWrap.cs" Line="99" Column="47" />
+      <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/QFramework_QMonoBehaviourWrap.cs" Line="96" Column="47" />
+      <File FileName="Assets/QFramework/ScriptKit/Demo/Scripts/GameMain.cs" Line="11" Column="44" />
+      <File FileName="Assets/QFramework/ScriptKit/ToLua/Core/LuaState.cs" Line="204" Column="1" />
+      <File FileName="Assets/QFramework/ScriptKit/ToLua/Core/LuaFileUtils.cs" Line="52" Column="26" />
+      <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/QFramework_LuaHelperWrap.cs" Line="1" Column="1" />
+      <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/QFramework_AudioManagerWrap.cs" Line="1" Column="1" />
+      <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/QFramework_ResMgrWrap.cs" Line="1" Column="1" />
+      <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/QFramework_UIMgrWrap.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/vin129/MyProbject/CardGame/CardGame/Assets/QFramework/ScriptKit/ToLua/Core/LuaFileUtils.cs" relfile="Assets/QFramework/ScriptKit/ToLua/Core/LuaFileUtils.cs" line="161" column="1" />
+      <Breakpoint file="/Users/vin129/MyProbject/CardGame/CardGame/Assets/QFramework/ScriptKit/ToLua/Core/LuaFileUtils.cs" relfile="Assets/QFramework/ScriptKit/ToLua/Core/LuaFileUtils.cs" line="157" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.CardGame PreferredExecutionTarget="Unity.Editor" />

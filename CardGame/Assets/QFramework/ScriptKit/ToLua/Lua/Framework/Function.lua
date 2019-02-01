@@ -1723,6 +1723,104 @@ function string.formatnumberthousands(num)
 end
 
 
+-- Log Helper
+--输出日志--
+function log(str)
+	if type(str) == "string" or type(str) == "number" then
+		QFramework.LuaHelper.Log(str .."\n"..debug.traceback( ));
+	else
+		dump(str)
+	end
+end 
+
+function colorlog(str,color)
+	str = str .. "\n" .. debug.traceback( );
+	str = string.gsub(str,"\n","</color>\n<color="..color..">")
+	QFramework.LuaHelper.ColorLog(str,color);
+end
+
+--错误日志--
+function logError(str)
+	QFramework.LuaHelper.LogError(str.."\n"..debug.traceback( ));
+end
+
+--警告日志--
+function logWarn(str)
+	QFramework.LuaHelper.LogWarning(str.."\n"..debug.traceback( ));
+end
+
+local function dump_value_(v)
+    if type(v) == "string" then
+        v = "\"" .. v .. "\""
+    end
+    return tostring(v)
+end
+
+--打印lua table--
+function dump(value, desciption, nesting)
+    if type(nesting) ~= "number" then nesting = 3 end
+
+    local lookupTable = {}
+    local result = {}
+
+    local traceback = string.split(debug.traceback("", 2), "\n")
+    log("dump from: " .. string.trim(traceback[3]))
+
+    local function dump_(value, desciption, indent, nest, keylen)
+        desciption = desciption or "<var>"
+        local spc = ""
+        if type(keylen) == "number" then
+            spc = string.rep(" ", keylen - string.len(dump_value_(desciption)))
+        end
+        if type(value) ~= "table" then
+            result[#result +1 ] = string.format("%s%s%s = %s", indent, dump_value_(desciption), spc, dump_value_(value))
+        elseif lookupTable[tostring(value)] then
+            result[#result +1 ] = string.format("%s%s%s = *REF*", indent, dump_value_(desciption), spc)
+        else
+            lookupTable[tostring(value)] = true
+            if nest > nesting then
+                result[#result +1 ] = string.format("%s%s = *MAX NESTING*", indent, dump_value_(desciption))
+            else
+                result[#result +1 ] = string.format("%s%s = {", indent, dump_value_(desciption))
+                local indent2 = indent.."    "
+                local keys = {}
+                local keylen = 0
+                local values = {}
+                for k, v in pairs(value) do
+                    keys[#keys + 1] = k
+                    local vk = dump_value_(k)
+                    local vkl = string.len(vk)
+                    if vkl > keylen then keylen = vkl end
+                    values[k] = v
+                end
+                table.sort(keys, function(a, b)
+                    if type(a) == "number" and type(b) == "number" then
+                        return a < b
+                    else
+                        return tostring(a) < tostring(b)
+                    end
+                end)
+                for i, k in ipairs(keys) do
+                    dump_(values[k], k, indent2, nest + 1, keylen)
+                end
+                result[#result +1] = string.format("%s}", indent)
+            end
+        end
+    end
+    dump_(value, desciption, "- ", 1)
+
+    local temp = "";
+    for i, line in ipairs(result) do
+        temp = temp.."\n"..line
+    end
+    log(temp)
+end
+
+
+
+-- end ------
+
+
 
 
 
