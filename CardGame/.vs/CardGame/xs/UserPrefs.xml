@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{90BFAAB2-26FA-060F-6255-50A66A8853DA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/QFramework/ScriptKit/ToLua/Source/Generate/QFramework_LuaHelperWrap.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/QFramework/Framework/3.UIKit/1.UI/Editor/UICodeGenerator.cs">
     <Files>
       <File FileName="Assets/QFramework/ScriptKit/LuaMain.cs" Line="73" Column="13" />
       <File FileName="Assets/QFramework/ScriptKit/UILuaPanel.cs" Line="1" Column="1" />
       <File FileName="Assets/QFramework/ScriptKit/ToLua/Editor/Custom/CustomSettings.cs" Line="151" Column="27" />
-      <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/LuaBinder.cs" Line="1" Column="1" />
+      <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/LuaBinder.cs" Line="89" Column="34" />
       <File FileName="Assets/QFramework/ScriptKit/ToLua/Editor/ToLuaExport.cs" Line="1" Column="1" />
       <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/LuaConst.cs" Line="5" Column="32" />
       <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/DelegateFactory.cs" Line="1" Column="1" />
@@ -13,10 +13,11 @@
       <File FileName="Assets/QFramework/ScriptKit/Demo/Scripts/GameMain.cs" Line="11" Column="44" />
       <File FileName="Assets/QFramework/ScriptKit/ToLua/Core/LuaState.cs" Line="204" Column="1" />
       <File FileName="Assets/QFramework/ScriptKit/ToLua/Core/LuaFileUtils.cs" Line="52" Column="26" />
-      <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/QFramework_LuaHelperWrap.cs" Line="1" Column="1" />
+      <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/QFramework_LuaHelperWrap.cs" Line="9" Column="31" />
       <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/QFramework_AudioManagerWrap.cs" Line="1" Column="1" />
       <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/QFramework_ResMgrWrap.cs" Line="1" Column="1" />
       <File FileName="Assets/QFramework/ScriptKit/ToLua/Source/Generate/QFramework_UIMgrWrap.cs" Line="1" Column="1" />
+      <File FileName="Assets/QFramework/Framework/3.UIKit/1.UI/Editor/UICodeGenerator.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

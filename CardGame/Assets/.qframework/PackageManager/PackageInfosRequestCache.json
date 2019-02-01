@@ -2735,6 +2735,12 @@
       "readme": {
         "items": [
           {
+            "version": "v0.0.8",
+            "content": "适应 framework v0.0.17\nToLua 初始化成功",
+            "author": "vin129",
+            "date": "2019 年 02 月 01 日 17:47"
+          },
+          {
             "version": "v0.0.6",
             "content": "update UILuaPanel",
             "author": "vin129",
@@ -2755,6 +2761,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.8",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.0.8.unitypackage",
+          "InstallPath": "Assets/QFramework/ScriptKit/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.8",
+            "content": "适应 framework v0.0.17\nToLua 初始化成功",
+            "author": "vin129",
+            "date": "2019 年 02 月 01 日 17:47"
+          },
+          "Name": "ScriptKit",
+          "VersionNumber": 8,
+          "FileName": "ScriptKit_v0.0.8.unitypackage"
+        },
         {
           "Version": "v0.0.6",
           "Type": 0,
@@ -2824,13 +2847,13 @@
           "FileName": "ScriptKit_v0.0.4.unitypackage"
         }
       ],
-      "Version": "v0.0.6",
-      "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.0.6.unitypackage",
+      "Version": "v0.0.8",
+      "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.0.8.unitypackage",
       "InstallPath": "Assets/QFramework/ScriptKit/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 6,
+      "VersionNumber": 8,
       "Installed": true
     },
     {
