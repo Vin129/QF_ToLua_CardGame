@@ -5,7 +5,7 @@
 QUtil = QFramework.QUtil;
 QAppConst = QFramework.QAppConst;
 QLuaHelper = QFramework.QLuaHelper;
-
+QUIHelper = QFramework.UIHelper
 
 
 QLuaBehavihour = QFramework.QLuaBehavihour

@@ -96,6 +96,7 @@ public static class LuaBinder
 		QFramework_AudioManagerWrap.Register(L);
 		QFramework_UIEventListenerWrap.Register(L);
 		QFramework_LuaHelperWrap.Register(L);
+		QFramework_UIHelperWrap.Register(L);
 		QFramework_MonoSingleton_QFramework_ResMgrWrap.Register(L);
 		QFramework_QMgrBehaviourWrap.Register(L);
 		QFramework_QMonoBehaviourWrap.Register(L);

@@ -14,8 +14,8 @@ public class GameMain : MonoBehaviour {
     }
 
     void Start () {
-       
-	}
+        //UIMgr.OpenPanel("Resources/MainView");
+    }
 	
 	// Update is called once per frame
 	void Update () {

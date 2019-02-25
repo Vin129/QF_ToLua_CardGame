@@ -25,10 +25,10 @@ namespace QFramework.CardGame
 		protected override void OnInit(IUIData uiData = null)
 		{
 			mData = uiData as MainViewData ?? new MainViewData();
-			//please add init code here
+            //please add init code here
 
-			BindLuaComponent();
-		}
+            BindLuaComponent();
+        }
 
 		protected override void OnOpen(IUIData uiData = null)
 		{

@@ -1,22 +1,14 @@
---
--- Author: Your Name
--- Date: 2016-10-29 00:25:47
---
-
-
-
 FRAMEWORK_INITED = false
 
 if not FRAMEWORK_INITED then
-	require ("Framework/Logic/Command/ICommand")
-	require ("Framework/LuaObjBase")
-
+	require ("Framework/Function")
 	require ("Framework/Define")
 	require ("Framework/Utility")
 	require ("Framework/MsgDispatcher")
-	require ("Framework/Function")
 	require ("Framework/FSM")	
+	-- require ("Framework/Logic/Command/ICommand") -- 暂时先不处理消息
 	require ("Framework/LuaBehaviour")
+
 
 	--创建lua文件
 	function CreateLuaFile(luaFilePath,gameObject)
@@ -27,8 +19,9 @@ if not FRAMEWORK_INITED then
 	end
 
 	FRAMEWORK_INITED = true
+
+
+	--TEST
 	log("Init Sucess")
-
-
-	UIMgr.OpenPanel()
+	UIMgr.OpenPanel("Resources/MainView")
 end 

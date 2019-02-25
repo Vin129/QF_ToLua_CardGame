@@ -83,12 +83,12 @@ namespace QFramework
 			mSelfLuaTable["transform"] = transform;
 
 
-			if (gameObject.GetComponent<Button>() != null)
-			{
-				gameObject.GetComponent<Button>().onClick.AddListener(
-					onClick
-				);
-			}
+			// if (gameObject.GetComponent<Button>() != null)
+			// {
+			// 	gameObject.GetComponent<Button>().onClick.AddListener(
+			// 		onClick
+			// 	);
+			// }
 
 			return true;
 		}
@@ -187,9 +187,9 @@ namespace QFramework
               }
         }
 
-		void onClick()
-		{
-			CallLuaFunction(LuaMain.FuncName.onClick);
-		}
+		// void onClick()
+		// {
+		// 	CallLuaFunction(LuaMain.FuncName.onClick);
+		// }
 	}
 }
