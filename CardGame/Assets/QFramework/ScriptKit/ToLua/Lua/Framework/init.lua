@@ -3,9 +3,14 @@
 -- Date: 2016-10-29 00:25:47
 --
 
+
+
 FRAMEWORK_INITED = false
 
 if not FRAMEWORK_INITED then
+	require ("Framework/Logic/Command/ICommand")
+	require ("Framework/LuaObjBase")
+
 	require ("Framework/Define")
 	require ("Framework/Utility")
 	require ("Framework/MsgDispatcher")
@@ -23,4 +28,7 @@ if not FRAMEWORK_INITED then
 
 	FRAMEWORK_INITED = true
 	log("Init Sucess")
+
+
+	UIMgr.OpenPanel()
 end 
