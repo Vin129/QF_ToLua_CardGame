@@ -23,5 +23,5 @@ if not FRAMEWORK_INITED then
 
 	--TEST
 	log("Init Sucess")
-	UIMgr.OpenPanel("Resources/MainView")
+	UIMgr.OpenPanel("Resources/TestView")
 end 

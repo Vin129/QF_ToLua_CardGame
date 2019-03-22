@@ -34,8 +34,9 @@ namespace QFramework
 	using UnityEditor;
 	using System.IO;
 	using System.Linq;
+    using System.Text.RegularExpressions;
 
-	public class PanelCodeData
+    public class PanelCodeData
 	{
 		public          string                     PanelName;
 		public          Dictionary<string, string> DicNameToFullName = new Dictionary<string, string>();
@@ -104,9 +105,10 @@ namespace QFramework
 				mPanelCodeData.PanelName = clone.name.Replace("(clone)", string.Empty);
 				FindAllMarkTrans(clone.transform, "");
 				CreateUIPanelCode(obj, uiPrefabPath);
-
 				AddSerializeUIPrefab(obj, mPanelCodeData);
-
+#if USE_TOLUA 
+				AddLuaComponent(obj);
+#endif
 				GameObject.DestroyImmediate(clone);
 			}
 		}
@@ -222,13 +224,12 @@ namespace QFramework
 			var behaviourName = uiPrefab.name;
 
 			var strFilePath = string.Empty;
-
+			
 			var prefabDirPattern = FrameworkSettingData.Load().UIPrefabDir;
 
 			if (uiPrefabPath.Contains(prefabDirPattern))
 			{
 				strFilePath = uiPrefabPath.Replace(prefabDirPattern, GetScriptsPath());
-
 			}
 			else if (uiPrefabPath.Contains("/Resources"))
 			{
@@ -243,10 +244,17 @@ namespace QFramework
 
 			strFilePath = strFilePath.Replace(".prefab", ".cs");
 
+#if USE_TOLUA
+			if (File.Exists(strFilePath) == false)
+			{
+				LuaUIPanelCodeTemplate.Generate(strFilePath, behaviourName, GetProjectNamespace());
+			}
+#else
 			if (File.Exists(strFilePath) == false)
 			{
 				UIPanelCodeTemplate.Generate(strFilePath, behaviourName, GetProjectNamespace());
 			}
+#endif
 
 			CreateUIPanelDesignerCode(behaviourName, strFilePath);
 			Debug.Log(">>>>>>>Success Create UIPrefab Code: " + behaviourName);
@@ -264,9 +272,18 @@ namespace QFramework
 		{
 			var dir = uiUIPanelfilePath.Replace(behaviourName + ".cs", "");
 			var generateFilePath = dir + behaviourName + ".Designer.cs";
-
+#if USE_TOLUA
+			LuaPanelComponentsCodeTemplate.Generate(generateFilePath, behaviourName, GetProjectNamespace(), mPanelCodeData);
+			mLuaGenerateFilePath = string.Empty;
+			mLuaGenerateFilePath = LuaConst.luaDir + GetLuaPath();
+			mLuaGenerateFilePath.CreateDirIfNotExists();
+			mLuaGenerateFilePath = mLuaGenerateFilePath + "/" + behaviourName + ".lua";
+			if (File.Exists(mLuaGenerateFilePath) == false){
+				LuaPanelTemplate.Generate(mLuaGenerateFilePath, behaviourName, GetProjectNamespace(), mPanelCodeData);
+			}
+#else
 			UIPanelComponentsCodeTemplate.Generate(generateFilePath, behaviourName, GetProjectNamespace(), mPanelCodeData);
-
+#endif
 			foreach (var elementCodeData in mPanelCodeData.ElementCodeDatas)
 			{
 				var elementDir = string.Empty;
@@ -334,7 +351,6 @@ namespace QFramework
 			{
 				var uiPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(paths[i]);
 				AttachSerializeObj(uiPrefab, uiPrefab.name, assembly);
-
 				// uibehaviour
 				if (displayProgress)
 					EditorUtility.DisplayProgressBar("", "Serialize UIPrefab..." + uiPrefab.name, (float) (i + 1) / paths.Length);
@@ -348,18 +364,15 @@ namespace QFramework
 			{
 				var uiPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(paths[i]);
 				AttachSerializeObj(uiPrefab, uiPrefab.name, assembly);
-
 				// uibehaviour
 				if (displayProgress)
 					EditorUtility.DisplayProgressBar("", "Serialize UIPrefab..." + uiPrefab.name, (float) (i + 1) / paths.Length);
 				Debug.Log(">>>>>>>Success Serialize UIPrefab: " + uiPrefab.name);
 			}
-
 			AssetDatabase.SaveAssets();
 			AssetDatabase.Refresh();
 			
-			if (displayProgress) EditorUtility.ClearProgressBar();
-			
+			if (displayProgress) EditorUtility.ClearProgressBar();		
 		}
 
 		private static void AttachSerializeObj(GameObject obj, string behaviourName, System.Reflection.Assembly assembly,
@@ -376,7 +389,6 @@ namespace QFramework
 			if (uiMark != null)
 			{
 				className = GetProjectNamespace() + "." + uiMark.ComponentName;
-
 				// 这部分
 				if (uiMark.GetUIMarkType() != UIMarkType.DefaultUnityElement)
 				{
@@ -443,13 +455,35 @@ namespace QFramework
 			return FrameworkSettingData.Load().UIScriptDir;
 		}
 
+		private static string GetLuaPath()
+		{
+			return FrameworkSettingData.Load().UILuaDir;
+		}
+
+		private static void AddLuaComponent(GameObject uiPrefab){
+			var lc = uiPrefab.GetComponent<LuaComponent>();
+			var uiLuaPanel =  uiPrefab.GetComponent<UILuaPanel>();
+			if(lc.IsNull()){
+				lc = uiPrefab.AddComponent<LuaComponent>();
+			}
+			var newPath = mInstance.mLuaGenerateFilePath;
+			var resultString = Regex.Split(newPath, "/Lua/", RegexOptions.IgnoreCase);
+			newPath = resultString[1];
+			newPath = newPath.Replace(".lua", "");
+			newPath = newPath.Replace("/", ".");
+			lc.LuaPath = newPath;
+			lc.LuaFilePath = mInstance.mLuaGenerateFilePath;
+			AssetDatabase.SaveAssets();
+			AssetDatabase.Refresh();
+		}
+
 		private static string GetProjectNamespace()
 		{
 			return FrameworkSettingData.Load().Namespace;
 		}
 
+		private string mLuaGenerateFilePath;
 		private PanelCodeData mPanelCodeData;
-
 		private static readonly UICodeGenerator mInstance = new UICodeGenerator();
 	}
 }

@@ -1,5 +1,5 @@
 /****************************************************************************
- * 2019.2 Vin129
+ * 2019.3 XAVIER
  ****************************************************************************/
 
 using System;
@@ -10,13 +10,13 @@ using QFramework;
 
 namespace QFramework.CardGame
 {
-	public class MainViewData : UIPanelData
+	public class TestViewData : UIPanelData
 	{
 		// TODO: Query Mgr's Data
 	}
 
-	public partial class MainView : UILuaPanel
-    {
+	public partial class TestView : UILuaPanel
+	{
 		protected override void ProcessMsg (int eventId,QMsg msg)
 		{
 			throw new System.NotImplementedException ();
@@ -24,10 +24,10 @@ namespace QFramework.CardGame
 
 		protected override void OnInit(IUIData uiData = null)
 		{
-			mData = uiData as MainViewData ?? new MainViewData();
-            //please add init code here
-            BindLuaComponent();
-        }
+			mData = uiData as TestViewData ?? new TestViewData();
+			//please add init code here
+			BindLuaComponent();
+		}
 
 		protected override void OnOpen(IUIData uiData = null)
 		{
@@ -47,7 +47,7 @@ namespace QFramework.CardGame
 
 		void ShowLog(string content)
 		{
-			Debug.Log("[ MainView:]" + content);
+			Debug.Log("[ TestView:]" + content);
 		}
 	}
 }

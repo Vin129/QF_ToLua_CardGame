@@ -78,6 +78,7 @@ namespace QFramework
 
         #region LuaComponent 
 
+        [HideInInspector]
         public LuaComponent LuaCp;
 
         public string LuaPath
