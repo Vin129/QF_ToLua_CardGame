@@ -1,3 +1,13 @@
 CardGame/*.csproj
 CardGame/Library/
 CardGame/Temp/
+CardGame\CardGame.csproj
+CardGame\CardGame.Editor.csproj
+CardGame\CardGame.sln
+CardGame\HTTP.csproj
+CardGame\ObjectFactory.csproj
+CardGame\QFramework.Core.Editor.csproj
+CardGame\QFramework.Core.Runtime.csproj
+CardGame\UniRx.Async.csproj
+CardGame\UniRx.Async.Editor.csproj
+CardGame\CardGame\UniRx.csproj
