@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/QFramework/ScriptKit/Demo/Scenes/CardGameMainScene.unity
-  isLoaded: 1
-  isActive: 1
