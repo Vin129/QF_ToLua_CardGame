@@ -50,6 +50,8 @@ namespace QFramework
 
 		public string UIPrefabDir = "/Art/UIPrefab";
 
+		public string UILuaDir = "/Game/UI";
+
 		public static FrameworkSettingData Load()
 		{
 			mConfigSavedDir.CreateDirIfNotExists();
