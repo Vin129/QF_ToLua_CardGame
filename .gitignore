@@ -1,4 +1,4 @@
-CardGame/*.csproj
+*.csproj
 CardGame/Library/
 CardGame/Temp/
 CardGame\CardGame.csproj
