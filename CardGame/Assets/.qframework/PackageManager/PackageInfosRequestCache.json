@@ -5,454 +5,132 @@
       "readme": {
         "items": [
           {
-            "version": "v0.1.19",
-            "content": "support 2018.3 .net 4.6",
+            "version": "v0.4.8",
+            "content": "fix MVVM's compile error",
             "author": "liangxie",
-            "date": "2019 年 01 月 31 日 07:24"
+            "date": "2019 年 02 月 16 日 19:49"
           },
           {
-            "version": "v0.1.18",
-            "content": "add UnRegisterTemplate",
+            "version": "v0.4.7",
+            "content": "package admin view improvements",
             "author": "liangxie",
-            "date": "2019 年 01 月 30 日 09:50"
+            "date": "2019 年 02 月 14 日 12:37"
           },
           {
-            "version": "v0.1.17",
-            "content": "saved toolbar index",
+            "version": "v0.4.6",
+            "content": "Package Manager View Improvements",
             "author": "liangxie",
-            "date": "2019 年 01 月 29 日 21:06"
+            "date": "2019 年 02 月 14 日 12:30"
           },
           {
-            "version": "v0.1.16",
-            "content": "add Toolbar property binding",
+            "version": "v0.4.5",
+            "content": "remove tree view",
             "author": "liangxie",
-            "date": "2019 年 01 月 29 日 18:39"
+            "date": "2019 年 02 月 14 日 12:26"
           },
           {
-            "version": "v0.1.15",
-            "content": "add resources",
+            "version": "v0.4.4",
+            "content": "fix package publish error",
             "author": "liangxie",
-            "date": "2019 年 01 月 29 日 17:34"
-          },
-          {
-            "version": "v0.1.14",
-            "content": "move FrameworkSettingData 2 UIKit",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 17:07"
-          },
-          {
-            "version": "v0.1.13",
-            "content": "add refactor folder",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 17:04"
-          },
-          {
-            "version": "v0.1.12",
-            "content": "refactor namespace",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 16:53"
-          },
-          {
-            "version": "v0.1.11",
-            "content": "add uFrame.Editor",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 16:48"
-          },
-          {
-            "version": "v0.1.10",
-            "content": "support uframe.ecs",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 22:52"
-          },
-          {
-            "version": "v0.1.9",
-            "content": "add Unity MVVM",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 22:25"
-          },
-          {
-            "version": "v0.1.8",
-            "content": "add UnityMVVM",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 22:23"
-          },
-          {
-            "version": "v0.1.7",
-            "content": "add layout option",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 21:14"
-          },
-          {
-            "version": "v0.1.6",
-            "content": "add Toggle View 2 EditorTool",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 17:24"
-          },
-          {
-            "version": "v0.1.5",
-            "content": "update packages refresh's bug",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 16:52"
-          },
-          {
-            "version": "v0.1.4",
-            "content": "add assembly definition",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 15:19"
-          },
-          {
-            "version": "v0.1.3",
-            "content": "add empty doc",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 11:04"
-          },
-          {
-            "version": "v0.1.0",
-            "content": "import uFrame's IOC Solution",
-            "author": "liangxie",
-            "date": "2019 年 01 月 26 日 18:27"
-          },
-          {
-            "version": "v0.0.6",
-            "content": "refactor folder",
-            "author": "liangxie",
-            "date": "2019 年 01 月 26 日 17:31"
+            "date": "2019 年 02 月 14 日 10:24"
           }
         ]
       },
       "PackageVersions": [
         {
-          "Version": "v0.1.19",
+          "Version": "v0.4.8",
           "Type": 0,
           "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.19.unitypackage",
+          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.4.8.unitypackage",
           "InstallPath": "Assets/QFramework/Framework/0.Core/",
           "DocUrl": "http://liangxiegame.com",
           "Readme": {
-            "version": "v0.1.19",
-            "content": "support 2018.3 .net 4.6",
+            "version": "v0.4.8",
+            "content": "fix MVVM's compile error",
             "author": "liangxie",
-            "date": "2019 年 01 月 31 日 07:24"
+            "date": "2019 年 02 月 16 日 19:49"
           },
           "Name": "0.Core",
-          "VersionNumber": 119,
-          "FileName": "0.Core_v0.1.19.unitypackage"
+          "VersionNumber": 408,
+          "FileName": "0.Core_v0.4.8.unitypackage"
         },
         {
-          "Version": "v0.1.18",
+          "Version": "v0.4.7",
           "Type": 0,
           "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.18.unitypackage",
+          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.4.7.unitypackage",
           "InstallPath": "Assets/QFramework/Framework/0.Core/",
           "DocUrl": "http://liangxiegame.com",
           "Readme": {
-            "version": "v0.1.18",
-            "content": "add UnRegisterTemplate",
+            "version": "v0.4.7",
+            "content": "package admin view improvements",
             "author": "liangxie",
-            "date": "2019 年 01 月 30 日 09:50"
+            "date": "2019 年 02 月 14 日 12:37"
           },
           "Name": "0.Core",
-          "VersionNumber": 118,
-          "FileName": "0.Core_v0.1.18.unitypackage"
+          "VersionNumber": 407,
+          "FileName": "0.Core_v0.4.7.unitypackage"
         },
         {
-          "Version": "v0.1.17",
+          "Version": "v0.4.6",
           "Type": 0,
           "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.17.unitypackage",
+          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.4.6.unitypackage",
           "InstallPath": "Assets/QFramework/Framework/0.Core/",
           "DocUrl": "http://liangxiegame.com",
           "Readme": {
-            "version": "v0.1.17",
-            "content": "saved toolbar index",
+            "version": "v0.4.6",
+            "content": "Package Manager View Improvements",
             "author": "liangxie",
-            "date": "2019 年 01 月 29 日 21:06"
+            "date": "2019 年 02 月 14 日 12:30"
           },
           "Name": "0.Core",
-          "VersionNumber": 117,
-          "FileName": "0.Core_v0.1.17.unitypackage"
+          "VersionNumber": 406,
+          "FileName": "0.Core_v0.4.6.unitypackage"
         },
         {
-          "Version": "v0.1.16",
+          "Version": "v0.4.5",
           "Type": 0,
           "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.16.unitypackage",
+          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.4.5.unitypackage",
           "InstallPath": "Assets/QFramework/Framework/0.Core/",
           "DocUrl": "http://liangxiegame.com",
           "Readme": {
-            "version": "v0.1.16",
-            "content": "add Toolbar property binding",
+            "version": "v0.4.5",
+            "content": "remove tree view",
             "author": "liangxie",
-            "date": "2019 年 01 月 29 日 18:39"
+            "date": "2019 年 02 月 14 日 12:26"
           },
           "Name": "0.Core",
-          "VersionNumber": 116,
-          "FileName": "0.Core_v0.1.16.unitypackage"
+          "VersionNumber": 405,
+          "FileName": "0.Core_v0.4.5.unitypackage"
         },
         {
-          "Version": "v0.1.15",
+          "Version": "v0.4.4",
           "Type": 0,
           "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.15.unitypackage",
+          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.4.4.unitypackage",
           "InstallPath": "Assets/QFramework/Framework/0.Core/",
           "DocUrl": "http://liangxiegame.com",
           "Readme": {
-            "version": "v0.1.15",
-            "content": "add resources",
+            "version": "v0.4.4",
+            "content": "fix package publish error",
             "author": "liangxie",
-            "date": "2019 年 01 月 29 日 17:34"
+            "date": "2019 年 02 月 14 日 10:24"
           },
           "Name": "0.Core",
-          "VersionNumber": 115,
-          "FileName": "0.Core_v0.1.15.unitypackage"
-        },
-        {
-          "Version": "v0.1.14",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.14.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/0.Core/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.1.14",
-            "content": "move FrameworkSettingData 2 UIKit",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 17:07"
-          },
-          "Name": "0.Core",
-          "VersionNumber": 114,
-          "FileName": "0.Core_v0.1.14.unitypackage"
-        },
-        {
-          "Version": "v0.1.13",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.13.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/0.Core/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.1.13",
-            "content": "add refactor folder",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 17:04"
-          },
-          "Name": "0.Core",
-          "VersionNumber": 113,
-          "FileName": "0.Core_v0.1.13.unitypackage"
-        },
-        {
-          "Version": "v0.1.12",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.12.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/0.Core/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.1.12",
-            "content": "refactor namespace",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 16:53"
-          },
-          "Name": "0.Core",
-          "VersionNumber": 112,
-          "FileName": "0.Core_v0.1.12.unitypackage"
-        },
-        {
-          "Version": "v0.1.11",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.11.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/0.Core/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.1.11",
-            "content": "add uFrame.Editor",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 16:48"
-          },
-          "Name": "0.Core",
-          "VersionNumber": 111,
-          "FileName": "0.Core_v0.1.11.unitypackage"
-        },
-        {
-          "Version": "v0.1.10",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.10.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/0.Core/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.1.10",
-            "content": "support uframe.ecs",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 22:52"
-          },
-          "Name": "0.Core",
-          "VersionNumber": 110,
-          "FileName": "0.Core_v0.1.10.unitypackage"
-        },
-        {
-          "Version": "v0.1.9",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.9.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/0.Core/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.1.9",
-            "content": "add Unity MVVM",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 22:25"
-          },
-          "Name": "0.Core",
-          "VersionNumber": 109,
-          "FileName": "0.Core_v0.1.9.unitypackage"
-        },
-        {
-          "Version": "v0.1.8",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.8.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/0.Core/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.1.8",
-            "content": "add UnityMVVM",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 22:23"
-          },
-          "Name": "0.Core",
-          "VersionNumber": 108,
-          "FileName": "0.Core_v0.1.8.unitypackage"
-        },
-        {
-          "Version": "v0.1.7",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.7.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/0.Core/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.1.7",
-            "content": "add layout option",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 21:14"
-          },
-          "Name": "0.Core",
-          "VersionNumber": 107,
-          "FileName": "0.Core_v0.1.7.unitypackage"
-        },
-        {
-          "Version": "v0.1.6",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.6.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/0.Core/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.1.6",
-            "content": "add Toggle View 2 EditorTool",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 17:24"
-          },
-          "Name": "0.Core",
-          "VersionNumber": 106,
-          "FileName": "0.Core_v0.1.6.unitypackage"
-        },
-        {
-          "Version": "v0.1.5",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.5.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/0.Core/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.1.5",
-            "content": "update packages refresh's bug",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 16:52"
-          },
-          "Name": "0.Core",
-          "VersionNumber": 105,
-          "FileName": "0.Core_v0.1.5.unitypackage"
-        },
-        {
-          "Version": "v0.1.4",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.4.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/0.Core/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.1.4",
-            "content": "add assembly definition",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 15:19"
-          },
-          "Name": "0.Core",
-          "VersionNumber": 104,
-          "FileName": "0.Core_v0.1.4.unitypackage"
-        },
-        {
-          "Version": "v0.1.3",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.3.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/0.Core/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.1.3",
-            "content": "add empty doc",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 11:04"
-          },
-          "Name": "0.Core",
-          "VersionNumber": 103,
-          "FileName": "0.Core_v0.1.3.unitypackage"
-        },
-        {
-          "Version": "v0.1.0",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.0.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/0.Core/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.1.0",
-            "content": "import uFrame's IOC Solution",
-            "author": "liangxie",
-            "date": "2019 年 01 月 26 日 18:27"
-          },
-          "Name": "0.Core",
-          "VersionNumber": 100,
-          "FileName": "0.Core_v0.1.0.unitypackage"
-        },
-        {
-          "Version": "v0.0.6",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.0.6.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/0.Core/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.0.6",
-            "content": "refactor folder",
-            "author": "liangxie",
-            "date": "2019 年 01 月 26 日 17:31"
-          },
-          "Name": "0.Core",
-          "VersionNumber": 6,
-          "FileName": "0.Core_v0.0.6.unitypackage"
+          "VersionNumber": 404,
+          "FileName": "0.Core_v0.4.4.unitypackage"
         }
       ],
-      "Version": "v0.1.19",
-      "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.1.19.unitypackage",
+      "Version": "v0.4.8",
+      "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.4.8.unitypackage",
       "InstallPath": "Assets/QFramework/Framework/0.Core/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 119,
-      "Installed": false
+      "VersionNumber": 408,
+      "Installed": true
     },
     {
       "Name": "1.ResKit",
@@ -463,18 +141,6 @@
             "content": "fix bug",
             "author": "liangxie",
             "date": "2019 年 01 月 31 日 13:17"
-          },
-          {
-            "version": "v0.1.1",
-            "content": "add mode",
-            "author": "liangxie",
-            "date": "2019 年 01 月 31 日 10:19"
-          },
-          {
-            "version": "v0.1.0",
-            "content": "adjust folder",
-            "author": "liangxie",
-            "date": "2019 年 01 月 24 日 11:51"
           }
         ]
       },
@@ -495,40 +161,6 @@
           "Name": "1.ResKit",
           "VersionNumber": 102,
           "FileName": "1.ResKit_v0.1.2.unitypackage"
-        },
-        {
-          "Version": "v0.1.1",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/1.ResKit_v0.1.1.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/1.ResKit/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.1.1",
-            "content": "add mode",
-            "author": "liangxie",
-            "date": "2019 年 01 月 31 日 10:19"
-          },
-          "Name": "1.ResKit",
-          "VersionNumber": 101,
-          "FileName": "1.ResKit_v0.1.1.unitypackage"
-        },
-        {
-          "Version": "v0.1.0",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/1.ResKit_v0.1.0.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/1.ResKit/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.1.0",
-            "content": "adjust folder",
-            "author": "liangxie",
-            "date": "2019 年 01 月 24 日 11:51"
-          },
-          "Name": "1.ResKit",
-          "VersionNumber": 100,
-          "FileName": "1.ResKit_v0.1.0.unitypackage"
         }
       ],
       "Version": "v0.1.2",
@@ -545,298 +177,86 @@
       "readme": {
         "items": [
           {
-            "version": "v0.2.4",
-            "content": "add comment",
+            "version": "v0.2.6",
+            "content": "UI Kit Setting Improvements",
             "author": "liangxie",
-            "date": "2019 年 01 月 31 日 10:41"
+            "date": "2019 年 02 月 14 日 12:26"
           },
           {
-            "version": "v0.2.3",
-            "content": "fix compile error",
+            "version": "v0.2.5",
+            "content": "fix gen code error",
             "author": "liangxie",
-            "date": "2019 年 01 月 30 日 10:00"
-          },
-          {
-            "version": "v0.2.2",
-            "content": "using uFrame's CodeGen Module Generate UUIPanel Code",
-            "author": "liangxie",
-            "date": "2019 年 01 月 30 日 09:58"
-          },
-          {
-            "version": "v0.2.1",
-            "content": "change UIPanel's NAME 2 const",
-            "author": "liangxie",
-            "date": "2019 年 01 月 30 日 09:18"
-          },
-          {
-            "version": "v0.2.0",
-            "content": "using code dom generate uicode",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 21:06"
-          },
-          {
-            "version": "v0.1.6",
-            "content": "整理代码生成部分逻辑",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 17:26"
-          },
-          {
-            "version": "v0.1.5",
-            "content": "add FrameworkSettingData 2 this",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 17:07"
-          },
-          {
-            "version": "v0.1.4",
-            "content": "refactor folder",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 16:57"
-          },
-          {
-            "version": "v0.1.3",
-            "content": "add doc address",
-            "author": "liangxie",
-            "date": "2019 年 01 月 28 日 11:02"
-          },
-          {
-            "version": "v0.1.2",
-            "content": "add doc address",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 10:49"
-          },
-          {
-            "version": "v0.1.1",
-            "content": "add  doc",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 10:46"
-          },
-          {
-            "version": "v0.1.0",
-            "content": "move folder",
-            "author": "liangxie",
-            "date": "2019 年 01 月 24 日 11:51"
+            "date": "2019 年 02 月 03 日 12:55"
           }
         ]
       },
       "PackageVersions": [
         {
-          "Version": "v0.2.4",
+          "Version": "v0.2.6",
           "Type": 0,
           "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.2.4.unitypackage",
+          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.2.6.unitypackage",
           "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
           "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
           "Readme": {
-            "version": "v0.2.4",
-            "content": "add comment",
+            "version": "v0.2.6",
+            "content": "UI Kit Setting Improvements",
             "author": "liangxie",
-            "date": "2019 年 01 月 31 日 10:41"
+            "date": "2019 年 02 月 14 日 12:26"
           },
           "Name": "2.UIKit",
-          "VersionNumber": 204,
-          "FileName": "2.UIKit_v0.2.4.unitypackage"
+          "VersionNumber": 206,
+          "FileName": "2.UIKit_v0.2.6.unitypackage"
         },
         {
-          "Version": "v0.2.3",
+          "Version": "v0.2.5",
           "Type": 0,
           "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.2.3.unitypackage",
+          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.2.5.unitypackage",
           "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
           "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
           "Readme": {
-            "version": "v0.2.3",
-            "content": "fix compile error",
+            "version": "v0.2.5",
+            "content": "fix gen code error",
             "author": "liangxie",
-            "date": "2019 年 01 月 30 日 10:00"
+            "date": "2019 年 02 月 03 日 12:55"
           },
           "Name": "2.UIKit",
-          "VersionNumber": 203,
-          "FileName": "2.UIKit_v0.2.3.unitypackage"
-        },
-        {
-          "Version": "v0.2.2",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.2.2.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
-          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
-          "Readme": {
-            "version": "v0.2.2",
-            "content": "using uFrame's CodeGen Module Generate UUIPanel Code",
-            "author": "liangxie",
-            "date": "2019 年 01 月 30 日 09:58"
-          },
-          "Name": "2.UIKit",
-          "VersionNumber": 202,
-          "FileName": "2.UIKit_v0.2.2.unitypackage"
-        },
-        {
-          "Version": "v0.2.1",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.2.1.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
-          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
-          "Readme": {
-            "version": "v0.2.1",
-            "content": "change UIPanel's NAME 2 const",
-            "author": "liangxie",
-            "date": "2019 年 01 月 30 日 09:18"
-          },
-          "Name": "2.UIKit",
-          "VersionNumber": 201,
-          "FileName": "2.UIKit_v0.2.1.unitypackage"
-        },
-        {
-          "Version": "v0.2.0",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.2.0.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
-          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
-          "Readme": {
-            "version": "v0.2.0",
-            "content": "using code dom generate uicode",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 21:06"
-          },
-          "Name": "2.UIKit",
-          "VersionNumber": 200,
-          "FileName": "2.UIKit_v0.2.0.unitypackage"
-        },
-        {
-          "Version": "v0.1.6",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.1.6.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
-          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
-          "Readme": {
-            "version": "v0.1.6",
-            "content": "整理代码生成部分逻辑",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 17:26"
-          },
-          "Name": "2.UIKit",
-          "VersionNumber": 106,
-          "FileName": "2.UIKit_v0.1.6.unitypackage"
-        },
-        {
-          "Version": "v0.1.5",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.1.5.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
-          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
-          "Readme": {
-            "version": "v0.1.5",
-            "content": "add FrameworkSettingData 2 this",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 17:07"
-          },
-          "Name": "2.UIKit",
-          "VersionNumber": 105,
-          "FileName": "2.UIKit_v0.1.5.unitypackage"
-        },
-        {
-          "Version": "v0.1.4",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.1.4.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
-          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
-          "Readme": {
-            "version": "v0.1.4",
-            "content": "refactor folder",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 16:57"
-          },
-          "Name": "2.UIKit",
-          "VersionNumber": 104,
-          "FileName": "2.UIKit_v0.1.4.unitypackage"
-        },
-        {
-          "Version": "v0.1.3",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.1.3.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
-          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
-          "Readme": {
-            "version": "v0.1.3",
-            "content": "add doc address",
-            "author": "liangxie",
-            "date": "2019 年 01 月 28 日 11:02"
-          },
-          "Name": "2.UIKit",
-          "VersionNumber": 103,
-          "FileName": "2.UIKit_v0.1.3.unitypackage"
-        },
-        {
-          "Version": "v0.1.2",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.1.2.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
-          "DocUrl": "https://www.notion.so/liangxie/QFramework-2019-UIKit-9a0455cca4db4feda02435e60c18443f",
-          "Readme": {
-            "version": "v0.1.2",
-            "content": "add doc address",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 10:49"
-          },
-          "Name": "2.UIKit",
-          "VersionNumber": 102,
-          "FileName": "2.UIKit_v0.1.2.unitypackage"
-        },
-        {
-          "Version": "v0.1.1",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.1.1.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.1.1",
-            "content": "add  doc",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 10:46"
-          },
-          "Name": "2.UIKit",
-          "VersionNumber": 101,
-          "FileName": "2.UIKit_v0.1.1.unitypackage"
-        },
-        {
-          "Version": "v0.1.0",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.1.0.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.1.0",
-            "content": "move folder",
-            "author": "liangxie",
-            "date": "2019 年 01 月 24 日 11:51"
-          },
-          "Name": "2.UIKit",
-          "VersionNumber": 100,
-          "FileName": "2.UIKit_v0.1.0.unitypackage"
+          "VersionNumber": 205,
+          "FileName": "2.UIKit_v0.2.5.unitypackage"
         }
       ],
-      "Version": "v0.2.4",
-      "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.2.4.unitypackage",
+      "Version": "v0.2.6",
+      "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.2.6.unitypackage",
       "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
       "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 204,
+      "VersionNumber": 206,
       "Installed": false
     },
     {
       "Name": "3.EditorToolKit",
       "readme": {
         "items": [
+          {
+            "version": "v0.2.2",
+            "content": "fix rotation can't reset error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 20:01"
+          },
+          {
+            "version": "v0.2.1",
+            "content": "restore Editor Tool Kit",
+            "author": "liangxie",
+            "date": "2019 年 02 月 18 日 20:20"
+          },
+          {
+            "version": "v0.1.1",
+            "content": "fix 2018.1 compile error",
+            "author": "liangxie",
+            "date": "2019 年 02 月 15 日 14:34"
+          },
           {
             "version": "v0.1.0",
             "content": "move folder",
@@ -846,6 +266,57 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.2.2",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/3.EditorToolKit_v0.2.2.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/3.EditorToolKit/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.2.2",
+            "content": "fix rotation can't reset error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 20:01"
+          },
+          "Name": "3.EditorToolKit",
+          "VersionNumber": 202,
+          "FileName": "3.EditorToolKit_v0.2.2.unitypackage"
+        },
+        {
+          "Version": "v0.2.1",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/3.EditorToolKit_v0.2.1.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/3.EditorToolKit/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.2.1",
+            "content": "restore Editor Tool Kit",
+            "author": "liangxie",
+            "date": "2019 年 02 月 18 日 20:20"
+          },
+          "Name": "3.EditorToolKit",
+          "VersionNumber": 201,
+          "FileName": "3.EditorToolKit_v0.2.1.unitypackage"
+        },
+        {
+          "Version": "v0.1.1",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/3.EditorToolKit_v0.1.1.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/3.EditorToolKit/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.1.1",
+            "content": "fix 2018.1 compile error",
+            "author": "liangxie",
+            "date": "2019 年 02 月 15 日 14:34"
+          },
+          "Name": "3.EditorToolKit",
+          "VersionNumber": 101,
+          "FileName": "3.EditorToolKit_v0.1.1.unitypackage"
+        },
         {
           "Version": "v0.1.0",
           "Type": 0,
@@ -864,13 +335,13 @@
           "FileName": "3.EditorToolKit_v0.1.0.unitypackage"
         }
       ],
-      "Version": "v0.1.0",
-      "DownloadUrl": "http://liangxiegame.com/media/3.EditorToolKit_v0.1.0.unitypackage",
+      "Version": "v0.2.2",
+      "DownloadUrl": "http://liangxiegame.com/media/3.EditorToolKit_v0.2.2.unitypackage",
       "InstallPath": "Assets/QFramework/Framework/3.EditorToolKit/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 100,
+      "VersionNumber": 202,
       "Installed": false
     },
     {
@@ -951,6 +422,155 @@
       "Type": 0,
       "AccessRight": 0,
       "VersionNumber": 100,
+      "Installed": false
+    },
+    {
+      "Name": "6.ECS",
+      "readme": {
+        "items": [
+          {
+            "version": "v0.1.3",
+            "content": "fix variable rename error",
+            "author": "liangxie",
+            "date": "2019 年 02 月 14 日 09:46"
+          },
+          {
+            "version": "v0.1.2",
+            "content": "fix component template's code style",
+            "author": "liangxie",
+            "date": "2019 年 02 月 14 日 08:22"
+          },
+          {
+            "version": "v0.1.1",
+            "content": "remove unused code",
+            "author": "liangxie",
+            "date": "2019 年 02 月 13 日 23:06"
+          }
+        ]
+      },
+      "PackageVersions": [
+        {
+          "Version": "v0.1.3",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/6.ECS_v0.1.3.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/6.ECS/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.1.3",
+            "content": "fix variable rename error",
+            "author": "liangxie",
+            "date": "2019 年 02 月 14 日 09:46"
+          },
+          "Name": "6.ECS",
+          "VersionNumber": 103,
+          "FileName": "6.ECS_v0.1.3.unitypackage"
+        },
+        {
+          "Version": "v0.1.2",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/6.ECS_v0.1.2.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/6.ECS/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.1.2",
+            "content": "fix component template's code style",
+            "author": "liangxie",
+            "date": "2019 年 02 月 14 日 08:22"
+          },
+          "Name": "6.ECS",
+          "VersionNumber": 102,
+          "FileName": "6.ECS_v0.1.2.unitypackage"
+        },
+        {
+          "Version": "v0.1.1",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/6.ECS_v0.1.1.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/6.ECS/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.1.1",
+            "content": "remove unused code",
+            "author": "liangxie",
+            "date": "2019 年 02 月 13 日 23:06"
+          },
+          "Name": "6.ECS",
+          "VersionNumber": 101,
+          "FileName": "6.ECS_v0.1.1.unitypackage"
+        }
+      ],
+      "Version": "v0.1.3",
+      "DownloadUrl": "http://liangxiegame.com/media/6.ECS_v0.1.3.unitypackage",
+      "InstallPath": "Assets/QFramework/Framework/6.ECS/",
+      "DocUrl": "http://liangxiegame.com",
+      "Type": 0,
+      "AccessRight": 0,
+      "VersionNumber": 103,
+      "Installed": false
+    },
+    {
+      "Name": "7.MVVM",
+      "readme": {
+        "items": [
+          {
+            "version": "v0.0.2",
+            "content": "add UpdateKernel Command",
+            "author": "liangxie",
+            "date": "2019 年 02 月 15 日 21:42"
+          },
+          {
+            "version": "v0.0.1",
+            "content": "add mvvm graph designer",
+            "author": "liangxie",
+            "date": "2019 年 02 月 15 日 18:06"
+          }
+        ]
+      },
+      "PackageVersions": [
+        {
+          "Version": "v0.0.2",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/7.MVVM_v0.0.2.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/7.MVVM/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.2",
+            "content": "add UpdateKernel Command",
+            "author": "liangxie",
+            "date": "2019 年 02 月 15 日 21:42"
+          },
+          "Name": "7.MVVM",
+          "VersionNumber": 2,
+          "FileName": "7.MVVM_v0.0.2.unitypackage"
+        },
+        {
+          "Version": "v0.0.1",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/7.MVVM_v0.0.1.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/7.MVVM/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.1",
+            "content": "add mvvm graph designer",
+            "author": "liangxie",
+            "date": "2019 年 02 月 15 日 18:06"
+          },
+          "Name": "7.MVVM",
+          "VersionNumber": 1,
+          "FileName": "7.MVVM_v0.0.1.unitypackage"
+        }
+      ],
+      "Version": "v0.0.2",
+      "DownloadUrl": "http://liangxiegame.com/media/7.MVVM_v0.0.2.unitypackage",
+      "InstallPath": "Assets/QFramework/Framework/7.MVVM/",
+      "DocUrl": "http://liangxiegame.com",
+      "Type": 0,
+      "AccessRight": 0,
+      "VersionNumber": 2,
       "Installed": false
     },
     {
@@ -1096,12 +716,6 @@
             "date": "2019 年 01 月 29 日 15:48"
           },
           {
-            "version": "v0.0.43",
-            "content": "update ResKit Example",
-            "author": "liangxie",
-            "date": "2019 年 01 月 26 日 19:56"
-          },
-          {
             "version": "v0.0.42",
             "content": "add IOC Example",
             "author": "liangxie",
@@ -1118,12 +732,6 @@
             "content": "support 5.6",
             "author": "liangxie",
             "date": "2019 年 01 月 25 日 12:39"
-          },
-          {
-            "version": "v0.0.39",
-            "content": "add catlib example",
-            "author": "liangxie",
-            "date": "2019 年 01 月 21 日 10:32"
           }
         ]
       },
@@ -1161,23 +769,6 @@
           "Name": "Example",
           "VersionNumber": 44,
           "FileName": "Example_v0.0.44.unitypackage"
-        },
-        {
-          "Version": "v0.0.43",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/Example_v0.0.43.unitypackage",
-          "InstallPath": "Assets/QFramework/Example/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.0.43",
-            "content": "update ResKit Example",
-            "author": "liangxie",
-            "date": "2019 年 01 月 26 日 19:56"
-          },
-          "Name": "Example",
-          "VersionNumber": 43,
-          "FileName": "Example_v0.0.43.unitypackage"
         },
         {
           "Version": "v0.0.42",
@@ -1229,23 +820,6 @@
           "Name": "Example",
           "VersionNumber": 40,
           "FileName": "Example_v0.0.40.unitypackage"
-        },
-        {
-          "Version": "v0.0.39",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/Example_v0.0.39.unitypackage",
-          "InstallPath": "Assets/QFramework/Example/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.0.39",
-            "content": "add catlib example",
-            "author": "liangxie",
-            "date": "2019 年 01 月 21 日 10:32"
-          },
-          "Name": "Example",
-          "VersionNumber": 39,
-          "FileName": "Example_v0.0.39.unitypackage"
         }
       ],
       "Version": "v0.0.45",
@@ -1261,6 +835,18 @@
       "Name": "Framework",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.19",
+            "content": "fix export android's bug",
+            "author": "liangxie",
+            "date": "2019 年 02 月 12 日 19:11"
+          },
+          {
+            "version": "v0.0.18",
+            "content": "code gen improvement",
+            "author": "liangxie",
+            "date": "2019 年 02 月 03 日 14:57"
+          },
           {
             "version": "v0.0.17",
             "content": "fix:load assembly bug",
@@ -1318,6 +904,40 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.19",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/Framework_v0.0.19.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework",
+          "DocUrl": "http://qfdoc.liangxiegame.com/",
+          "Readme": {
+            "version": "v0.0.19",
+            "content": "fix export android's bug",
+            "author": "liangxie",
+            "date": "2019 年 02 月 12 日 19:11"
+          },
+          "Name": "Framework",
+          "VersionNumber": 19,
+          "FileName": "Framework_v0.0.19.unitypackage"
+        },
+        {
+          "Version": "v0.0.18",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/Framework_v0.0.18.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework",
+          "DocUrl": "http://qfdoc.liangxiegame.com/",
+          "Readme": {
+            "version": "v0.0.18",
+            "content": "code gen improvement",
+            "author": "liangxie",
+            "date": "2019 年 02 月 03 日 14:57"
+          },
+          "Name": "Framework",
+          "VersionNumber": 18,
+          "FileName": "Framework_v0.0.18.unitypackage"
+        },
         {
           "Version": "v0.0.17",
           "Type": 0,
@@ -1489,19 +1109,25 @@
           "FileName": "Framework_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.17",
-      "DownloadUrl": "http://liangxiegame.com/media/Framework_v0.0.17.unitypackage",
+      "Version": "v0.0.19",
+      "DownloadUrl": "http://liangxiegame.com/media/Framework_v0.0.19.unitypackage",
       "InstallPath": "Assets/QFramework/Framework",
       "DocUrl": "http://qfdoc.liangxiegame.com/",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 17,
+      "VersionNumber": 19,
       "Installed": true
     },
     {
       "Name": "GameHPUIShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.4",
+            "content": "fix path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 20:06"
+          },
           {
             "version": "v0.0.3",
             "content": "更改类型",
@@ -1523,6 +1149,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.4",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/GameHPUIShader_v0.0.4.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/GameHPUIShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.4",
+            "content": "fix path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 20:06"
+          },
+          "Name": "GameHPUIShader",
+          "VersionNumber": 4,
+          "FileName": "GameHPUIShader_v0.0.4.unitypackage"
+        },
         {
           "Version": "v0.0.3",
           "Type": 1,
@@ -1575,13 +1218,13 @@
           "FileName": "GameHPUIShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.3",
-      "DownloadUrl": "http://liangxiegame.com/media/GameHPUIShader_v0.0.3.unitypackage",
+      "Version": "v0.0.4",
+      "DownloadUrl": "http://liangxiegame.com/media/GameHPUIShader_v0.0.4.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/GameHPUIShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 3,
+      "VersionNumber": 4,
       "Installed": false
     },
     {
@@ -1669,6 +1312,12 @@
       "readme": {
         "items": [
           {
+            "version": "v0.0.4",
+            "content": "fix lib path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 20:07"
+          },
+          {
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
@@ -1683,6 +1332,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.4",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/MathShader_v0.0.4.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/MathShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.4",
+            "content": "fix lib path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 20:07"
+          },
+          "Name": "MathShader",
+          "VersionNumber": 4,
+          "FileName": "MathShader_v0.0.4.unitypackage"
+        },
         {
           "Version": "v0.0.3",
           "Type": 1,
@@ -1718,13 +1384,13 @@
           "FileName": "MathShader_v0.0.2.unitypackage"
         }
       ],
-      "Version": "v0.0.3",
-      "DownloadUrl": "http://liangxiegame.com/media/MathShader_v0.0.3.unitypackage",
+      "Version": "v0.0.4",
+      "DownloadUrl": "http://liangxiegame.com/media/MathShader_v0.0.4.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/MathShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 3,
+      "VersionNumber": 4,
       "Installed": false
     },
     {
@@ -1765,6 +1431,46 @@
       "Type": 3,
       "AccessRight": 0,
       "VersionNumber": 1,
+      "Installed": false
+    },
+    {
+      "Name": "PackageAdmin",
+      "readme": {
+        "items": [
+          {
+            "version": "v0.5.0",
+            "content": "add package delete admin",
+            "author": "liangxie",
+            "date": "2019 年 02 月 14 日 10:23"
+          }
+        ]
+      },
+      "PackageVersions": [
+        {
+          "Version": "v0.5.0",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/PackageAdmin_v0.5.0.unitypackage",
+          "InstallPath": "Assets/QFramework/PackageAdmin/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.5.0",
+            "content": "add package delete admin",
+            "author": "liangxie",
+            "date": "2019 年 02 月 14 日 10:23"
+          },
+          "Name": "PackageAdmin",
+          "VersionNumber": 500,
+          "FileName": "PackageAdmin_v0.5.0.unitypackage"
+        }
+      ],
+      "Version": "v0.5.0",
+      "DownloadUrl": "http://liangxiegame.com/media/PackageAdmin_v0.5.0.unitypackage",
+      "InstallPath": "Assets/QFramework/PackageAdmin/",
+      "DocUrl": "http://liangxiegame.com",
+      "Type": 0,
+      "AccessRight": 0,
+      "VersionNumber": 500,
       "Installed": false
     },
     {
@@ -2116,6 +1822,12 @@
       "readme": {
         "items": [
           {
+            "version": "v0.0.4",
+            "content": "fix lib path's error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 20:09"
+          },
+          {
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
@@ -2136,6 +1848,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.4",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/PostFXBlurShader_v0.0.4.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/PostFXBlurShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.4",
+            "content": "fix lib path's error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 20:09"
+          },
+          "Name": "PostFXBlurShader",
+          "VersionNumber": 4,
+          "FileName": "PostFXBlurShader_v0.0.4.unitypackage"
+        },
         {
           "Version": "v0.0.3",
           "Type": 1,
@@ -2188,19 +1917,25 @@
           "FileName": "PostFXBlurShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.3",
-      "DownloadUrl": "http://liangxiegame.com/media/PostFXBlurShader_v0.0.3.unitypackage",
+      "Version": "v0.0.4",
+      "DownloadUrl": "http://liangxiegame.com/media/PostFXBlurShader_v0.0.4.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/PostFXBlurShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 3,
+      "VersionNumber": 4,
       "Installed": false
     },
     {
       "Name": "PostFXFireParticleShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.4",
+            "content": "fix lib path's error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 20:39"
+          },
           {
             "version": "v0.0.3",
             "content": "add material",
@@ -2222,6 +1957,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.4",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/PostFXFireParticleShader_v0.0.4.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/PostFXFireParticleShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.4",
+            "content": "fix lib path's error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 20:39"
+          },
+          "Name": "PostFXFireParticleShader",
+          "VersionNumber": 4,
+          "FileName": "PostFXFireParticleShader_v0.0.4.unitypackage"
+        },
         {
           "Version": "v0.0.3",
           "Type": 1,
@@ -2274,19 +2026,25 @@
           "FileName": "PostFXFireParticleShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.3",
-      "DownloadUrl": "http://liangxiegame.com/media/PostFXFireParticleShader_v0.0.3.unitypackage",
+      "Version": "v0.0.4",
+      "DownloadUrl": "http://liangxiegame.com/media/PostFXFireParticleShader_v0.0.4.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/PostFXFireParticleShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 3,
+      "VersionNumber": 4,
       "Installed": false
     },
     {
       "Name": "PostFXGrayShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.4",
+            "content": "fix lib path's error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 20:41"
+          },
           {
             "version": "v0.0.3",
             "content": "更改类型",
@@ -2308,6 +2066,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.4",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/PostFXGrayShader_v0.0.4.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/PostFXGrayShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.4",
+            "content": "fix lib path's error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 20:41"
+          },
+          "Name": "PostFXGrayShader",
+          "VersionNumber": 4,
+          "FileName": "PostFXGrayShader_v0.0.4.unitypackage"
+        },
         {
           "Version": "v0.0.3",
           "Type": 1,
@@ -2360,19 +2135,25 @@
           "FileName": "PostFXGrayShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.3",
-      "DownloadUrl": "http://liangxiegame.com/media/PostFXGrayShader_v0.0.3.unitypackage",
+      "Version": "v0.0.4",
+      "DownloadUrl": "http://liangxiegame.com/media/PostFXGrayShader_v0.0.4.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/PostFXGrayShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 3,
+      "VersionNumber": 4,
       "Installed": false
     },
     {
       "Name": "PostFXLavaShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.3",
+            "content": "fix lib path's compile error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 20:53"
+          },
           {
             "version": "v0.0.2",
             "content": "更改类型",
@@ -2388,6 +2169,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.3",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/PostFXLavaShader_v0.0.3.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/PostFXLavaShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.3",
+            "content": "fix lib path's compile error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 20:53"
+          },
+          "Name": "PostFXLavaShader",
+          "VersionNumber": 3,
+          "FileName": "PostFXLavaShader_v0.0.3.unitypackage"
+        },
         {
           "Version": "v0.0.2",
           "Type": 1,
@@ -2423,19 +2221,25 @@
           "FileName": "PostFXLavaShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.2",
-      "DownloadUrl": "http://liangxiegame.com/media/PostFXLavaShader_v0.0.2.unitypackage",
+      "Version": "v0.0.3",
+      "DownloadUrl": "http://liangxiegame.com/media/PostFXLavaShader_v0.0.3.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/PostFXLavaShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 2,
+      "VersionNumber": 3,
       "Installed": false
     },
     {
       "Name": "PostFXRainShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.3",
+            "content": "fix lib path's error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 20:54"
+          },
           {
             "version": "v0.0.2",
             "content": "更改类型",
@@ -2451,6 +2255,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.3",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/PostFXRainShader_v0.0.3.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/PostFXRainShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.3",
+            "content": "fix lib path's error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 20:54"
+          },
+          "Name": "PostFXRainShader",
+          "VersionNumber": 3,
+          "FileName": "PostFXRainShader_v0.0.3.unitypackage"
+        },
         {
           "Version": "v0.0.2",
           "Type": 1,
@@ -2486,19 +2307,25 @@
           "FileName": "PostFXRainShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.2",
-      "DownloadUrl": "http://liangxiegame.com/media/PostFXRainShader_v0.0.2.unitypackage",
+      "Version": "v0.0.3",
+      "DownloadUrl": "http://liangxiegame.com/media/PostFXRainShader_v0.0.3.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/PostFXRainShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 2,
+      "VersionNumber": 3,
       "Installed": false
     },
     {
       "Name": "PostFXScreenRaindropShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.5",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 21:29"
+          },
           {
             "version": "v0.0.4",
             "content": "add material",
@@ -2526,6 +2353,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.5",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/PostFXScreenRaindropShader_v0.0.5.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/PostFXScreenRaindropShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.5",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 21:29"
+          },
+          "Name": "PostFXScreenRaindropShader",
+          "VersionNumber": 5,
+          "FileName": "PostFXScreenRaindropShader_v0.0.5.unitypackage"
+        },
         {
           "Version": "v0.0.4",
           "Type": 1,
@@ -2595,19 +2439,25 @@
           "FileName": "PostFXScreenRaindropShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.4",
-      "DownloadUrl": "http://liangxiegame.com/media/PostFXScreenRaindropShader_v0.0.4.unitypackage",
+      "Version": "v0.0.5",
+      "DownloadUrl": "http://liangxiegame.com/media/PostFXScreenRaindropShader_v0.0.5.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/PostFXScreenRaindropShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 4,
+      "VersionNumber": 5,
       "Installed": false
     },
     {
       "Name": "PostFXSnowShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.4",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 21:32"
+          },
           {
             "version": "v0.0.3",
             "content": "add material",
@@ -2629,6 +2479,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.4",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/PostFXSnowShader_v0.0.4.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/PostFXSnowShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.4",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 21:32"
+          },
+          "Name": "PostFXSnowShader",
+          "VersionNumber": 4,
+          "FileName": "PostFXSnowShader_v0.0.4.unitypackage"
+        },
         {
           "Version": "v0.0.3",
           "Type": 1,
@@ -2681,59 +2548,25 @@
           "FileName": "PostFXSnowShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.3",
-      "DownloadUrl": "http://liangxiegame.com/media/PostFXSnowShader_v0.0.3.unitypackage",
+      "Version": "v0.0.4",
+      "DownloadUrl": "http://liangxiegame.com/media/PostFXSnowShader_v0.0.4.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/PostFXSnowShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 3,
-      "Installed": false
-    },
-    {
-      "Name": "PublishExample",
-      "readme": {
-        "items": [
-          {
-            "version": "v0.0.1",
-            "content": "commit : add Publish Example.",
-            "author": "ZED9587",
-            "date": "2019 年 01 月 11 日 17:36"
-          }
-        ]
-      },
-      "PackageVersions": [
-        {
-          "Version": "v0.0.1",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/PublishExample_v0.0.1.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/PublishExample/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.0.1",
-            "content": "commit : add Publish Example.",
-            "author": "ZED9587",
-            "date": "2019 年 01 月 11 日 17:36"
-          },
-          "Name": "PublishExample",
-          "VersionNumber": 1,
-          "FileName": "PublishExample_v0.0.1.unitypackage"
-        }
-      ],
-      "Version": "v0.0.1",
-      "DownloadUrl": "http://liangxiegame.com/media/PublishExample_v0.0.1.unitypackage",
-      "InstallPath": "Assets/QFramework/Framework/PublishExample/",
-      "DocUrl": "http://liangxiegame.com",
-      "Type": 0,
-      "AccessRight": 0,
-      "VersionNumber": 1,
+      "VersionNumber": 4,
       "Installed": false
     },
     {
       "Name": "ScriptKit",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.9",
+            "content": "add UIHelper\nperfect LuaBehaviour\nprovide Demo (need move prefabs)",
+            "author": "vin129",
+            "date": "2019 年 02 月 25 日 16:18"
+          },
           {
             "version": "v0.0.8",
             "content": "适应 framework v0.0.17\nToLua 初始化成功",
@@ -2761,6 +2594,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.9",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.0.9.unitypackage",
+          "InstallPath": "Assets/QFramework/ScriptKit/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.9",
+            "content": "add UIHelper\nperfect LuaBehaviour\nprovide Demo (need move prefabs)",
+            "author": "vin129",
+            "date": "2019 年 02 月 25 日 16:18"
+          },
+          "Name": "ScriptKit",
+          "VersionNumber": 9,
+          "FileName": "ScriptKit_v0.0.9.unitypackage"
+        },
         {
           "Version": "v0.0.8",
           "Type": 0,
@@ -2799,7 +2649,7 @@
           "Version": "v0.0.5",
           "Type": 0,
           "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.0.5_2XS6r17.unitypackage",
+          "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.0.5.unitypackage",
           "InstallPath": "Assets/QFramework/ScriptKit/",
           "DocUrl": "http://liangxiegame.com",
           "Readme": {
@@ -2816,7 +2666,7 @@
           "Version": "v0.0.5",
           "Type": 0,
           "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.0.5.unitypackage",
+          "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.0.5_2XS6r17.unitypackage",
           "InstallPath": "Assets/QFramework/ScriptKit/",
           "DocUrl": "http://liangxiegame.com",
           "Readme": {
@@ -2847,13 +2697,13 @@
           "FileName": "ScriptKit_v0.0.4.unitypackage"
         }
       ],
-      "Version": "v0.0.8",
-      "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.0.8.unitypackage",
+      "Version": "v0.0.9",
+      "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.0.9.unitypackage",
       "InstallPath": "Assets/QFramework/ScriptKit/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 8,
+      "VersionNumber": 9,
       "Installed": true
     },
     {
@@ -3250,6 +3100,12 @@
       "readme": {
         "items": [
           {
+            "version": "v0.0.7",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 21:48"
+          },
+          {
             "version": "v0.0.6",
             "content": "更改类型",
             "author": "liangxie",
@@ -3282,6 +3138,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.7",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/UIImageBloomShader_v0.0.7.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/UIImageBloomShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.7",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 21:48"
+          },
+          "Name": "UIImageBloomShader",
+          "VersionNumber": 7,
+          "FileName": "UIImageBloomShader_v0.0.7.unitypackage"
+        },
         {
           "Version": "v0.0.6",
           "Type": 1,
@@ -3368,19 +3241,25 @@
           "FileName": "UIImageBloomShader_v0.0.2.unitypackage"
         }
       ],
-      "Version": "v0.0.6",
-      "DownloadUrl": "http://liangxiegame.com/media/UIImageBloomShader_v0.0.6.unitypackage",
+      "Version": "v0.0.7",
+      "DownloadUrl": "http://liangxiegame.com/media/UIImageBloomShader_v0.0.7.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/UIImageBloomShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 6,
+      "VersionNumber": 7,
       "Installed": false
     },
     {
       "Name": "UIImageBlurAdvancedShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.4",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 21:51"
+          },
           {
             "version": "v0.0.3",
             "content": "更改类型",
@@ -3402,6 +3281,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.4",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/UIImageBlurAdvancedShader_v0.0.4.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/UIImageBlurAdvancedShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.4",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 21:51"
+          },
+          "Name": "UIImageBlurAdvancedShader",
+          "VersionNumber": 4,
+          "FileName": "UIImageBlurAdvancedShader_v0.0.4.unitypackage"
+        },
         {
           "Version": "v0.0.3",
           "Type": 1,
@@ -3454,19 +3350,25 @@
           "FileName": "UIImageBlurAdvancedShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.3",
-      "DownloadUrl": "http://liangxiegame.com/media/UIImageBlurAdvancedShader_v0.0.3.unitypackage",
+      "Version": "v0.0.4",
+      "DownloadUrl": "http://liangxiegame.com/media/UIImageBlurAdvancedShader_v0.0.4.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/UIImageBlurAdvancedShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 3,
+      "VersionNumber": 4,
       "Installed": false
     },
     {
       "Name": "UIImageBlurFocusShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.4",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 21:53"
+          },
           {
             "version": "v0.0.3",
             "content": "更改类型",
@@ -3488,6 +3390,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.4",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/UIImageBlurFocusShader_v0.0.4.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/UIImageBlurFocusShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.4",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 21:53"
+          },
+          "Name": "UIImageBlurFocusShader",
+          "VersionNumber": 4,
+          "FileName": "UIImageBlurFocusShader_v0.0.4.unitypackage"
+        },
         {
           "Version": "v0.0.3",
           "Type": 1,
@@ -3540,19 +3459,25 @@
           "FileName": "UIImageBlurFocusShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.3",
-      "DownloadUrl": "http://liangxiegame.com/media/UIImageBlurFocusShader_v0.0.3.unitypackage",
+      "Version": "v0.0.4",
+      "DownloadUrl": "http://liangxiegame.com/media/UIImageBlurFocusShader_v0.0.4.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/UIImageBlurFocusShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 3,
+      "VersionNumber": 4,
       "Installed": false
     },
     {
       "Name": "UIImageBlurShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.4",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:17"
+          },
           {
             "version": "v0.0.3",
             "content": "插件上传成功",
@@ -3580,6 +3505,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.4",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/UIImageBlurShader_v0.0.4.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/UIImageBlurShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.4",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:17"
+          },
+          "Name": "UIImageBlurShader",
+          "VersionNumber": 4,
+          "FileName": "UIImageBlurShader_v0.0.4.unitypackage"
+        },
         {
           "Version": "v0.0.3",
           "Type": 1,
@@ -3649,13 +3591,13 @@
           "FileName": "UIImageBlurShader_v0.0.0.unitypackage"
         }
       ],
-      "Version": "v0.0.3",
-      "DownloadUrl": "http://liangxiegame.com/media/UIImageBlurShader_v0.0.3.unitypackage",
+      "Version": "v0.0.4",
+      "DownloadUrl": "http://liangxiegame.com/media/UIImageBlurShader_v0.0.4.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/UIImageBlurShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 3,
+      "VersionNumber": 4,
       "Installed": false
     },
     {
@@ -3726,6 +3668,12 @@
       "readme": {
         "items": [
           {
+            "version": "v0.0.4",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:19"
+          },
+          {
             "version": "v0.0.3",
             "content": "插件更改",
             "author": "liangxie",
@@ -3746,6 +3694,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.4",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/UIImageBumpsShader_v0.0.4.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/UIImageBumpsShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.4",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:19"
+          },
+          "Name": "UIImageBumpsShader",
+          "VersionNumber": 4,
+          "FileName": "UIImageBumpsShader_v0.0.4.unitypackage"
+        },
         {
           "Version": "v0.0.3",
           "Type": 1,
@@ -3798,13 +3763,13 @@
           "FileName": "UIImageBumpsShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.3",
-      "DownloadUrl": "http://liangxiegame.com/media/UIImageBumpsShader_v0.0.3.unitypackage",
+      "Version": "v0.0.4",
+      "DownloadUrl": "http://liangxiegame.com/media/UIImageBumpsShader_v0.0.4.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/UIImageBumpsShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 3,
+      "VersionNumber": 4,
       "Installed": false
     },
     {
@@ -3875,6 +3840,12 @@
       "readme": {
         "items": [
           {
+            "version": "v0.0.4",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:23"
+          },
+          {
             "version": "v0.0.3",
             "content": "类型更改",
             "author": "liangxie",
@@ -3895,6 +3866,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.4",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/UIImageFlashLightShader_v0.0.4.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/UIImageFlashLightShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.4",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:23"
+          },
+          "Name": "UIImageFlashLightShader",
+          "VersionNumber": 4,
+          "FileName": "UIImageFlashLightShader_v0.0.4.unitypackage"
+        },
         {
           "Version": "v0.0.3",
           "Type": 1,
@@ -3947,19 +3935,25 @@
           "FileName": "UIImageFlashLightShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.3",
-      "DownloadUrl": "http://liangxiegame.com/media/UIImageFlashLightShader_v0.0.3.unitypackage",
+      "Version": "v0.0.4",
+      "DownloadUrl": "http://liangxiegame.com/media/UIImageFlashLightShader_v0.0.4.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/UIImageFlashLightShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 3,
+      "VersionNumber": 4,
       "Installed": false
     },
     {
       "Name": "UIImageGradientShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.3",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:24"
+          },
           {
             "version": "v0.0.2",
             "content": "更改类型",
@@ -3981,6 +3975,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.3",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/UIImageGradientShader_v0.0.3.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/UIImageGradientShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.3",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:24"
+          },
+          "Name": "UIImageGradientShader",
+          "VersionNumber": 3,
+          "FileName": "UIImageGradientShader_v0.0.3.unitypackage"
+        },
         {
           "Version": "v0.0.2",
           "Type": 1,
@@ -4033,19 +4044,25 @@
           "FileName": "UIImageGradientShader_v0.0.0.unitypackage"
         }
       ],
-      "Version": "v0.0.2",
-      "DownloadUrl": "http://liangxiegame.com/media/UIImageGradientShader_v0.0.2.unitypackage",
+      "Version": "v0.0.3",
+      "DownloadUrl": "http://liangxiegame.com/media/UIImageGradientShader_v0.0.3.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/UIImageGradientShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 2,
+      "VersionNumber": 3,
       "Installed": false
     },
     {
       "Name": "UIImageGrayShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.7",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:25"
+          },
           {
             "version": "v0.0.6",
             "content": "更改类型",
@@ -4085,6 +4102,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.7",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/UIImageGrayShader_v0.0.7.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/UIImageGrayShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.7",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:25"
+          },
+          "Name": "UIImageGrayShader",
+          "VersionNumber": 7,
+          "FileName": "UIImageGrayShader_v0.0.7.unitypackage"
+        },
         {
           "Version": "v0.0.6",
           "Type": 1,
@@ -4188,19 +4222,25 @@
           "FileName": "UIImageGrayShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.6",
-      "DownloadUrl": "http://liangxiegame.com/media/UIImageGrayShader_v0.0.6.unitypackage",
+      "Version": "v0.0.7",
+      "DownloadUrl": "http://liangxiegame.com/media/UIImageGrayShader_v0.0.7.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/UIImageGrayShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 6,
+      "VersionNumber": 7,
       "Installed": false
     },
     {
       "Name": "UIImageOutlineAlphaShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.3",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:44"
+          },
           {
             "version": "v0.0.2",
             "content": "更改类型",
@@ -4216,6 +4256,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.3",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/UIImageOutlineAlphaShader_v0.0.3.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/UIImageOutlineAlphaShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.3",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:44"
+          },
+          "Name": "UIImageOutlineAlphaShader",
+          "VersionNumber": 3,
+          "FileName": "UIImageOutlineAlphaShader_v0.0.3.unitypackage"
+        },
         {
           "Version": "v0.0.2",
           "Type": 1,
@@ -4251,19 +4308,25 @@
           "FileName": "UIImageOutlineAlphaShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.2",
-      "DownloadUrl": "http://liangxiegame.com/media/UIImageOutlineAlphaShader_v0.0.2.unitypackage",
+      "Version": "v0.0.3",
+      "DownloadUrl": "http://liangxiegame.com/media/UIImageOutlineAlphaShader_v0.0.3.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/UIImageOutlineAlphaShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 2,
+      "VersionNumber": 3,
       "Installed": false
     },
     {
       "Name": "UIImageOutlineShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.3",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:43"
+          },
           {
             "version": "v0.0.2",
             "content": "更改类型",
@@ -4279,6 +4342,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.3",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/UIImageOutlineShader_v0.0.3.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/UIImageOutlineShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.3",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:43"
+          },
+          "Name": "UIImageOutlineShader",
+          "VersionNumber": 3,
+          "FileName": "UIImageOutlineShader_v0.0.3.unitypackage"
+        },
         {
           "Version": "v0.0.2",
           "Type": 1,
@@ -4314,19 +4394,25 @@
           "FileName": "UIImageOutlineShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.2",
-      "DownloadUrl": "http://liangxiegame.com/media/UIImageOutlineShader_v0.0.2.unitypackage",
+      "Version": "v0.0.3",
+      "DownloadUrl": "http://liangxiegame.com/media/UIImageOutlineShader_v0.0.3.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/UIImageOutlineShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 2,
+      "VersionNumber": 3,
       "Installed": false
     },
     {
       "Name": "UIImageReflectionShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.4",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:42"
+          },
           {
             "version": "v0.0.3",
             "content": "更改类型",
@@ -4348,6 +4434,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.4",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/UIImageReflectionShader_v0.0.4.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/UIImageReflectionShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.4",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:42"
+          },
+          "Name": "UIImageReflectionShader",
+          "VersionNumber": 4,
+          "FileName": "UIImageReflectionShader_v0.0.4.unitypackage"
+        },
         {
           "Version": "v0.0.3",
           "Type": 1,
@@ -4400,19 +4503,25 @@
           "FileName": "UIImageReflectionShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.3",
-      "DownloadUrl": "http://liangxiegame.com/media/UIImageReflectionShader_v0.0.3.unitypackage",
+      "Version": "v0.0.4",
+      "DownloadUrl": "http://liangxiegame.com/media/UIImageReflectionShader_v0.0.4.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/UIImageReflectionShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 3,
+      "VersionNumber": 4,
       "Installed": false
     },
     {
       "Name": "UIImageReliefShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.2",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:42"
+          },
           {
             "version": "v0.0.1",
             "content": "更改类型",
@@ -4428,6 +4537,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.2",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/UIImageReliefShader_v0.0.2.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/UIImageReliefShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.2",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:42"
+          },
+          "Name": "UIImageReliefShader",
+          "VersionNumber": 2,
+          "FileName": "UIImageReliefShader_v0.0.2.unitypackage"
+        },
         {
           "Version": "v0.0.1",
           "Type": 1,
@@ -4463,13 +4589,13 @@
           "FileName": "UIImageReliefShader_v0.0.0.unitypackage"
         }
       ],
-      "Version": "v0.0.1",
-      "DownloadUrl": "http://liangxiegame.com/media/UIImageReliefShader_v0.0.1.unitypackage",
+      "Version": "v0.0.2",
+      "DownloadUrl": "http://liangxiegame.com/media/UIImageReliefShader_v0.0.2.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/UIImageReliefShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 1,
+      "VersionNumber": 2,
       "Installed": false
     },
     {
@@ -4597,6 +4723,12 @@
       "readme": {
         "items": [
           {
+            "version": "v0.0.2",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:40"
+          },
+          {
             "version": "v0.0.1",
             "content": "更改类型",
             "author": "liangxie",
@@ -4611,6 +4743,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.2",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/UIImageSharpShader_v0.0.2.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/UIImageSharpShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.2",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:40"
+          },
+          "Name": "UIImageSharpShader",
+          "VersionNumber": 2,
+          "FileName": "UIImageSharpShader_v0.0.2.unitypackage"
+        },
         {
           "Version": "v0.0.1",
           "Type": 1,
@@ -4646,19 +4795,25 @@
           "FileName": "UIImageSharpShader_v0.0.0.unitypackage"
         }
       ],
-      "Version": "v0.0.1",
-      "DownloadUrl": "http://liangxiegame.com/media/UIImageSharpShader_v0.0.1.unitypackage",
+      "Version": "v0.0.2",
+      "DownloadUrl": "http://liangxiegame.com/media/UIImageSharpShader_v0.0.2.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/UIImageSharpShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 1,
+      "VersionNumber": 2,
       "Installed": false
     },
     {
       "Name": "UIImageSpotLightShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.2",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:39"
+          },
           {
             "version": "v0.0.1",
             "content": "更改类型",
@@ -4674,6 +4829,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.2",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/UIImageSpotLightShader_v0.0.2.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/UIImageSpotLightShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.2",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:39"
+          },
+          "Name": "UIImageSpotLightShader",
+          "VersionNumber": 2,
+          "FileName": "UIImageSpotLightShader_v0.0.2.unitypackage"
+        },
         {
           "Version": "v0.0.1",
           "Type": 1,
@@ -4709,19 +4881,25 @@
           "FileName": "UIImageSpotLightShader_v0.0.0.unitypackage"
         }
       ],
-      "Version": "v0.0.1",
-      "DownloadUrl": "http://liangxiegame.com/media/UIImageSpotLightShader_v0.0.1.unitypackage",
+      "Version": "v0.0.2",
+      "DownloadUrl": "http://liangxiegame.com/media/UIImageSpotLightShader_v0.0.2.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/UIImageSpotLightShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 1,
+      "VersionNumber": 2,
       "Installed": false
     },
     {
       "Name": "UIImageWaveCircleShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.4",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:38"
+          },
           {
             "version": "v0.0.3",
             "content": "更改类型",
@@ -4743,6 +4921,23 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.4",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/UIImageWaveCircleShader_v0.0.4.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/UIImageWaveCircleShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.4",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:38"
+          },
+          "Name": "UIImageWaveCircleShader",
+          "VersionNumber": 4,
+          "FileName": "UIImageWaveCircleShader_v0.0.4.unitypackage"
+        },
         {
           "Version": "v0.0.3",
           "Type": 1,
@@ -4795,19 +4990,25 @@
           "FileName": "UIImageWaveCircleShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.3",
-      "DownloadUrl": "http://liangxiegame.com/media/UIImageWaveCircleShader_v0.0.3.unitypackage",
+      "Version": "v0.0.4",
+      "DownloadUrl": "http://liangxiegame.com/media/UIImageWaveCircleShader_v0.0.4.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/UIImageWaveCircleShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 3,
+      "VersionNumber": 4,
       "Installed": false
     },
     {
       "Name": "UIImageWaveDirectionShader",
       "readme": {
         "items": [
+          {
+            "version": "v0.0.5",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:37"
+          },
           {
             "version": "v0.0.4",
             "content": "更改类型",
@@ -4819,22 +5020,27 @@
             "content": "更改类型",
             "author": "liangxie",
             "date": "2019 年 01 月 11 日 17:36"
-          },
-          {
-            "version": "v0.0.2",
-            "content": "UIImageWave -> UIImageWaveDirection",
-            "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
-          },
-          {
-            "version": "v0.0.1",
-            "content": "完基础功能",
-            "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
           }
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.5",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/UIImageWaveDirectionShader_v0.0.5.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/UIImageWaveDirectionShader/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.5",
+            "content": "fix lib's path error",
+            "author": "liangxie",
+            "date": "2019 年 03 月 08 日 23:37"
+          },
+          "Name": "UIImageWaveDirectionShader",
+          "VersionNumber": 5,
+          "FileName": "UIImageWaveDirectionShader_v0.0.5.unitypackage"
+        },
         {
           "Version": "v0.0.4",
           "Type": 1,
@@ -4868,49 +5074,15 @@
           "Name": "UIImageWaveDirectionShader",
           "VersionNumber": 3,
           "FileName": "UIImageWaveDirectionShader_v0.0.3.unitypackage"
-        },
-        {
-          "Version": "v0.0.2",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/UIImageWaveDirectionShader_v0.0.2.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/UIImageWaveDirectionShader/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.0.2",
-            "content": "UIImageWave -> UIImageWaveDirection",
-            "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
-          },
-          "Name": "UIImageWaveDirectionShader",
-          "VersionNumber": 2,
-          "FileName": "UIImageWaveDirectionShader_v0.0.2.unitypackage"
-        },
-        {
-          "Version": "v0.0.1",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/UIImageWaveDirectionShader_v0.0.1.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/UIImageWaveDirectionShader/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.0.1",
-            "content": "完基础功能",
-            "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
-          },
-          "Name": "UIImageWaveDirectionShader",
-          "VersionNumber": 1,
-          "FileName": "UIImageWaveDirectionShader_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.4",
-      "DownloadUrl": "http://liangxiegame.com/media/UIImageWaveDirectionShader_v0.0.4.unitypackage",
+      "Version": "v0.0.5",
+      "DownloadUrl": "http://liangxiegame.com/media/UIImageWaveDirectionShader_v0.0.5.unitypackage",
       "InstallPath": "Assets/QFramework/Effect/UIImageWaveDirectionShader/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 1,
       "AccessRight": 0,
-      "VersionNumber": 4,
+      "VersionNumber": 5,
       "Installed": false
     },
     {
@@ -4962,12 +5134,6 @@
             "content": "更改类型",
             "author": "liangxie",
             "date": "2019 年 01 月 11 日 17:36"
-          },
-          {
-            "version": "v0.0.1",
-            "content": "导入 XLua 插件，准备支持。",
-            "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
           }
         ]
       },
@@ -4988,23 +5154,6 @@
           "Name": "XLua",
           "VersionNumber": 2,
           "FileName": "XLua_v0.0.2.unitypackage"
-        },
-        {
-          "Version": "v0.0.1",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/XLua_v0.0.1.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/XLua/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.0.1",
-            "content": "导入 XLua 插件，准备支持。",
-            "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
-          },
-          "Name": "XLua",
-          "VersionNumber": 1,
-          "FileName": "XLua_v0.0.1.unitypackage"
         }
       ],
       "Version": "v0.0.2",
@@ -5017,330 +5166,89 @@
       "Installed": false
     },
     {
-      "Name": "uFrameECS",
-      "readme": {
-        "items": [
-          {
-            "version": "v0.0.9",
-            "content": "uframe Resources move 2 core",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 17:34"
-          },
-          {
-            "version": "v0.0.8",
-            "content": "refactor namespace",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 16:54"
-          },
-          {
-            "version": "v0.0.7",
-            "content": "remove uFrame.Editor",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 16:48"
-          },
-          {
-            "version": "v0.0.6",
-            "content": "change code gen style",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 16:33"
-          },
-          {
-            "version": "v0.0.5",
-            "content": "remove uFrameKernel",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 23:01"
-          },
-          {
-            "version": "v0.0.4",
-            "content": "move folder",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 22:52"
-          },
-          {
-            "version": "v0.0.3",
-            "content": "remove GameContainer",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 22:50"
-          },
-          {
-            "version": "v0.0.2",
-            "content": "remove Invert.Common",
-            "author": "liangxie",
-            "date": "2019 年 01 月 26 日 18:28"
-          },
-          {
-            "version": "v0.0.1",
-            "content": "add uFrameECS",
-            "author": "liangxie",
-            "date": "2019 年 01 月 24 日 09:47"
-          }
-        ]
-      },
-      "PackageVersions": [
-        {
-          "Version": "v0.0.9",
-          "Type": 3,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/uFrameECS_v0.0.9.unitypackage",
-          "InstallPath": "Assets/uFrameECS/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.0.9",
-            "content": "uframe Resources move 2 core",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 17:34"
-          },
-          "Name": "uFrameECS",
-          "VersionNumber": 9,
-          "FileName": "uFrameECS_v0.0.9.unitypackage"
-        },
-        {
-          "Version": "v0.0.8",
-          "Type": 3,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/uFrameECS_v0.0.8.unitypackage",
-          "InstallPath": "Assets/uFrameECS/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.0.8",
-            "content": "refactor namespace",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 16:54"
-          },
-          "Name": "uFrameECS",
-          "VersionNumber": 8,
-          "FileName": "uFrameECS_v0.0.8.unitypackage"
-        },
-        {
-          "Version": "v0.0.7",
-          "Type": 3,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/uFrameECS_v0.0.7.unitypackage",
-          "InstallPath": "Assets/uFrameECS/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.0.7",
-            "content": "remove uFrame.Editor",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 16:48"
-          },
-          "Name": "uFrameECS",
-          "VersionNumber": 7,
-          "FileName": "uFrameECS_v0.0.7.unitypackage"
-        },
-        {
-          "Version": "v0.0.6",
-          "Type": 3,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/uFrameECS_v0.0.6.unitypackage",
-          "InstallPath": "Assets/uFrameECS/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.0.6",
-            "content": "change code gen style",
-            "author": "liangxie",
-            "date": "2019 年 01 月 29 日 16:33"
-          },
-          "Name": "uFrameECS",
-          "VersionNumber": 6,
-          "FileName": "uFrameECS_v0.0.6.unitypackage"
-        },
-        {
-          "Version": "v0.0.5",
-          "Type": 3,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/uFrameECS_v0.0.5.unitypackage",
-          "InstallPath": "Assets/uFrameECS/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.0.5",
-            "content": "remove uFrameKernel",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 23:01"
-          },
-          "Name": "uFrameECS",
-          "VersionNumber": 5,
-          "FileName": "uFrameECS_v0.0.5.unitypackage"
-        },
-        {
-          "Version": "v0.0.4",
-          "Type": 3,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/uFrameECS_v0.0.4.unitypackage",
-          "InstallPath": "Assets/uFrameECS/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.0.4",
-            "content": "move folder",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 22:52"
-          },
-          "Name": "uFrameECS",
-          "VersionNumber": 4,
-          "FileName": "uFrameECS_v0.0.4.unitypackage"
-        },
-        {
-          "Version": "v0.0.3",
-          "Type": 0,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/uFrameECS_v0.0.3.unitypackage",
-          "InstallPath": "Assets/uFrameECS/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.0.3",
-            "content": "remove GameContainer",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 22:50"
-          },
-          "Name": "uFrameECS",
-          "VersionNumber": 3,
-          "FileName": "uFrameECS_v0.0.3.unitypackage"
-        },
-        {
-          "Version": "v0.0.2",
-          "Type": 3,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/uFrameECS_v0.0.2.unitypackage",
-          "InstallPath": "Assets/uFrameECS/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.0.2",
-            "content": "remove Invert.Common",
-            "author": "liangxie",
-            "date": "2019 年 01 月 26 日 18:28"
-          },
-          "Name": "uFrameECS",
-          "VersionNumber": 2,
-          "FileName": "uFrameECS_v0.0.2.unitypackage"
-        },
-        {
-          "Version": "v0.0.1",
-          "Type": 3,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/uFrameECS_v0.0.1.unitypackage",
-          "InstallPath": "Assets/uFrameECS/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.0.1",
-            "content": "add uFrameECS",
-            "author": "liangxie",
-            "date": "2019 年 01 月 24 日 09:47"
-          },
-          "Name": "uFrameECS",
-          "VersionNumber": 1,
-          "FileName": "uFrameECS_v0.0.1.unitypackage"
-        }
-      ],
-      "Version": "v0.0.9",
-      "DownloadUrl": "http://liangxiegame.com/media/uFrameECS_v0.0.9.unitypackage",
-      "InstallPath": "Assets/uFrameECS/",
-      "DocUrl": "http://liangxiegame.com",
-      "Type": 3,
-      "AccessRight": 0,
-      "VersionNumber": 9,
-      "Installed": false
-    },
-    {
-      "Name": "uFrameKernel",
-      "readme": {
-        "items": [
-          {
-            "version": "v0.0.1",
-            "content": "add uFramekernel",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 23:01"
-          }
-        ]
-      },
-      "PackageVersions": [
-        {
-          "Version": "v0.0.1",
-          "Type": 3,
-          "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/uFrameKernel_v0.0.1.unitypackage",
-          "InstallPath": "Assets/uFrameKernel/",
-          "DocUrl": "http://liangxiegame.com",
-          "Readme": {
-            "version": "v0.0.1",
-            "content": "add uFramekernel",
-            "author": "liangxie",
-            "date": "2019 年 01 月 27 日 23:01"
-          },
-          "Name": "uFrameKernel",
-          "VersionNumber": 1,
-          "FileName": "uFrameKernel_v0.0.1.unitypackage"
-        }
-      ],
-      "Version": "v0.0.1",
-      "DownloadUrl": "http://liangxiegame.com/media/uFrameKernel_v0.0.1.unitypackage",
-      "InstallPath": "Assets/uFrameKernel/",
-      "DocUrl": "http://liangxiegame.com",
-      "Type": 3,
-      "AccessRight": 0,
-      "VersionNumber": 1,
-      "Installed": false
-    },
-    {
       "Name": "uFrameMVVM",
       "readme": {
         "items": [
           {
-            "version": "v0.0.19",
-            "content": "remove uFrame.IOC namespace",
+            "version": "v0.0.22",
+            "content": "change file name",
             "author": "liangxie",
-            "date": "2019 年 01 月 27 日 23:53"
+            "date": "2019 年 02 月 13 日 22:10"
           },
           {
-            "version": "v0.0.18",
-            "content": "remove Kernel and Rename",
+            "version": "v0.0.21",
+            "content": "change kernel's namespace",
             "author": "liangxie",
-            "date": "2019 年 01 月 27 日 23:08"
+            "date": "2019 年 02 月 13 日 22:04"
+          },
+          {
+            "version": "v0.0.20",
+            "content": "merge kernel",
+            "author": "liangxie",
+            "date": "2019 年 02 月 13 日 22:01"
           }
         ]
       },
       "PackageVersions": [
         {
-          "Version": "v0.0.19",
+          "Version": "v0.0.22",
           "Type": 3,
           "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/uFrameMVVM_v0.0.19.unitypackage",
+          "DownloadUrl": "http://liangxiegame.com/media/uFrameMVVM_v0.0.22.unitypackage",
           "InstallPath": "Assets/uFrameMVVM/",
           "DocUrl": "http://liangxiegame.com",
           "Readme": {
-            "version": "v0.0.19",
-            "content": "remove uFrame.IOC namespace",
+            "version": "v0.0.22",
+            "content": "change file name",
             "author": "liangxie",
-            "date": "2019 年 01 月 27 日 23:53"
+            "date": "2019 年 02 月 13 日 22:10"
           },
           "Name": "uFrameMVVM",
-          "VersionNumber": 19,
-          "FileName": "uFrameMVVM_v0.0.19.unitypackage"
+          "VersionNumber": 22,
+          "FileName": "uFrameMVVM_v0.0.22.unitypackage"
         },
         {
-          "Version": "v0.0.18",
+          "Version": "v0.0.21",
           "Type": 3,
           "AccessRight": 0,
-          "DownloadUrl": "http://liangxiegame.com/media/uFrameMVVM_v0.0.18.unitypackage",
+          "DownloadUrl": "http://liangxiegame.com/media/uFrameMVVM_v0.0.21.unitypackage",
           "InstallPath": "Assets/uFrameMVVM/",
           "DocUrl": "http://liangxiegame.com",
           "Readme": {
-            "version": "v0.0.18",
-            "content": "remove Kernel and Rename",
+            "version": "v0.0.21",
+            "content": "change kernel's namespace",
             "author": "liangxie",
-            "date": "2019 年 01 月 27 日 23:08"
+            "date": "2019 年 02 月 13 日 22:04"
           },
           "Name": "uFrameMVVM",
-          "VersionNumber": 18,
-          "FileName": "uFrameMVVM_v0.0.18.unitypackage"
+          "VersionNumber": 21,
+          "FileName": "uFrameMVVM_v0.0.21.unitypackage"
+        },
+        {
+          "Version": "v0.0.20",
+          "Type": 3,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/uFrameMVVM_v0.0.20.unitypackage",
+          "InstallPath": "Assets/uFrameMVVM/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.20",
+            "content": "merge kernel",
+            "author": "liangxie",
+            "date": "2019 年 02 月 13 日 22:01"
+          },
+          "Name": "uFrameMVVM",
+          "VersionNumber": 20,
+          "FileName": "uFrameMVVM_v0.0.20.unitypackage"
         }
       ],
-      "Version": "v0.0.19",
-      "DownloadUrl": "http://liangxiegame.com/media/uFrameMVVM_v0.0.19.unitypackage",
+      "Version": "v0.0.22",
+      "DownloadUrl": "http://liangxiegame.com/media/uFrameMVVM_v0.0.22.unitypackage",
       "InstallPath": "Assets/uFrameMVVM/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 3,
       "AccessRight": 0,
-      "VersionNumber": 19,
+      "VersionNumber": 22,
       "Installed": false
     }
   ]
