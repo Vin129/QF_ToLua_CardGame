@@ -34,52 +34,11 @@ namespace QFramework
 	using UnityEditor;
 #endif
 	[Serializable]
-	public class FrameworkSettingData
+	public class ScriptBaseSetting
 	{
 #if UNITY_EDITOR
-		static string mConfigSavedDir
-		{
-			get { return (Application.dataPath + "/QFrameworkData/").CreateDirIfNotExists() + "ProjectConfig/"; }
-		}
-
-		private const string mConfigSavedFileName = "ProjectConfig.json";
-
-		public string Namespace;
-
-		public string UIScriptDir = "/Scripts/UI";
-
-		public string UIPrefabDir = "/Art/UIPrefab";
-
-		public string UIHotScriptDir = "/Game/UI";
-
-		public static FrameworkSettingData Load()
-		{
-			mConfigSavedDir.CreateDirIfNotExists();
-
-			if (!File.Exists(mConfigSavedDir + mConfigSavedFileName))
-			{
-				using (var fileStream = File.Create(mConfigSavedDir + mConfigSavedFileName))
-				{
-					fileStream.Close();
-				}
-			}
-
-			var frameworkConfigData = SerializeHelper.LoadJson<FrameworkSettingData>(mConfigSavedDir + mConfigSavedFileName);
-
-			if (frameworkConfigData == null || string.IsNullOrEmpty(frameworkConfigData.Namespace))
-			{
-				frameworkConfigData = new FrameworkSettingData {Namespace = "QFramework.Example"};
-			}
-
-			return frameworkConfigData;
-		}
-
-		public void Save()
-		{
-			this.SaveJson(mConfigSavedDir + mConfigSavedFileName);
-			AssetDatabase.Refresh();
-
-		}
+		public static int ScriptType = 1;
 #endif
+
 	}
 }

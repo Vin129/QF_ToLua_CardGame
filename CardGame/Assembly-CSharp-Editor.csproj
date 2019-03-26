@@ -152,6 +152,7 @@
      <Compile Include="Assets\QFramework\Framework\6.PackageManager\Editor\PackageManager\UI\FrameworkPMView.cs" />
      <Compile Include="Assets\QFramework\Framework\6.PackageManager\Editor\PreferencesWindow.cs" />
      <Compile Include="Assets\QFramework\PackagePublisher\Editor\PackageMaker.cs" />
+     <Compile Include="Assets\QFramework\ScriptKit\Editor\HotScriptCodeGenerator.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\Editor\LuaComponentInspector.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\Custom\CustomSettings.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\Extend\ToLua_LuaInterface_EventObject.cs" />

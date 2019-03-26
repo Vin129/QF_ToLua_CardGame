@@ -30,9 +30,9 @@ namespace QFramework
 	using System.Text;
 	using UnityEngine;
 
-	public static class LuaUIPanelCodeTemplate
+	public class LuaUIPanelCodeTemplate:IBaseTemplate
 	{
-		public static void Generate(string generateFilePath, string behaviourName, string nameSpace)
+		public void Generate(string generateFilePath, string behaviourName, string nameSpace,PanelCodeData panelCodeData)
 		{
 			var sw = new StreamWriter(generateFilePath, false, new UTF8Encoding(false));
 			StringBuilder strBuilder = new StringBuilder();
@@ -93,11 +93,11 @@ namespace QFramework
 			sw.Flush();
 			sw.Close();
 		}
-	}
+    }
 
-	public static class LuaPanelComponentsCodeTemplate
+	public class LuaPanelComponentsCodeTemplate:IBaseTemplate
 	{
-		public static void Generate(string generateFilePath, string behaviourName, string nameSpace,
+		public void Generate(string generateFilePath, string behaviourName, string nameSpace,
 		    PanelCodeData panelCodeData)
 		{
 			var sw = new StreamWriter(generateFilePath, false, new UTF8Encoding(false));
@@ -161,8 +161,9 @@ namespace QFramework
 	}
 
 
-	public static class LuaPanelTemplate{
-		public static void Generate(string generateFilePath, string behaviourName, string nameSpace,
+	public class LuaPanelTemplate:IBaseTemplate
+	{	
+		public void Generate(string generateFilePath, string behaviourName, string nameSpace,
 		PanelCodeData panelCodeData)
 		{
 			var sw = new StreamWriter(generateFilePath, false, new UTF8Encoding(false));
@@ -227,13 +228,12 @@ namespace QFramework
 			sw.Close();
 		}
 
-		public static string GetQUIFunctionNameByUIType(string uiType){
+		private string GetQUIFunctionNameByUIType(string uiType){
 			switch(uiType){
 				case "Button":
 					return "QUIHelper.SetButtonClickEvent";
 			}
 			return string.Empty;
 		}
-
 	}
 }

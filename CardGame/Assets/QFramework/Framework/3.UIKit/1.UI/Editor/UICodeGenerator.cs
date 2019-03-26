@@ -36,6 +36,7 @@ namespace QFramework
 	using System.Linq;
     using System.Text.RegularExpressions;
 
+
     public class PanelCodeData
 	{
 		public          string                     PanelName;
@@ -65,11 +66,32 @@ namespace QFramework
 		public IMark MarkObj;
 	}
 
+	public  delegate void ScriptKitCodeBind(int ScriptType,GameObject uiPrefab,string filePath);
 	public class UICodeGenerator
 	{
+		public static void CreateHotScriptCode(int type,IBaseTemplate[] templates,ScriptKitCodeBind mCodeBind)
+		{
+			mInstance.mCodeBind = mCodeBind;
+			mInstance.mHotScriptType = type;
+			mInstance.mTemplates = templates;
+			var objs = Selection.GetFiltered(typeof(GameObject), SelectionMode.Assets | SelectionMode.TopLevel);
+			var displayProgress = objs.Length > 1;
+			if (displayProgress) EditorUtility.DisplayProgressBar("", "Create HotScript Code...", 0);
+			for (var i = 0; i < objs.Length; i++)
+			{
+				mInstance.CreateCode(objs[i] as GameObject, AssetDatabase.GetAssetPath(objs[i]));
+				if (displayProgress)
+					EditorUtility.DisplayProgressBar("", "Create HotScript Code...", (float) (i + 1) / objs.Length);
+			}
+
+			AssetDatabase.Refresh();
+			if (displayProgress) EditorUtility.ClearProgressBar();
+		}
+
 		[MenuItem("Assets/@UI Kit - Create UICode")]
 		public static void CreateUICode()
 		{
+			mInstance.mHotScriptType = 0;	
 			var objs = Selection.GetFiltered(typeof(GameObject), SelectionMode.Assets | SelectionMode.TopLevel);
 			var displayProgress = objs.Length > 1;
 			if (displayProgress) EditorUtility.DisplayProgressBar("", "Create UIPrefab Code...", 0);
@@ -106,9 +128,7 @@ namespace QFramework
 				FindAllMarkTrans(clone.transform, "");
 				CreateUIPanelCode(obj, uiPrefabPath);
 				AddSerializeUIPrefab(obj, mPanelCodeData);
-#if USE_TOLUA 
-				AddLuaComponent(obj);
-#endif
+				HotScriptBind(obj);
 				GameObject.DestroyImmediate(clone);
 			}
 		}
@@ -244,18 +264,21 @@ namespace QFramework
 
 			strFilePath = strFilePath.Replace(".prefab", ".cs");
 
-#if USE_TOLUA
-			if (File.Exists(strFilePath) == false)
-			{
-				LuaUIPanelCodeTemplate.Generate(strFilePath, behaviourName, GetProjectNamespace());
+			switch(mInstance.mHotScriptType){
+				case mLua:
+					if (File.Exists(strFilePath) == false)
+					{
+						if(mInstance.mTemplates.IsNotNull() && mInstance.mTemplates[0].IsNotNull())
+							mInstance.mTemplates[0].Generate(strFilePath, behaviourName, GetProjectNamespace(),null);
+					}
+				break;
+				default:
+					if (File.Exists(strFilePath) == false)
+					{
+						UIPanelCodeTemplate.Generate(strFilePath, behaviourName, GetProjectNamespace());
+					}
+				break;
 			}
-#else
-			if (File.Exists(strFilePath) == false)
-			{
-				UIPanelCodeTemplate.Generate(strFilePath, behaviourName, GetProjectNamespace());
-			}
-#endif
-
 			CreateUIPanelDesignerCode(behaviourName, strFilePath);
 			Debug.Log(">>>>>>>Success Create UIPrefab Code: " + behaviourName);
 		}
@@ -272,18 +295,23 @@ namespace QFramework
 		{
 			var dir = uiUIPanelfilePath.Replace(behaviourName + ".cs", "");
 			var generateFilePath = dir + behaviourName + ".Designer.cs";
-#if USE_TOLUA
-			LuaPanelComponentsCodeTemplate.Generate(generateFilePath, behaviourName, GetProjectNamespace(), mPanelCodeData);
-			mLuaGenerateFilePath = string.Empty;
-			mLuaGenerateFilePath = LuaConst.luaDir + GetLuaPath();
-			mLuaGenerateFilePath.CreateDirIfNotExists();
-			mLuaGenerateFilePath = mLuaGenerateFilePath + "/" + behaviourName + ".lua";
-			if (File.Exists(mLuaGenerateFilePath) == false){
-				LuaPanelTemplate.Generate(mLuaGenerateFilePath, behaviourName, GetProjectNamespace(), mPanelCodeData);
+			switch(mInstance.mHotScriptType){
+			case mLua:
+				if(mInstance.mTemplates.IsNotNull() && mInstance.mTemplates[1].IsNotNull()){
+					mInstance.mTemplates[1].Generate(generateFilePath, behaviourName, GetProjectNamespace(), mPanelCodeData);
+				}
+				mHotScriptFilePath = string.Empty;
+				mHotScriptFilePath = LuaConst.luaDir + GetHotScriptPath();
+				mHotScriptFilePath.CreateDirIfNotExists();
+				mHotScriptFilePath = mHotScriptFilePath + "/" + behaviourName + ".lua";
+				if (File.Exists(mHotScriptFilePath) == false && mInstance.mTemplates.IsNotNull() &&  mInstance.mTemplates[2].IsNotNull()){
+					mInstance.mTemplates[2].Generate(mHotScriptFilePath, behaviourName, GetProjectNamespace(), mPanelCodeData);
+				}
+			break;
+			default:
+				UIPanelComponentsCodeTemplate.Generate(generateFilePath, behaviourName, GetProjectNamespace(), mPanelCodeData);
+			break;
 			}
-#else
-			UIPanelComponentsCodeTemplate.Generate(generateFilePath, behaviourName, GetProjectNamespace(), mPanelCodeData);
-#endif
 			foreach (var elementCodeData in mPanelCodeData.ElementCodeDatas)
 			{
 				var elementDir = string.Empty;
@@ -371,8 +399,7 @@ namespace QFramework
 			}
 			AssetDatabase.SaveAssets();
 			AssetDatabase.Refresh();
-			
-			if (displayProgress) EditorUtility.ClearProgressBar();		
+			if (displayProgress) EditorUtility.ClearProgressBar();	
 		}
 
 		private static void AttachSerializeObj(GameObject obj, string behaviourName, System.Reflection.Assembly assembly,
@@ -450,39 +477,43 @@ namespace QFramework
 			sObj.ApplyModifiedPropertiesWithoutUndo();
 		}
 
-		private static string GetScriptsPath()
-		{
-			return FrameworkSettingData.Load().UIScriptDir;
-		}
-
-		private static string GetLuaPath()
-		{
-			return FrameworkSettingData.Load().UILuaDir;
-		}
-
-		private static void AddLuaComponent(GameObject uiPrefab){
-			var lc = uiPrefab.GetComponent<LuaComponent>();
-			var uiLuaPanel =  uiPrefab.GetComponent<UILuaPanel>();
-			if(lc.IsNull()){
-				lc = uiPrefab.AddComponent<LuaComponent>();
-			}
-			var newPath = mInstance.mLuaGenerateFilePath;
-			var resultString = Regex.Split(newPath, "/Lua/", RegexOptions.IgnoreCase);
-			newPath = resultString[1];
-			newPath = newPath.Replace(".lua", "");
-			newPath = newPath.Replace("/", ".");
-			lc.LuaPath = newPath;
-			lc.LuaFilePath = mInstance.mLuaGenerateFilePath;
-			AssetDatabase.SaveAssets();
-			AssetDatabase.Refresh();
-		}
-
 		private static string GetProjectNamespace()
 		{
 			return FrameworkSettingData.Load().Namespace;
 		}
 
-		private string mLuaGenerateFilePath;
+		private static string GetScriptsPath()
+		{
+			return FrameworkSettingData.Load().UIScriptDir;
+		}
+
+		private static string GetHotScriptPath()
+		{
+			return FrameworkSettingData.Load().UIHotScriptDir;
+		}
+
+
+		private static void HotScriptBind(GameObject uiPrefab){
+			switch(mInstance.mHotScriptType){
+				case mLua:
+					if(mInstance.mCodeBind.IsNotNull())
+						mInstance.mCodeBind.Invoke(mInstance.mHotScriptType,uiPrefab,mInstance.mHotScriptFilePath);
+				break;
+			}
+			AssetDatabase.SaveAssets();
+			AssetDatabase.Refresh();
+		}
+
+
+        #region ScriptKit 
+        private const int mLua = 1;
+		private int mHotScriptType = 0;
+		private IBaseTemplate[] mTemplates;
+		private string mHotScriptFilePath;
+		private ScriptKitCodeBind mCodeBind;
+		#endregion
+	
+		
 		private PanelCodeData mPanelCodeData;
 		private static readonly UICodeGenerator mInstance = new UICodeGenerator();
 	}

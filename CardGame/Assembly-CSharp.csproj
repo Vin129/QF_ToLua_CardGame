@@ -292,6 +292,7 @@
      <Compile Include="Assets\QFramework\Framework\6.PackageManager\PackageApplication.cs" />
      <Compile Include="Assets\QFramework\Framework\6.PackageManager\Util\DjangoPost.cs" />
      <Compile Include="Assets\QFramework\Framework\8.ShaderLib\Scripts\PostFXBehaviour.cs" />
+     <Compile Include="Assets\QFramework\ScriptKit\Base\ScriptBaseSetting.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\Demo\Scripts\GameMain.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\Demo\Scripts\UI\Prefabs\View\MainView.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\Demo\Scripts\UI\Prefabs\View\MainView.Designer.cs" />

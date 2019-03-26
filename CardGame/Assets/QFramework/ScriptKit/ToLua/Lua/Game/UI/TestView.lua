@@ -2,7 +2,6 @@
 -- 2019.3 XAVIER
 --=============================================================================
 local TestView = class("TestView",LuaBehaviour)
-
 --===== 初始化流程:注意Awake方法不要重写 =====
 function TestView:BindUI()
 	self.Button1 = self:Find(self.gameObject,Button1);

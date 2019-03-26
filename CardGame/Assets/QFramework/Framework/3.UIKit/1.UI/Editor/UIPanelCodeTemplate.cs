@@ -30,6 +30,11 @@ namespace QFramework
 	using System.Text;
 	using UnityEngine;
 
+	public interface IBaseTemplate
+	{
+		void Generate(string generateFilePath, string behaviourName, string nameSpace,PanelCodeData panelCodeData);
+	} 
+
 	public static class UIPanelCodeTemplate
 	{
 		public static void Generate(string generateFilePath, string behaviourName, string nameSpace)
