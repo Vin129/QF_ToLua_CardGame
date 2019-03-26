@@ -60,7 +60,6 @@
      <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Editor\ResKitEditorWindow.cs" />
      <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Editor\ResKitInfoGenerator.cs" />
      <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Editor\ILRuntimePanelCodeTemplate.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Editor\LuaUIPanelCodeTemplate.cs" />
      <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Editor\UICodeGenerator.cs" />
      <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Editor\UICreateService.cs" />
      <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Editor\UIEditorWindow.cs" />
@@ -152,8 +151,6 @@
      <Compile Include="Assets\QFramework\Framework\6.PackageManager\Editor\PackageManager\UI\FrameworkPMView.cs" />
      <Compile Include="Assets\QFramework\Framework\6.PackageManager\Editor\PreferencesWindow.cs" />
      <Compile Include="Assets\QFramework\PackagePublisher\Editor\PackageMaker.cs" />
-     <Compile Include="Assets\QFramework\ScriptKit\Editor\HotScriptCodeGenerator.cs" />
-     <Compile Include="Assets\QFramework\ScriptKit\Editor\LuaComponentInspector.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\Custom\CustomSettings.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\Extend\ToLua_LuaInterface_EventObject.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\Extend\ToLua_LuaInterface_LuaConstructor.cs" />
@@ -169,6 +166,9 @@
      <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\Extend\ToLua_UnityEngine_Input.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\Extend\ToLua_UnityEngine_Object.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\Extend\ToLua_UnityEngine_RectTransform.cs" />
+     <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\ScriptKit\LuaCodeGenerator.cs" />
+     <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\ScriptKit\LuaComponentInspector.cs" />
+     <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\ScriptKit\Template\LuaUIPanelCodeTemplate.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\ToLuaExport.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\ToLuaMenu.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\ToLuaTree.cs" />

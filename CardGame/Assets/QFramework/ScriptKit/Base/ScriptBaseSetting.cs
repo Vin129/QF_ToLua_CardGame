@@ -38,6 +38,8 @@ namespace QFramework
 	{
 #if UNITY_EDITOR
 		public static int ScriptType = 1;
+
+		public static string ScriptPath = "/Game/UI";
 #endif
 
 	}

@@ -74,8 +74,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 224019450004105880}
-  - component: {fileID: 114230157712918650}
-  - component: {fileID: 114594354115459212}
+  - component: {fileID: 114660541851378802}
+  - component: {fileID: 114421268534595060}
   m_Layer: 5
   m_Name: TestView
   m_TagString: Untagged
@@ -146,19 +146,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Button
---- !u!114 &114230157712918650
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1687699925292352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4620b112f2ecb43ed975497118f412e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LuaPath: Game.TestView
-  LuaFilePath: Assets/Lua/Game/TestView.lua
 --- !u!114 &114295391188882198
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -200,6 +187,19 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114421268534595060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1687699925292352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4620b112f2ecb43ed975497118f412e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LuaPath: Game.UI.TestView
+  LuaFilePath: F:/vin129/CardGame/CardGame/Assets/QFramework/Scriptkit/ToLua/Lua/Game/UI/TestView.lua
 --- !u!114 &114509529726708608
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -268,7 +268,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &114594354115459212
+--- !u!114 &114660541851378802
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -280,7 +280,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mSubPanelInfos: []
-  LuaCp: {fileID: 0}
   Button1: {fileID: 114295391188882198}
   Button2: {fileID: 114587076220180550}
 --- !u!114 &114731147653839706
