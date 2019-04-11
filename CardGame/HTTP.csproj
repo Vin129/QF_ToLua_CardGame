@@ -51,30 +51,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\Dispatcher\Dispatcher.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\Dispatcher\IDispatcher.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\Enums\ContentReadAction.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\Enums\HttpAction.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\Enums\HttpCompletionOption.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\Helpers\AuthHelper.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpActions\HttpBase.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpActions\HttpDelete.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpActions\HttpGet.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpActions\HttpPatch.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpActions\HttpPost.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpActions\HttpPut.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpClient.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpContent\ByteArrayContent.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpContent\FormUrlEncodedContent.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpContent\IHttpContent.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpContent\MultiPartContent.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpContent\MultipartFormDataContent.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpContent\StreamContent.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HttpContent\StringContent.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\Messages\HttpResponseMessage.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\Messages\UploadStatusMessage.cs" />
-     <None Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\HTTP.asmdef" />
-     <None Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpClient\readme.txt" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\Dispatcher\Dispatcher.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\Dispatcher\IDispatcher.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\Enums\ContentReadAction.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\Enums\HttpAction.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\Enums\HttpCompletionOption.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\Helpers\AuthHelper.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\HttpActions\HttpBase.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\HttpActions\HttpDelete.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\HttpActions\HttpGet.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\HttpActions\HttpPatch.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\HttpActions\HttpPost.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\HttpActions\HttpPut.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\HttpClient.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\HttpContent\ByteArrayContent.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\HttpContent\FormUrlEncodedContent.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\HttpContent\IHttpContent.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\HttpContent\MultiPartContent.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\HttpContent\MultipartFormDataContent.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\HttpContent\StreamContent.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\HttpContent\StringContent.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\Messages\HttpResponseMessage.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\Messages\UploadStatusMessage.cs" />
+     <None Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\HTTP.asmdef" />
+     <None Include="Assets\QFramework\Framework\0.Core\Plugins\HttpClient\readme.txt" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>E:/Unity2017.4.14/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
  </Reference>
@@ -282,27 +282,6 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>E:/Unity2017.4.14/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
- </Reference>
- <Reference Include="ProtobufNet">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/ProtobufNet.dll</HintPath>
- </Reference>
- <Reference Include="QFramework.Log">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/QFramework.Log.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
- </Reference>
- <Reference Include="DOTweenEditor">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="CString">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/ScriptKit/ToLua/Plugins/CString.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -320,6 +299,42 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Rocks">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Mdb">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject-usage">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/Source/Usage/Zenject-usage.dll</HintPath>
+ </Reference>
+ <Reference Include="CString">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/ScriptKit/ToLua/Plugins/CString.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Pdb">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll</HintPath>
+ </Reference>
+ <Reference Include="ProtobufNet">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/ProtobufNet.dll</HintPath>
+ </Reference>
+ <Reference Include="QFramework.Log">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/QFramework.Log.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

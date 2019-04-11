@@ -51,239 +51,239 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Asynchronous\WebRequestExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Disposables\BooleanDisposable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Disposables\CancellationDisposable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Disposables\CompositeDisposable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Disposables\DictionaryDisposable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Disposables\Disposable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Disposables\DisposableExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Disposables\ICancelable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Disposables\MultipleAssignmentDisposable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Disposables\RefCountDisposable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Disposables\ScheduledDisposable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Disposables\SerialDisposable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Disposables\SingleAssignmentDisposable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Disposables\StableCompositeDisposable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\EventPattern.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\InternalUtil\AscynLock.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\InternalUtil\ExceptionExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\InternalUtil\ImmutableList.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\InternalUtil\ListObserver.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\InternalUtil\MicroCoroutine.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\InternalUtil\PriorityQueue.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\InternalUtil\ReflectionAccessor.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\InternalUtil\ScheduledItem.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\InternalUtil\ThreadSafeQueueWorker.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Notification.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Notifiers\BooleanNotifier.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Notifiers\CountNotifier.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Notifiers\MessageBroker.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Notifiers\ScheduledNotifier.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Observable.Aggregate.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Observable.Awaiter.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Observable.Binding.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Observable.Blocking.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Observable.Concatenate.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Observable.Concurrency.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Observable.Conversions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Observable.Creation.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Observable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Observable.ErrorHandling.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Observable.Events.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Observable.FromAsync.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Observable.Joins.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Observable.Paging.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Observable.Time.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Observer.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Aggregate.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Amb.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\AsObservable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\AsSingleUnitObservable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\AsUnitObservable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Buffer.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Cast.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Catch.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\CombineLatest.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Concat.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\ContinueWith.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Create.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\DefaultIfEmpty.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Defer.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Delay.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\DelaySubscription.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Dematerialize.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Distinct.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\DistinctUntilChanged.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Do.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Empty.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Finally.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\First.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\ForEachAsync.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\FromEvent.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\GroupBy.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\IgnoreElements.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Last.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Materialize.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Merge.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Never.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\ObserveOn.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\OfType.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\OperatorObservableBase.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\OperatorObserverBase.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\PairWise.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Range.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\RefCount.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Repeat.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\RepeatSafe.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Return.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Sample.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Scan.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Select.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\SelectMany.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\SelectWhere.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Single.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Skip.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\SkipUntil.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\SkipWhile.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Start.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\StartWith.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\SubscribeOn.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Switch.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Synchronize.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\SynchronizedObserver.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Take.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\TakeLast.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\TakeUntil.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\TakeWhile.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Throttle.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\ThrottleFirst.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Throw.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\TimeInterval.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Timeout.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Timer.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Timestamp.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\ToArray.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\ToList.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\ToObservable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Wait.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\WhenAll.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Where.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\WhereSelect.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\WithLatestFrom.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\Zip.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Operators\ZipLatest.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Pair.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Schedulers\CurrentThreadScheduler.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Schedulers\ImmediateScheduler.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Schedulers\IScheduler.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Schedulers\Scheduler.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Schedulers\ThreadPoolScheduler.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Subjects\AsyncSubject.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Subjects\BehaviorSubject.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Subjects\ConnectableObservable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Subjects\ISubject.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Subjects\ReplaySubject.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Subjects\Subject.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Subjects\SubjectExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\System\IObservable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\System\IObserver.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\System\IOptimizedObservable.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\System\IProgress.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\System\Tuple.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\System\Unit.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Tasks\TaskObservableExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Tasks\UniTaskObservableExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\TimeInterval.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Timestamped.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\AotSafeExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\AsyncOperationExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\CancellationToken.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\CoroutineAsyncBridge.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Diagnostics\LogEntry.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Diagnostics\LogEntryExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Diagnostics\Logger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Diagnostics\ObservableDebugExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Diagnostics\ObservableLogger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Diagnostics\UnityDebugSink.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\FrameInterval.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\InspectableReactiveProperty.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\InspectorDisplayDrawer.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\LifetimeDisposableExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\MainThreadDispatcher.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\MainThreadScheduler.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Observable.Unity.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\ObservableMonoBehaviour.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\ObservableWWW.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\ObserveExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Operators\BatchFrame.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Operators\DelayFrame.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Operators\DelayFrameSubscription.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Operators\FrameInterval.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Operators\FrameTimeInterval.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Operators\FromCoroutine.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Operators\RepeatUntil.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Operators\SampleFrame.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Operators\SubscribeOnMainThread.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Operators\ThrottleFirstFrame.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Operators\ThrottleFrame.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Operators\TimeoutFrame.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\PresenterBase.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\ReactiveCollection.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\ReactiveCommand.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\ReactiveDictionary.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\ReactiveProperty.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\ReactivePropertyReusablePromise.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\ScenePlaybackDetector.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Toolkit\ObjectPool.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableAnimatorTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableBeginDragTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCancelTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCanvasGroupChangedTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCollision2DTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCollisionTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDeselectTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDestroyTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDragTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDropTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEnableTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEndDragTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEventTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableFixedUpdateTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableInitializePotentialDragTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableJointTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableLateUpdateTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableMouseTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableMoveTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableParticleTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerClickTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerDownTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerEnterTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerExitTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerUpTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableRectTransformTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableScrollTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableSelectTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableStateMachineTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableSubmitTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTransformChangedTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTrigger2DTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerBase.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerExtensions.Component.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableUpdateSelectedTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableUpdateTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\Triggers\ObservableVisibleTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\TypedMonoBehaviour.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\UniRxSynchronizationContext.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\UnityEventExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\UnityGraphicExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\UnityUIComponentExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityEngineBridge\YieldInstructionCache.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityWinRTBridge\Thread.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UnityWinRTBridge\ThreadPoolScheduler_UnityWinRT.cs" />
-     <None Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\UniRx.asmdef" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Asynchronous\WebRequestExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Disposables\BooleanDisposable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Disposables\CancellationDisposable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Disposables\CompositeDisposable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Disposables\DictionaryDisposable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Disposables\Disposable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Disposables\DisposableExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Disposables\ICancelable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Disposables\MultipleAssignmentDisposable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Disposables\RefCountDisposable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Disposables\ScheduledDisposable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Disposables\SerialDisposable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Disposables\SingleAssignmentDisposable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Disposables\StableCompositeDisposable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\EventPattern.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\InternalUtil\AscynLock.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\InternalUtil\ExceptionExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\InternalUtil\ImmutableList.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\InternalUtil\ListObserver.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\InternalUtil\MicroCoroutine.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\InternalUtil\PriorityQueue.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\InternalUtil\ReflectionAccessor.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\InternalUtil\ScheduledItem.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\InternalUtil\ThreadSafeQueueWorker.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Notification.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Notifiers\BooleanNotifier.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Notifiers\CountNotifier.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Notifiers\MessageBroker.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Notifiers\ScheduledNotifier.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Observable.Aggregate.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Observable.Awaiter.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Observable.Binding.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Observable.Blocking.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Observable.Concatenate.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Observable.Concurrency.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Observable.Conversions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Observable.Creation.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Observable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Observable.ErrorHandling.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Observable.Events.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Observable.FromAsync.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Observable.Joins.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Observable.Paging.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Observable.Time.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Observer.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Aggregate.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Amb.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\AsObservable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\AsSingleUnitObservable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\AsUnitObservable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Buffer.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Cast.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Catch.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\CombineLatest.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Concat.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\ContinueWith.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Create.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\DefaultIfEmpty.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Defer.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Delay.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\DelaySubscription.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Dematerialize.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Distinct.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\DistinctUntilChanged.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Do.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Empty.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Finally.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\First.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\ForEachAsync.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\FromEvent.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\GroupBy.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\IgnoreElements.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Last.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Materialize.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Merge.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Never.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\ObserveOn.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\OfType.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\OperatorObservableBase.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\OperatorObserverBase.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\PairWise.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Range.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\RefCount.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Repeat.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\RepeatSafe.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Return.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Sample.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Scan.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Select.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\SelectMany.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\SelectWhere.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Single.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Skip.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\SkipUntil.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\SkipWhile.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Start.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\StartWith.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\SubscribeOn.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Switch.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Synchronize.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\SynchronizedObserver.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Take.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\TakeLast.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\TakeUntil.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\TakeWhile.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Throttle.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\ThrottleFirst.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Throw.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\TimeInterval.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Timeout.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Timer.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Timestamp.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\ToArray.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\ToList.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\ToObservable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Wait.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\WhenAll.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Where.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\WhereSelect.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\WithLatestFrom.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\Zip.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Operators\ZipLatest.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Pair.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Schedulers\CurrentThreadScheduler.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Schedulers\ImmediateScheduler.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Schedulers\IScheduler.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Schedulers\Scheduler.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Schedulers\ThreadPoolScheduler.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Subjects\AsyncSubject.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Subjects\BehaviorSubject.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Subjects\ConnectableObservable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Subjects\ISubject.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Subjects\ReplaySubject.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Subjects\Subject.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Subjects\SubjectExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\System\IObservable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\System\IObserver.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\System\IOptimizedObservable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\System\IProgress.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\System\Tuple.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\System\Unit.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Tasks\TaskObservableExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Tasks\UniTaskObservableExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\TimeInterval.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Timestamped.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\AotSafeExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\AsyncOperationExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\CancellationToken.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\CoroutineAsyncBridge.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Diagnostics\LogEntry.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Diagnostics\LogEntryExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Diagnostics\Logger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Diagnostics\ObservableDebugExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Diagnostics\ObservableLogger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Diagnostics\UnityDebugSink.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\FrameInterval.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\InspectableReactiveProperty.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\InspectorDisplayDrawer.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\LifetimeDisposableExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\MainThreadDispatcher.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\MainThreadScheduler.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Observable.Unity.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\ObservableMonoBehaviour.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\ObservableWWW.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\ObserveExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Operators\BatchFrame.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Operators\DelayFrame.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Operators\DelayFrameSubscription.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Operators\FrameInterval.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Operators\FrameTimeInterval.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Operators\FromCoroutine.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Operators\RepeatUntil.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Operators\SampleFrame.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Operators\SubscribeOnMainThread.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Operators\ThrottleFirstFrame.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Operators\ThrottleFrame.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Operators\TimeoutFrame.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\PresenterBase.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\ReactiveCollection.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\ReactiveCommand.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\ReactiveDictionary.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\ReactiveProperty.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\ReactivePropertyReusablePromise.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\ScenePlaybackDetector.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Toolkit\ObjectPool.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableAnimatorTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableBeginDragTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableCancelTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableCanvasGroupChangedTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableCollision2DTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableCollisionTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableDeselectTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableDestroyTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableDragTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableDropTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableEnableTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableEndDragTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableEventTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableFixedUpdateTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableInitializePotentialDragTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableJointTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableLateUpdateTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableMouseTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableMoveTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableParticleTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservablePointerClickTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservablePointerDownTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservablePointerEnterTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservablePointerExitTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservablePointerUpTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableRectTransformTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableScrollTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableSelectTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableStateMachineTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableSubmitTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableTransformChangedTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableTrigger2DTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableTriggerBase.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableTriggerExtensions.Component.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableTriggerExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableTriggerTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableUpdateSelectedTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableUpdateTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\Triggers\ObservableVisibleTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\TypedMonoBehaviour.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\UniRxSynchronizationContext.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\UnityEventExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\UnityGraphicExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\UnityUIComponentExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityEngineBridge\YieldInstructionCache.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityWinRTBridge\Thread.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UnityWinRTBridge\ThreadPoolScheduler_UnityWinRT.cs" />
+     <None Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\UniRx.asmdef" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>E:/Unity2017.4.14/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
  </Reference>
@@ -491,27 +491,6 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>E:/Unity2017.4.14/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
- </Reference>
- <Reference Include="ProtobufNet">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/ProtobufNet.dll</HintPath>
- </Reference>
- <Reference Include="QFramework.Log">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/QFramework.Log.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
- </Reference>
- <Reference Include="DOTweenEditor">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="CString">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/ScriptKit/ToLua/Plugins/CString.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -529,6 +508,42 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Rocks">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Mdb">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject-usage">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/Source/Usage/Zenject-usage.dll</HintPath>
+ </Reference>
+ <Reference Include="CString">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/ScriptKit/ToLua/Plugins/CString.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Pdb">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll</HintPath>
+ </Reference>
+ <Reference Include="ProtobufNet">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/ProtobufNet.dll</HintPath>
+ </Reference>
+ <Reference Include="QFramework.Log">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/QFramework.Log.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

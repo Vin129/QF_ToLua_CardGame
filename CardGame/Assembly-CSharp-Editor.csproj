@@ -51,106 +51,48 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\QFramework\Framework\0.Libs\0.Extension\Editor\EditorUtils.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\0.Extension\Editor\MouseSelector.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Extensions\Editor\EditorChain.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Editor\AssetBundleExporter.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Editor\BuildScript.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Editor\ResKitAssetsMenu.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Editor\ResKitEditorWindow.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Editor\ResKitInfoGenerator.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Editor\ILRuntimePanelCodeTemplate.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Editor\UICodeGenerator.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Editor\UICreateService.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Editor\UIEditorWindow.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Editor\UIElementCodeTemplate.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Editor\UIKitSettingView.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Editor\UIPanelCodeTemplate.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Editor\Attribute\ButtonAttributeDrawer.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Editor\Attribute\ButtonExAttributeDrawer.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Editor\Attribute\ShowIfAttributeDrawer.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Editor\Inspectors\AnimationInspector.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Editor\Inspectors\AutoReferencer.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Editor\Inspectors\CustomCustomEditor.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Editor\Inspectors\MonoInspector.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Editor\Inspectors\RectTransformInspector.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Editor\Inspectors\ScriptableObjectInspector.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Editor\Inspectors\TransformInspector.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Editor\Inspectors\TransformInspectorCopyData.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Editor\UnityEditorRushTools\AddFileHead.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Editor\UnityEditorRushTools\AssetsMenuItem.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Editor\UnityEditorRushTools\CustomHierarchy.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Editor\UnityEditorRushTools\GameObjectMenuItem.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Editor\UnityEditorRushTools\SelectionHelper.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Editor\UnityEditorRushTools\TextureHalveAtlas.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Editor\UnityEditorRushTools\VarCodeGenerationTools.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Button.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\AbstractLayout.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\AbstractWidget.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\Button.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\Checkbox.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\DateTimePicker.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\DropdownBox.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\EventBinding.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\ExecuteAction.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\GUI.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\HorizontalLayout.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\ILayout.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\IWidget.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\Label.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\LayerPicker.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\LayoutButton.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\PropertyBinding.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\RootLayout.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\Spacer.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\TextBox.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\Vector3Field.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\Editor\VerticalLayout.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\EditorView.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\EditorWindow.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\FlexibaleSpaceView.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\GUIHorizontalView.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\GUILabelView.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\GUISpaceView.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\HorizontalView.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\IEditorView.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\IGUIView.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\IView.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\LableView.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\ScrollView.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\SpaceView.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EasyEditor\VerticalView.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EditorGUIUtils.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\EditorPathManager.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\IOEditorPathConfig.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\PathConfig.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\RSG.Toolkit-1.0.0.0\Argument.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\RSG.Toolkit-1.0.0.0\ILogger.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\RSG.Toolkit-1.0.0.0\LinqExts.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\RSG.Toolkit-1.0.0.0\Reflection.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\RSG.Toolkit-1.0.0.0\ReflectionUtils.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\Utils\AssetLabelHelper.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Editor\Utils\EditorCoroutine.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\TreeView\Editor\AssetTree.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\TreeView\Editor\AssetTreeIMGUI.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\TreeView\Editor\TreeIMGUI.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\TreeView\Example\Editor\AssetTreeEditorWindow.cs" />
-     <Compile Include="Assets\QFramework\Framework\5.ScriptCollection\Editor\FindReferencesInProject.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Editor\ClearAllData.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Editor\FrameworkMenuItems.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Editor\PackageManager\Actions\GetAllRemotePackageInfo.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Editor\PackageManager\Actions\InstallPackage.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Editor\PackageManager\Actions\UploadPackage.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Editor\PackageManager\Info\FrameworkVersionInfo.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Editor\PackageManager\Info\PackageData.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Editor\PackageManager\Info\Readme.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Editor\PackageManager\Info\ReleaseItem.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Editor\PackageManager\InstalledPackageVersions.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Editor\PackageManager\PackageCheck.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Editor\PackageManager\ReadmeWindow.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Editor\PackageManager\UI\FrameworkPMView.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Editor\PreferencesWindow.cs" />
-     <Compile Include="Assets\QFramework\PackagePublisher\Editor\PackageMaker.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\Editor\AssetBundleExporter.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\Editor\BuildScript.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\Editor\ResKitAssetsMenu.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\Editor\ResKitEditorWindow.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\Editor\ResKitInfoGenerator.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Editor\CodeGen\Data\ElementCodeData.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Editor\CodeGen\Data\MarkedObjInfo.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Editor\CodeGen\Data\PanelCodeData.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Editor\CodeGen\Data\UIGraph.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Editor\CodeGen\Templates\IBaseTemplate.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Editor\CodeGen\Templates\ILRuntimePanelCodeTemplate.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Editor\CodeGen\Templates\UIElementCodeTemplate.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Editor\CodeGen\Templates\UIPanelDataTemplate.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Editor\CodeGen\Templates\UIPanelDesignerTemplate.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Editor\CodeGen\Templates\UIPanelTemplate.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Editor\CodeGen\UICodeGenerator.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Editor\CodeGen\UIMarkCollector.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Editor\CodeGen\UISerializer.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Editor\CodeGen\Util.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Editor\UICreateService.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Editor\UIEditorWindow.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Editor\UIKitSettingData.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Editor\UIKitSettingView.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Editor\Attribute\ButtonAttributeDrawer.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Editor\Attribute\ButtonExAttributeDrawer.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Editor\Attribute\ShowIfAttributeDrawer.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Editor\Inspectors\AnimationInspector.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Editor\Inspectors\AutoReferencer.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Editor\Inspectors\CustomCustomEditor.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Editor\Inspectors\MonoInspector.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Editor\Inspectors\RectTransformInspector.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Editor\Inspectors\ScriptableObjectInspector.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Editor\Inspectors\TransformInspector.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Editor\Inspectors\TransformInspectorCopyData.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Editor\UnityEditorRushTools\AddFileHead.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Editor\UnityEditorRushTools\AssetsMenuItem.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Editor\UnityEditorRushTools\CustomHierarchy.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Editor\UnityEditorRushTools\GameObjectMenuItem.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Editor\UnityEditorRushTools\SelectionHelper.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Editor\UnityEditorRushTools\TextureHalveAtlas.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Editor\UnityEditorRushTools\VarCodeGenerationTools.cs" />
+     <Compile Include="Assets\QFramework\Framework\4.ScriptCollection\Editor\FindReferencesInProject.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\Custom\CustomSettings.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\Extend\ToLua_LuaInterface_EventObject.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\Extend\ToLua_LuaInterface_LuaConstructor.cs" />
@@ -172,6 +114,7 @@
      <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\ToLuaExport.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\ToLuaMenu.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\ToLua\Editor\ToLuaTree.cs" />
+     <Compile Include="Assets\QFramework\Testing\Editor\TimerTest.cs" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>E:/Unity2017.4.14/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
  </Reference>
@@ -379,27 +322,6 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>E:/Unity2017.4.14/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
- </Reference>
- <Reference Include="ProtobufNet">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/ProtobufNet.dll</HintPath>
- </Reference>
- <Reference Include="QFramework.Log">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/QFramework.Log.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
- </Reference>
- <Reference Include="DOTweenEditor">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="CString">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/ScriptKit/ToLua/Plugins/CString.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -418,6 +340,42 @@
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Rocks">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Mdb">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject-usage">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/Source/Usage/Zenject-usage.dll</HintPath>
+ </Reference>
+ <Reference Include="CString">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/ScriptKit/ToLua/Plugins/CString.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Pdb">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll</HintPath>
+ </Reference>
+ <Reference Include="ProtobufNet">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/ProtobufNet.dll</HintPath>
+ </Reference>
+ <Reference Include="QFramework.Log">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/QFramework.Log.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>E:/Unity2017.4.14/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
@@ -428,16 +386,30 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{0EEBF18E-272D-828E-0FE3-FE5D1E52DE1C}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Zenject.csproj">
+      <Project>{6592312C-DB2C-E783-CCB2-6E72BF7A060F}</Project>      <Name>Zenject</Name>    </ProjectReference>
+    <ProjectReference Include="Zenject-ReflectionBaking-Editor.csproj">
+      <Project>{CE1DD751-2AFD-258B-65B6-3DA1C37170E9}</Project>      <Name>Zenject-ReflectionBaking-Editor</Name>    </ProjectReference>
     <ProjectReference Include="UniRx.csproj">
       <Project>{ED2B4180-CBD8-74DA-8734-03CAC7D6BE24}</Project>      <Name>UniRx</Name>    </ProjectReference>
-    <ProjectReference Include="QFramework.Core.Runtime.csproj">
-      <Project>{1EB4D0C4-DF8A-2721-BA2C-E00DAFF31615}</Project>      <Name>QFramework.Core.Runtime</Name>    </ProjectReference>
+    <ProjectReference Include="QFramework.Core.Editor.csproj">
+      <Project>{ED2B5078-F196-2C11-0E39-F3AC258DDC71}</Project>      <Name>QFramework.Core.Editor</Name>    </ProjectReference>
     <ProjectReference Include="HTTP.csproj">
       <Project>{7190EC85-2A56-F549-C686-8E932F70E984}</Project>      <Name>HTTP</Name>    </ProjectReference>
-    <ProjectReference Include="UniRx.Async.csproj">
-      <Project>{C2BC24F7-81C9-1B8D-E15A-9B118D50F884}</Project>      <Name>UniRx.Async</Name>    </ProjectReference>
+    <ProjectReference Include="UniRx.Examples.csproj">
+      <Project>{F01AF797-CFB2-FA5A-0C37-E916A74A3511}</Project>      <Name>UniRx.Examples</Name>    </ProjectReference>
+    <ProjectReference Include="Zenject-TestFramework.csproj">
+      <Project>{3F83A94F-9B59-9D38-475C-54A594A0AA2C}</Project>      <Name>Zenject-TestFramework</Name>    </ProjectReference>
     <ProjectReference Include="UniRx.Async.Editor.csproj">
       <Project>{25045386-029C-E102-60F9-5EAFE4CDB114}</Project>      <Name>UniRx.Async.Editor</Name>    </ProjectReference>
+    <ProjectReference Include="Zenject-Editor.csproj">
+      <Project>{615EDEB2-147F-858B-E384-984E5083EF1A}</Project>      <Name>Zenject-Editor</Name>    </ProjectReference>
+    <ProjectReference Include="UniRx.Async.csproj">
+      <Project>{C2BC24F7-81C9-1B8D-E15A-9B118D50F884}</Project>      <Name>UniRx.Async</Name>    </ProjectReference>
+    <ProjectReference Include="Zenject-PoolMonitor-Editor.csproj">
+      <Project>{80E37B7A-025D-8E4D-0825-CF63D8E9D10C}</Project>      <Name>Zenject-PoolMonitor-Editor</Name>    </ProjectReference>
+    <ProjectReference Include="QFramework.Core.Runtime.csproj">
+      <Project>{1EB4D0C4-DF8A-2721-BA2C-E00DAFF31615}</Project>      <Name>QFramework.Core.Runtime</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

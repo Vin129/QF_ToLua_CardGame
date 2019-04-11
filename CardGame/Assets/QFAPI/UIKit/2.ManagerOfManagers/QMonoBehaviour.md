@@ -27,8 +27,6 @@
 | **SendMsg**         | 发送 **QMsg** 类型消息                      |
 | **SendEvent**       | 发送 **IConvertible** 类型事件Id            |
 
-| --- | --- |
-
 # 私有方法
 
 | **RegisterEvent**      | 通过 **IConvertible EventId** 注册事件   |
@@ -36,8 +34,6 @@
 | **RegisterEvents**     | 注册事件组 IConvertible[]                |
 | **UnRegisterEvent**    | 通过 **IConvertible EventId** 注销事件   |
 | **UnRegisterAllEvent** | 注销 **mPrivateEventIds** 中所有监听事件 |
-
-| --- | --- |
 
 # 公共方法
 

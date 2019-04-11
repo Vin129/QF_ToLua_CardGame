@@ -1,8 +1,8 @@
 /****************************************************************************
- * 2019.3 XAVIER
+ * 2019.4 XAVIER
  ****************************************************************************/
 
-namespace QFramework.CardGame
+namespace QFramework.Example
 {
 	using UnityEngine;
 	using UnityEngine.UI;

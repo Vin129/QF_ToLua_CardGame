@@ -44,7 +44,7 @@ public class QFramework_QMgrBehaviourWrap
 			QFramework.QMgrBehaviour obj = (QFramework.QMgrBehaviour)ToLua.CheckObject<QFramework.QMgrBehaviour>(L, 1);
 			object arg0 = ToLua.ToVarObject(L, 2);
 			QFramework.OnEvent arg1 = (QFramework.OnEvent)ToLua.CheckDelegate<QFramework.OnEvent>(L, 3);
-			//obj.RegisterEvent(arg0, arg1);
+			obj.RegisterEvent((IConvertible)arg0, arg1);
 			return 0;
 		}
 		catch (Exception e)
@@ -62,7 +62,7 @@ public class QFramework_QMgrBehaviourWrap
 			QFramework.QMgrBehaviour obj = (QFramework.QMgrBehaviour)ToLua.CheckObject<QFramework.QMgrBehaviour>(L, 1);
 			object arg0 = ToLua.ToVarObject(L, 2);
 			QFramework.OnEvent arg1 = (QFramework.OnEvent)ToLua.CheckDelegate<QFramework.OnEvent>(L, 3);
-			//obj.UnRegistEvent(arg0, arg1);
+			obj.UnRegistEvent((IConvertible)arg0, arg1);
 			return 0;
 		}
 		catch (Exception e)
@@ -96,7 +96,7 @@ public class QFramework_QMgrBehaviourWrap
 			ToLua.CheckArgsCount(L, 2);
 			QFramework.QMgrBehaviour obj = (QFramework.QMgrBehaviour)ToLua.CheckObject<QFramework.QMgrBehaviour>(L, 1);
 			object arg0 = ToLua.ToVarObject(L, 2);
-			//obj.SendEvent(arg0);
+			obj.SendEvent((IConvertible)arg0);
 			return 0;
 		}
 		catch (Exception e)

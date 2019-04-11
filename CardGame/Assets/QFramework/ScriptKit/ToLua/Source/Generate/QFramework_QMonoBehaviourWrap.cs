@@ -93,7 +93,7 @@ public class QFramework_QMonoBehaviourWrap
 			ToLua.CheckArgsCount(L, 2);
 			QFramework.QMonoBehaviour obj = (QFramework.QMonoBehaviour)ToLua.CheckObject<QFramework.QMonoBehaviour>(L, 1);
 			object arg0 = ToLua.ToVarObject(L, 2);
-			//obj.SendEvent(arg0);
+			obj.SendEvent((IConvertible)arg0);
 			return 0;
 		}
 		catch (Exception e)

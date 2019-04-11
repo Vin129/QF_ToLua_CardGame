@@ -51,251 +51,244 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\QFramework\Framework\0.Libs\0.Extension\DotNetExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\0.Extension\JsonDotNetExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\0.Extension\UnityAPIExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\1.DataStructure\BinaryHeap\BinaryHeap.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\1.DataStructure\BinaryHeap\IBinaryHeapElement.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\AsyncConnect.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\AsyncDisconnect.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\AsyncIOOperation.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\AsyncReceive.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\AsyncSend.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\AsyncSocketOperation.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\FlexiMemberIgnoreAttribute.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\FlexiMemberIncludeAttribute.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\FlexiMemberOrderAttribute.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\FlexiSerializableAttribute.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\FlexiSerializationLayout.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\FlexiSerializationOptions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\FlexiSerializer.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\FlexiSocket.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\IActionListener.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\IFlexiSerializer.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\IProtocol.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\ISocketClient.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\ISocketClientToken.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\ISocketServer.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\MessageStructure.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\FlexiSocket\SocketDelegate.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\HttpHelper.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\3.Network\NetworkUtil.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\4.Platform\Device.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\5.Singleton\Scripts\ISingleton.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\5.Singleton\Scripts\MonoSingleton.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\5.Singleton\Scripts\MonoSingletonCreator.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\5.Singleton\Scripts\MonoSingletonPath.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\5.Singleton\Scripts\MonoSingletonProperty.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\5.Singleton\Scripts\Singleton.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\5.Singleton\Scripts\SingletonCreator.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\5.Singleton\Scripts\SingletonProperty.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\AnimatorExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\CanvasElementExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\DropdownExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\GameObjectExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\GenericBindings.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\ImageExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\InputFieldExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\MaterialExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\MonoBehaviourExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\ParticleSystemExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\RectTransformExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\ScrollBarExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\ScrollRectExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\SliderExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\TextExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\ToggleExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Bindings\TransformExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\BindingTypes.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Converters\DoubleToFloatConverter.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Converters\IConverter.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Converters\TextToDateConverter.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Converters\TextToDoubleConverter.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Converters\TextToFloatConverter.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Converters\TextToIntConverter.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Converters\TextToTimeSpanConverter.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Exceptions\SetterNotProvidedException.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Extensions\IObservableExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Extensions\IReactivePropertyExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Filters\DynamicSampleFilter.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Filters\IFilter.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\7.BindingsRx\Filters\SampleFilter.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\8.CrossPlatformAPI\API.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\8.CrossPlatformAPI\UnityAPI.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\8.CrossPlatformAPI\XamariniOSAPI.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\1.FSM\FSM.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\1.FSM\FSMLite.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\DelayAction.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\EventAction.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\HttpDeleteAction.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\HttpGetAction.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\HttpPatchAction.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\HttpPostAction.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\IAction.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\KeyEventAction.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\NodeAction.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\NodeActionSystem.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\OnlyBeginAction.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Action\UntilAction.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\ActionQueue.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\EventInjector.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Extensions\ActionChain.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Extensions\IActionChain.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Extensions\IActionChainExtention.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Extensions\IActionExtension.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Extensions\RepeatNodeChain.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Extensions\SequenceNodeChain.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Node\INode.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Node\RepeatNode.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Node\SequenceNode.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Node\SpawnNode.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\Node\TimelineNode.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\ProcessNode.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\3.NodeActionSystem\SupportOther\DOTweenAction.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\Timer\TimeItem.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\Timer\Timer.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\Timer\TimerHelper.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\Timer\TimerManager.cs" />
-     <Compile Include="Assets\QFramework\Framework\1.ActionKit\Timer\TimeUtil.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\DataTable\AssetData.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\DataTable\AssetDataGroup.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\DataTable\EditorRuntimeAssetDataCollector.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\DataTable\ResDatas.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\DisposableObject.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\IEnumeratorTask.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Res\AbstractRes.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Res\AssetBundleRes.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Res\AssetRes.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Res\InternalRes.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Res\IRes.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Res\LocalImageRes.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Res\NetImageRes.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\Res\SceneRes.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResDownloader\HttpDownloaderMgr.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResDownloader\ResDownloader.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResFactory.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResKit.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResKitUtil.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResLoader\DefaultLoaderStrategy.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResLoader\IResLoader.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResLoader\IResLoaderStrategy.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResLoader\ResLoader.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\1.ResSystem\ResMgr.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\AudioManager.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\AudioPlayer.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\AudioUnit.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\CoroutineCommand\AudioSoundNode.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\CoroutineCommand\AudioVoiceNode.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\Msg\AddRetainAudioMsg.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\Msg\AudioMusicMsg.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\Msg\AudioSoundMsg.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\Msg\AudioVoiceMsg.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\2.Audio\Msg\RemoteRetainAudioMsg.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\3.Pool\Cache\SimpleObjectCache.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\3.Pool\ObjectFactory\CustomObjectFactory.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\3.Pool\ObjectFactory\DefaultObjectFactory.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\3.Pool\ObjectFactory\IObjectFactory.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\3.Pool\ObjectFactory\NonPublicObjectFactory.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\3.Pool\Pool\IPool.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\3.Pool\Pool\NonPublicObjectPool.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\3.Pool\Pool\Pool.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\3.Pool\Pool\SafeObjectPool.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\3.Pool\Pool\SimpleObjectPool.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\4.IO\EditorFileUtils.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\4.IO\FileMgr.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\4.IO\FilePath.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\4.IO\PathHelper.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\4.IO\SerializeHelper.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\4.IO\ZipMgr.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\4.IO\ZipUtil.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\5.RefCounter\SafeARC.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\5.RefCounter\SimpleRC.cs" />
-     <Compile Include="Assets\QFramework\Framework\2.ResKit\5.RefCounter\UnsafeARC.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Engine\UI\Helper\UIEffectHelper.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Extension\QUICameraUtil.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Extension\UIPointerDownEventListener.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Extension\UIPointerUpEventListener.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Extension\UIRectTransform.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Extension\UISpriteAnimation.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Gesture\DragMe.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Component\UIComponent.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Component\UIElement.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Component\UIElementList.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Component\UIScrollPage.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Component\UIScrollPageMark.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Component\UITransition.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Res\DefaultPanelLoader.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Res\IPanelLoader.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\System\IMark.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\System\IPanel.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\System\UIManager.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\System\UIMark.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\System\UIPanel.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\System\UIStack.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Transition\FadeInOut.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Transition\FadeOut.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Transition\ITransition.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Transition\UITransition.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\UI\UITransitionPanel.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\UI\UITransitionPanelComponents.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\UIPanelTester.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\1.UI\Script\Util\UIEventListener.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\2.Event\CollisionTriggerListener.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\2.Event\EventSystem.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\3.ManagerOfManagers\IManager.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\3.ManagerOfManagers\QMgrBehaviour.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\3.ManagerOfManagers\QMonoBehaviour.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\3.ManagerOfManagers\QMsg.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\3.ManagerOfManagers\QMsgCenter.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\3.ManagerOfManagers\QMsgSpan.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\4.Guide\Scripts\CircleGuideCtrl.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\4.Guide\Scripts\GuideCtrl.cs" />
-     <Compile Include="Assets\QFramework\Framework\3.UIKit\4.Guide\Scripts\RectGuideCtrl.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Attribute\ButtonAttribute.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Attribute\ButtonExAttribute.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Attribute\ShowIfAndAttribute.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Attribute\ShowIfAttribute.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Example\Attribute\AttributeExample.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Example\FinReferencer\GetTestFindReferencer.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Example\FinReferencer\TestFindReferencer.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Example\UnityEditorRushTools\AutoReferencerExample.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Example\UnityEditorRushTools\CalledByEditorExample.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Example\UnityEditorRushTools\EditorToolkitTips.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\Platform.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\TreeView\Scripts\TreeNode.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\View\GUIButton.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\View\GUITextField.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\View\GUIView.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\View\IOnGUIView.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\View\LayoutButton.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\View\LayoutLabel.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\View\LayoutVertical.cs" />
-     <Compile Include="Assets\QFramework\Framework\4.EditorToolKit\Framework\View\OnGUIEvent.cs" />
-     <Compile Include="Assets\QFramework\Framework\5.ScriptCollection\DontDestroyOnLoad.cs" />
-     <Compile Include="Assets\QFramework\Framework\5.ScriptCollection\Empty4Raycast.cs" />
-     <Compile Include="Assets\QFramework\Framework\5.ScriptCollection\Hide.cs" />
-     <Compile Include="Assets\QFramework\Framework\5.ScriptCollection\Math.cs" />
-     <Compile Include="Assets\QFramework\Framework\5.ScriptCollection\ParticleScaler.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Framework.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\FrameworkSettingData.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\IPackageKitView.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Login\GetTokenAction.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Login\RegisterAction.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Login\User.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\PackageApplication.cs" />
-     <Compile Include="Assets\QFramework\Framework\6.PackageManager\Util\DjangoPost.cs" />
-     <Compile Include="Assets\QFramework\Framework\8.ShaderLib\Scripts\PostFXBehaviour.cs" />
+     <Compile Include="Assets\QFramework\Example\ActionKitExample\NodeActionSystemExample\0.DelayNode\DelayNodeExample.cs" />
+     <Compile Include="Assets\QFramework\Example\ActionKitExample\NodeActionSystemExample\1.EventNode\EventNodeExample.cs" />
+     <Compile Include="Assets\QFramework\Example\ActionKitExample\NodeActionSystemExample\2.SequenceNode\SequenceNodeExample.cs" />
+     <Compile Include="Assets\QFramework\Example\ActionKitExample\NodeActionSystemExample\3.CustomAction\CustomActionExample.cs" />
+     <Compile Include="Assets\QFramework\Example\ActionKitExample\NodeActionSystemExample\4.DotweenAction\DotweenActionExample.cs" />
+     <Compile Include="Assets\QFramework\Example\ActionKitExample\NodeActionSystemExample\5.WWWAction\WWWActionExample.cs" />
+     <Compile Include="Assets\QFramework\Example\ActionKitExample\NodeActionSystemExample\6.TimerDemo\TimerExample.cs" />
+     <Compile Include="Assets\QFramework\Example\ActionKitExample\NodeActionSystemExample\NodeExample.cs" />
+     <Compile Include="Assets\QFramework\Example\ActionKitExample\NodeActionSystemExample\NodeSystemExample.cs" />
+     <Compile Include="Assets\QFramework\Example\ActionKitExample\NodeActionSystemExample\TestNodeSystemGC\TestNodeSystemGC.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\BindingsRxExample.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\DOTweenExample\DOTweenExample.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\ExtensionExample\ExtensionExample.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\ExtensionExample\GameObjectExample.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\ExtensionExample\TransformExample.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\IOCExample\InjectExample.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\JsonPathProtobuf.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\NetworkExample\CallUI.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\NetworkExample\MobileServer.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\NetworkExample\PCClient.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\NetworkExample\PCConnectMobileManager.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\NetworkExample\UIConnect.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\NetworkExample\UIConnectComponents.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\NetworkExample\UIMsg.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\NetworkExample\UIMsgComponents.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\SingletonExample\0.Singleton\Singleton.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\SingletonExample\1.MonoSingleton\MonoSingletonExample.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\SingletonExample\2.SingletonProperty\SingletonProperty.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\SingletonExample\3.MonoSingletonProperty\MonoSingletonProperty.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\SingletonExample\4.MonoSingletonPath\MonoSingletonPath.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\UniRxExample\TestUniRx.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\UniRxExample\UITestUniRx.cs" />
+     <Compile Include="Assets\QFramework\Example\LibsExample\UniRxExample\UITestUniRxComponents.cs" />
+     <Compile Include="Assets\QFramework\Example\ResKitExample\Audio\AudioTest.cs" />
+     <Compile Include="Assets\QFramework\Example\ResKitExample\ImageLoaderExample.cs" />
+     <Compile Include="Assets\QFramework\Example\ResKitExample\Pool\CallPool.cs" />
+     <Compile Include="Assets\QFramework\Example\ResKitExample\RefCounter\RefCounterExample.cs" />
+     <Compile Include="Assets\QFramework\Example\ResKitExample\ResKit\LoadAssetBundleResExample\AssetBundleResExample.cs" />
+     <Compile Include="Assets\QFramework\Example\ResKitExample\ResKit\LoadResourcesResExample\LoadResourcesResExample.cs" />
+     <Compile Include="Assets\QFramework\Example\ResKitExample\ResKit\ResKitExample.cs" />
+     <Compile Include="Assets\QFramework\Example\ResKitExample\ResKit\ResourcesExample.cs" />
+     <Compile Include="Assets\QFramework\Example\ResKitExample\SpriteAtlas\TestSpriteAtlas.cs" />
+     <Compile Include="Assets\QFramework\Example\UIKitExample\EventExample\EventGet.cs" />
+     <Compile Include="Assets\QFramework\Example\UIKitExample\EventExample\EventTest.cs" />
+     <Compile Include="Assets\QFramework\Example\UIKitExample\ManagerOfManagersExample\ManagerOfManagersExample.cs" />
+     <Compile Include="Assets\QFramework\Example\UIKitExample\ManagerOfManagersExample\Player.cs" />
+     <Compile Include="Assets\QFramework\Example\UIKitExample\ManagerOfManagersExample\QMsgCenter.cs" />
+     <Compile Include="Assets\QFramework\Example\UIKitExample\UIExample\Example.cs" />
+     <Compile Include="Assets\QFramework\Example\UIKitExample\UIExample\Scripts\UI\UIGamePanel.cs" />
+     <Compile Include="Assets\QFramework\Example\UIKitExample\UIExample\Scripts\UI\UIGamePanel.Designer.cs" />
+     <Compile Include="Assets\QFramework\Example\UIKitExample\UIExample\Scripts\UI\UIMenuPanel.cs" />
+     <Compile Include="Assets\QFramework\Example\UIKitExample\UIExample\Scripts\UI\UIMenuPanel.Designer.cs" />
+     <Compile Include="Assets\QFramework\Example\UIKitExample\UIExample\Scripts\UI\UISectionPanel.cs" />
+     <Compile Include="Assets\QFramework\Example\UIKitExample\UIExample\Scripts\UI\UISectionPanel.Designer.cs" />
+     <Compile Include="Assets\QFramework\Example\UIKitExample\UIExample\Scripts\UI\UISettingPanel.cs" />
+     <Compile Include="Assets\QFramework\Example\UIKitExample\UIExample\Scripts\UI\UISettingPanel.Designer.cs" />
+     <Compile Include="Assets\QFramework\Example\UIKitExample\UIExample\Scripts\Util\UIEventID.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Bindings\AnimatorExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Bindings\CanvasElementExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Bindings\DropdownExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Bindings\GameObjectExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Bindings\GenericBindings.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Bindings\ImageExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Bindings\InputFieldExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Bindings\MaterialExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Bindings\MonoBehaviourExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Bindings\ParticleSystemExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Bindings\RectTransformExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Bindings\ScrollBarExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Bindings\ScrollRectExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Bindings\SliderExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Bindings\TextExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Bindings\ToggleExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Bindings\TransformExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\BindingTypes.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Converters\DoubleToFloatConverter.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Converters\IConverter.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Converters\TextToDateConverter.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Converters\TextToDoubleConverter.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Converters\TextToFloatConverter.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Converters\TextToIntConverter.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Converters\TextToTimeSpanConverter.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Exceptions\SetterNotProvidedException.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Extensions\IObservableExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Extensions\IReactivePropertyExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Filters\DynamicSampleFilter.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Filters\IFilter.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\BindingsRx\Filters\SampleFilter.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\AsyncConnect.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\AsyncDisconnect.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\AsyncIOOperation.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\AsyncReceive.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\AsyncSend.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\AsyncSocketOperation.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\FlexiMemberIgnoreAttribute.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\FlexiMemberIncludeAttribute.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\FlexiMemberOrderAttribute.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\FlexiSerializableAttribute.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\FlexiSerializationLayout.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\FlexiSerializationOptions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\FlexiSerializer.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\FlexiSocket.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\IActionListener.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\IFlexiSerializer.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\IProtocol.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\ISocketClient.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\ISocketClientToken.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\ISocketServer.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\MessageStructure.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\FlexiSocket\SocketDelegate.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\EventAggregator.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\IDisposableContainer.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\IEventAggregator.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\IScene.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\ISceneLoader.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\ISystemLoader.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\ISystemService.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\Scene.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\SceneLoader.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\SceneManagementService.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\SceneSettings.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\Serialization\DefaultTypeResolver.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\Serialization\ISerializer.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\Serialization\ISerializerStorage.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\Serialization\ISerializerStream.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\Serialization\ITypeResolver.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\Serialization\IUFSerializable.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\Serialization\Json\JsonStream.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\Serialization\Serialization.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\Serialization\Storage\FileSerializerStorage.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\Serialization\Storage\StringSerializerStorage.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\SimpleSubject.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\SystemControllerExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\SystemService.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\SystemServiceMonoBehavior.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\uFrameComponent.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\uFrameKernel.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\uFrameKernel\uFrameNetworkComponent.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Tools\Platform.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\DataTable\AssetData.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\DataTable\AssetDataGroup.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\DataTable\EditorRuntimeAssetDataCollector.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\DataTable\ResDatas.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\DisposableObject.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\IEnumeratorTask.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\Res\AssetBundleRes.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\Res\AssetRes.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\Res\InternalRes.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\Res\IRes.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\Res\LocalImageRes.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\Res\NetImageRes.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\Res\Res.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\Res\SceneRes.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\ResDownloader\HttpDownloaderMgr.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\ResDownloader\ResDownloader.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\ResFactory.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\ResKit.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\ResKitUtil.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\ResLoader\DefaultLoaderStrategy.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\ResLoader\IResLoader.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\ResLoader\IResLoaderStrategy.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\ResLoader\ResLoader.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\1.ResSystem\ResMgr.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\2.Audio\AudioManager.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\2.Audio\AudioPlayer.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\2.Audio\AudioUnit.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\2.Audio\CoroutineCommand\AudioSoundNode.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\2.Audio\CoroutineCommand\AudioVoiceNode.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\2.Audio\Msg\AddRetainAudioMsg.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\2.Audio\Msg\AudioMusicMsg.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\2.Audio\Msg\AudioSoundMsg.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\2.Audio\Msg\AudioVoiceMsg.cs" />
+     <Compile Include="Assets\QFramework\Framework\1.ResKit\2.Audio\Msg\RemoteRetainAudioMsg.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Extension\QUICameraUtil.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Extension\UIPointerDownEventListener.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Extension\UIPointerUpEventListener.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Extension\UIRectTransform.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Extension\UISpriteAnimation.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\Component\UIComponent.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\Component\UIElement.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\Component\UIElementList.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\Component\UIScrollPage.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\Component\UIScrollPageMark.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\Component\UITransition.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\Res\DefaultPanelLoader.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\Res\IPanelLoader.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\System\IMark.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\System\IPanel.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\System\UIManager.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\System\UIMark.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\System\UIPanel.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\System\UIStack.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\Transition\FadeInOut.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\Transition\FadeOut.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\Transition\ITransition.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\Transition\UITransition.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\UI\UITransitionPanel.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\UI\UITransitionPanelComponents.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\UIPanelTester.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\Util\CollisionTriggerListener.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\Util\UIEffectHelper.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\1.UI\Script\Util\UIEventListener.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\2.ManagerOfManagers\Framework.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\2.ManagerOfManagers\IManager.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\2.ManagerOfManagers\QMgrBehaviour.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\2.ManagerOfManagers\QMonoBehaviour.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\2.ManagerOfManagers\QMsg.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\2.ManagerOfManagers\QMsgCenter.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\2.ManagerOfManagers\QMsgSpan.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\3.Guide\Scripts\CircleGuideCtrl.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\3.Guide\Scripts\GuideCtrl.cs" />
+     <Compile Include="Assets\QFramework\Framework\2.UIKit\3.Guide\Scripts\RectGuideCtrl.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Attribute\ButtonAttribute.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Attribute\ButtonExAttribute.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Attribute\ShowIfAndAttribute.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Attribute\ShowIfAttribute.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Example\Attribute\AttributeExample.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Example\FinReferencer\GetTestFindReferencer.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Example\FinReferencer\TestFindReferencer.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Example\UnityEditorRushTools\AutoReferencerExample.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Example\UnityEditorRushTools\CalledByEditorExample.cs" />
+     <Compile Include="Assets\QFramework\Framework\3.EditorToolKit\Example\UnityEditorRushTools\EditorToolkitTips.cs" />
+     <Compile Include="Assets\QFramework\Framework\4.ScriptCollection\DontDestroyOnLoad.cs" />
+     <Compile Include="Assets\QFramework\Framework\4.ScriptCollection\DragMe.cs" />
+     <Compile Include="Assets\QFramework\Framework\4.ScriptCollection\Empty4Raycast.cs" />
+     <Compile Include="Assets\QFramework\Framework\4.ScriptCollection\Hide.cs" />
+     <Compile Include="Assets\QFramework\Framework\4.ScriptCollection\Math.cs" />
+     <Compile Include="Assets\QFramework\Framework\4.ScriptCollection\ParticleScaler.cs" />
+     <Compile Include="Assets\QFramework\Framework\5.ShaderLib\Scripts\PostFXBehaviour.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\Base\ScriptBaseSetting.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\Demo\Scripts\GameMain.cs" />
-     <Compile Include="Assets\QFramework\ScriptKit\Demo\Scripts\UI\Prefabs\View\MainView.cs" />
-     <Compile Include="Assets\QFramework\ScriptKit\Demo\Scripts\UI\Prefabs\View\MainView.Designer.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\Helper\EventTrigger\CustomDropdown.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\Helper\EventTrigger\DragEventListener.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\Helper\EventTrigger\DragHelper.cs" />
@@ -447,28 +440,27 @@
      <Compile Include="Assets\Scripts\UI\TestView.cs" />
      <Compile Include="Assets\Scripts\UI\TestView.Designer.cs" />
      <None Include="Assets\QFramework\ScriptKit\ToLua\link.xml" />
-     <None Include="Assets\QFramework\Framework\8.ShaderLib\CGInclude\UIGrabPass.cginc" />
-     <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\Framework3D.cginc" />
-     <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\Feature.cginc" />
-     <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\Framework3D_Terrain.cginc" />
-     <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\Framework3D_DefaultRender.cginc" />
-     <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\Common.cginc" />
-     <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\Noise.cginc" />
-     <None Include="Assets\QFramework\Framework\8.ShaderLib\CGInclude\UI.cginc" />
-     <None Include="Assets\QFramework\Framework\8.ShaderLib\CGInclude\PostFX.cginc" />
-     <None Include="Assets\QFramework\Framework\notice.txt" />
-     <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\SDF.cginc" />
-     <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\Framework2D.cginc" />
-     <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\Hash.cginc" />
-     <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\Math.cginc" />
-     <None Include="Assets\QFramework\Framework\0.Libs\Plugins\JsonDotNet\link.xml" />
-     <None Include="Assets\QFramework\Framework\3.UIKit\4.Guide\Shader\CircleGuideShader.shader" />
-     <None Include="Assets\QFramework\Framework\0.Libs\Plugins\Demigiant\DOTween\readme.txt" />
-     <None Include="Assets\QFramework\Framework\3.UIKit\4.Guide\Shader\RectGuideShader.shader" />
-     <None Include="Assets\QFramework\Framework\8.ShaderLib\CGInclude\GaussianBlur.cginc" />
+     <None Include="Assets\QFramework\Framework\5.ShaderLib\CGInclude\UIGrabPass.cginc" />
+     <None Include="Assets\QFramework\Framework\4.ScriptCollection\ShaderLib\Framework3D.cginc" />
+     <None Include="Assets\QFramework\Framework\4.ScriptCollection\ShaderLib\Feature.cginc" />
+     <None Include="Assets\QFramework\Framework\4.ScriptCollection\ShaderLib\Framework3D_Terrain.cginc" />
+     <None Include="Assets\QFramework\Framework\4.ScriptCollection\ShaderLib\Framework3D_DefaultRender.cginc" />
+     <None Include="Assets\QFramework\Framework\4.ScriptCollection\ShaderLib\Common.cginc" />
+     <None Include="Assets\QFramework\Framework\4.ScriptCollection\ShaderLib\Noise.cginc" />
+     <None Include="Assets\QFramework\Framework\5.ShaderLib\CGInclude\UI.cginc" />
+     <None Include="Assets\QFramework\Framework\5.ShaderLib\CGInclude\PostFX.cginc" />
+     <None Include="Assets\QFramework\Framework\4.ScriptCollection\ShaderLib\SDF.cginc" />
+     <None Include="Assets\QFramework\Framework\4.ScriptCollection\ShaderLib\Framework2D.cginc" />
+     <None Include="Assets\QFramework\Framework\4.ScriptCollection\ShaderLib\Hash.cginc" />
+     <None Include="Assets\QFramework\Framework\4.ScriptCollection\ShaderLib\Math.cginc" />
+     <None Include="Assets\QFramework\Framework\0.Core\Plugins\JsonDotNet\link.xml" />
+     <None Include="Assets\QFramework\Framework\2.UIKit\3.Guide\Shader\CircleGuideShader.shader" />
+     <None Include="Assets\QFramework\Framework\0.Core\Plugins\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\QFramework\Framework\2.UIKit\3.Guide\Shader\RectGuideShader.shader" />
+     <None Include="Assets\QFramework\Framework\5.ShaderLib\CGInclude\GaussianBlur.cginc" />
      <None Include="Assets\QFramework\ScriptKit\ToLua\readme.txt" />
-     <None Include="Assets\QFramework\Framework\5.ScriptCollection\ShaderLib\FBM.cginc" />
-     <None Include="Assets\QFramework\Framework\8.ShaderLib\CGInclude\Gray.cginc" />
+     <None Include="Assets\QFramework\Framework\4.ScriptCollection\ShaderLib\FBM.cginc" />
+     <None Include="Assets\QFramework\Framework\5.ShaderLib\CGInclude\Gray.cginc" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>E:/Unity2017.4.14/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
  </Reference>
@@ -634,24 +626,6 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>E:/Unity2017.4.14/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
- <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
- </Reference>
- <Reference Include="ProtobufNet">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/ProtobufNet.dll</HintPath>
- </Reference>
- <Reference Include="QFramework.Log">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/QFramework.Log.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="CString">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/ScriptKit/ToLua/Plugins/CString.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
  </Reference>
@@ -661,18 +635,65 @@
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Rocks">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Mdb">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject-usage">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/Source/Usage/Zenject-usage.dll</HintPath>
+ </Reference>
+ <Reference Include="CString">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/ScriptKit/ToLua/Plugins/CString.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Pdb">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll</HintPath>
+ </Reference>
+ <Reference Include="ProtobufNet">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/ProtobufNet.dll</HintPath>
+ </Reference>
+ <Reference Include="QFramework.Log">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/QFramework.Log.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Zenject.csproj">
+      <Project>{6592312C-DB2C-E783-CCB2-6E72BF7A060F}</Project>      <Name>Zenject</Name>    </ProjectReference>
+    <ProjectReference Include="Zenject-ReflectionBaking-Editor.csproj">
+      <Project>{CE1DD751-2AFD-258B-65B6-3DA1C37170E9}</Project>      <Name>Zenject-ReflectionBaking-Editor</Name>    </ProjectReference>
     <ProjectReference Include="UniRx.csproj">
       <Project>{ED2B4180-CBD8-74DA-8734-03CAC7D6BE24}</Project>      <Name>UniRx</Name>    </ProjectReference>
-    <ProjectReference Include="QFramework.Core.Runtime.csproj">
-      <Project>{1EB4D0C4-DF8A-2721-BA2C-E00DAFF31615}</Project>      <Name>QFramework.Core.Runtime</Name>    </ProjectReference>
+    <ProjectReference Include="QFramework.Core.Editor.csproj">
+      <Project>{ED2B5078-F196-2C11-0E39-F3AC258DDC71}</Project>      <Name>QFramework.Core.Editor</Name>    </ProjectReference>
     <ProjectReference Include="HTTP.csproj">
       <Project>{7190EC85-2A56-F549-C686-8E932F70E984}</Project>      <Name>HTTP</Name>    </ProjectReference>
-    <ProjectReference Include="UniRx.Async.csproj">
-      <Project>{C2BC24F7-81C9-1B8D-E15A-9B118D50F884}</Project>      <Name>UniRx.Async</Name>    </ProjectReference>
+    <ProjectReference Include="UniRx.Examples.csproj">
+      <Project>{F01AF797-CFB2-FA5A-0C37-E916A74A3511}</Project>      <Name>UniRx.Examples</Name>    </ProjectReference>
+    <ProjectReference Include="Zenject-TestFramework.csproj">
+      <Project>{3F83A94F-9B59-9D38-475C-54A594A0AA2C}</Project>      <Name>Zenject-TestFramework</Name>    </ProjectReference>
     <ProjectReference Include="UniRx.Async.Editor.csproj">
       <Project>{25045386-029C-E102-60F9-5EAFE4CDB114}</Project>      <Name>UniRx.Async.Editor</Name>    </ProjectReference>
+    <ProjectReference Include="Zenject-Editor.csproj">
+      <Project>{615EDEB2-147F-858B-E384-984E5083EF1A}</Project>      <Name>Zenject-Editor</Name>    </ProjectReference>
+    <ProjectReference Include="UniRx.Async.csproj">
+      <Project>{C2BC24F7-81C9-1B8D-E15A-9B118D50F884}</Project>      <Name>UniRx.Async</Name>    </ProjectReference>
+    <ProjectReference Include="Zenject-PoolMonitor-Editor.csproj">
+      <Project>{80E37B7A-025D-8E4D-0825-CF63D8E9D10C}</Project>      <Name>Zenject-PoolMonitor-Editor</Name>    </ProjectReference>
+    <ProjectReference Include="QFramework.Core.Runtime.csproj">
+      <Project>{1EB4D0C4-DF8A-2721-BA2C-E00DAFF31615}</Project>      <Name>QFramework.Core.Runtime</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

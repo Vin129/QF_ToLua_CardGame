@@ -1,21 +1,16 @@
 --=============================================================================
--- 2019.3 XAVIER
+-- 2019.4 XAVIER
 --=============================================================================
 local TestView = class("TestView",LuaBehaviour)
 
 --===== 初始化流程:注意Awake方法不要重写 =====
 function TestView:BindUI()
-	self.Button1 = self:Find(self.gameObject,Button1);
-	self.Button2 = self:Find(self.gameObject,Button2);
+	self.Button = self:Find(self.gameObject,Button);
 end
 
 function TestView:RegisterUIEvent()
 
-	QUIHelper.SetButtonClickEvent(self.Button1,function()
-
-	end)
-
-	QUIHelper.SetButtonClickEvent(self.Button2,function()
+	QUIHelper.SetButtonClickEvent(self.Button,function()
 
 	end)
 end

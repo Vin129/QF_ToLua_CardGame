@@ -8,31 +8,36 @@
             "version": "v0.4.8",
             "content": "fix MVVM's compile error",
             "author": "liangxie",
-            "date": "2019 年 02 月 16 日 19:49"
+            "date": "2019 年 02 月 16 日 19:49",
+            "VersionNumber": 408
           },
           {
             "version": "v0.4.7",
             "content": "package admin view improvements",
             "author": "liangxie",
-            "date": "2019 年 02 月 14 日 12:37"
+            "date": "2019 年 02 月 14 日 12:37",
+            "VersionNumber": 407
           },
           {
             "version": "v0.4.6",
             "content": "Package Manager View Improvements",
             "author": "liangxie",
-            "date": "2019 年 02 月 14 日 12:30"
+            "date": "2019 年 02 月 14 日 12:30",
+            "VersionNumber": 406
           },
           {
             "version": "v0.4.5",
             "content": "remove tree view",
             "author": "liangxie",
-            "date": "2019 年 02 月 14 日 12:26"
+            "date": "2019 年 02 月 14 日 12:26",
+            "VersionNumber": 405
           },
           {
             "version": "v0.4.4",
             "content": "fix package publish error",
             "author": "liangxie",
-            "date": "2019 年 02 月 14 日 10:24"
+            "date": "2019 年 02 月 14 日 10:24",
+            "VersionNumber": 404
           }
         ]
       },
@@ -48,8 +53,10 @@
             "version": "v0.4.8",
             "content": "fix MVVM's compile error",
             "author": "liangxie",
-            "date": "2019 年 02 月 16 日 19:49"
+            "date": "2019 年 02 月 16 日 19:49",
+            "VersionNumber": 408
           },
+          "Id": "586",
           "Name": "0.Core",
           "VersionNumber": 408,
           "FileName": "0.Core_v0.4.8.unitypackage"
@@ -65,8 +72,10 @@
             "version": "v0.4.7",
             "content": "package admin view improvements",
             "author": "liangxie",
-            "date": "2019 年 02 月 14 日 12:37"
+            "date": "2019 年 02 月 14 日 12:37",
+            "VersionNumber": 407
           },
+          "Id": "581",
           "Name": "0.Core",
           "VersionNumber": 407,
           "FileName": "0.Core_v0.4.7.unitypackage"
@@ -82,8 +91,10 @@
             "version": "v0.4.6",
             "content": "Package Manager View Improvements",
             "author": "liangxie",
-            "date": "2019 年 02 月 14 日 12:30"
+            "date": "2019 年 02 月 14 日 12:30",
+            "VersionNumber": 406
           },
+          "Id": "580",
           "Name": "0.Core",
           "VersionNumber": 406,
           "FileName": "0.Core_v0.4.6.unitypackage"
@@ -99,8 +110,10 @@
             "version": "v0.4.5",
             "content": "remove tree view",
             "author": "liangxie",
-            "date": "2019 年 02 月 14 日 12:26"
+            "date": "2019 年 02 月 14 日 12:26",
+            "VersionNumber": 405
           },
+          "Id": "579",
           "Name": "0.Core",
           "VersionNumber": 405,
           "FileName": "0.Core_v0.4.5.unitypackage"
@@ -116,8 +129,10 @@
             "version": "v0.4.4",
             "content": "fix package publish error",
             "author": "liangxie",
-            "date": "2019 年 02 月 14 日 10:24"
+            "date": "2019 年 02 月 14 日 10:24",
+            "VersionNumber": 404
           },
+          "Id": "576",
           "Name": "0.Core",
           "VersionNumber": 404,
           "FileName": "0.Core_v0.4.4.unitypackage"
@@ -140,7 +155,8 @@
             "version": "v0.1.2",
             "content": "fix bug",
             "author": "liangxie",
-            "date": "2019 年 01 月 31 日 13:17"
+            "date": "2019 年 01 月 31 日 13:17",
+            "VersionNumber": 102
           }
         ]
       },
@@ -156,8 +172,10 @@
             "version": "v0.1.2",
             "content": "fix bug",
             "author": "liangxie",
-            "date": "2019 年 01 月 31 日 13:17"
+            "date": "2019 年 01 月 31 日 13:17",
+            "VersionNumber": 102
           },
+          "Id": "551",
           "Name": "1.ResKit",
           "VersionNumber": 102,
           "FileName": "1.ResKit_v0.1.2.unitypackage"
@@ -170,7 +188,7 @@
       "Type": 0,
       "AccessRight": 0,
       "VersionNumber": 102,
-      "Installed": false
+      "Installed": true
     },
     {
       "Name": "2.UIKit",
@@ -180,13 +198,15 @@
             "version": "v0.2.6",
             "content": "UI Kit Setting Improvements",
             "author": "liangxie",
-            "date": "2019 年 02 月 14 日 12:26"
+            "date": "2019 年 02 月 14 日 12:26",
+            "VersionNumber": 206
           },
           {
             "version": "v0.2.5",
             "content": "fix gen code error",
             "author": "liangxie",
-            "date": "2019 年 02 月 03 日 12:55"
+            "date": "2019 年 02 月 03 日 12:55",
+            "VersionNumber": 205
           }
         ]
       },
@@ -202,8 +222,10 @@
             "version": "v0.2.6",
             "content": "UI Kit Setting Improvements",
             "author": "liangxie",
-            "date": "2019 年 02 月 14 日 12:26"
+            "date": "2019 年 02 月 14 日 12:26",
+            "VersionNumber": 206
           },
+          "Id": "578",
           "Name": "2.UIKit",
           "VersionNumber": 206,
           "FileName": "2.UIKit_v0.2.6.unitypackage"
@@ -219,8 +241,10 @@
             "version": "v0.2.5",
             "content": "fix gen code error",
             "author": "liangxie",
-            "date": "2019 年 02 月 03 日 12:55"
+            "date": "2019 年 02 月 03 日 12:55",
+            "VersionNumber": 205
           },
+          "Id": "555",
           "Name": "2.UIKit",
           "VersionNumber": 205,
           "FileName": "2.UIKit_v0.2.5.unitypackage"
@@ -233,7 +257,7 @@
       "Type": 0,
       "AccessRight": 0,
       "VersionNumber": 206,
-      "Installed": false
+      "Installed": true
     },
     {
       "Name": "3.EditorToolKit",
@@ -243,25 +267,29 @@
             "version": "v0.2.2",
             "content": "fix rotation can't reset error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 20:01"
+            "date": "2019 年 03 月 08 日 20:01",
+            "VersionNumber": 202
           },
           {
             "version": "v0.2.1",
             "content": "restore Editor Tool Kit",
             "author": "liangxie",
-            "date": "2019 年 02 月 18 日 20:20"
+            "date": "2019 年 02 月 18 日 20:20",
+            "VersionNumber": 201
           },
           {
             "version": "v0.1.1",
             "content": "fix 2018.1 compile error",
             "author": "liangxie",
-            "date": "2019 年 02 月 15 日 14:34"
+            "date": "2019 年 02 月 15 日 14:34",
+            "VersionNumber": 101
           },
           {
             "version": "v0.1.0",
             "content": "move folder",
             "author": "liangxie",
-            "date": "2019 年 01 月 24 日 11:52"
+            "date": "2019 年 01 月 24 日 11:52",
+            "VersionNumber": 100
           }
         ]
       },
@@ -277,8 +305,10 @@
             "version": "v0.2.2",
             "content": "fix rotation can't reset error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 20:01"
+            "date": "2019 年 03 月 08 日 20:01",
+            "VersionNumber": 202
           },
+          "Id": "591",
           "Name": "3.EditorToolKit",
           "VersionNumber": 202,
           "FileName": "3.EditorToolKit_v0.2.2.unitypackage"
@@ -294,8 +324,10 @@
             "version": "v0.2.1",
             "content": "restore Editor Tool Kit",
             "author": "liangxie",
-            "date": "2019 年 02 月 18 日 20:20"
+            "date": "2019 年 02 月 18 日 20:20",
+            "VersionNumber": 201
           },
+          "Id": "589",
           "Name": "3.EditorToolKit",
           "VersionNumber": 201,
           "FileName": "3.EditorToolKit_v0.2.1.unitypackage"
@@ -311,8 +343,10 @@
             "version": "v0.1.1",
             "content": "fix 2018.1 compile error",
             "author": "liangxie",
-            "date": "2019 年 02 月 15 日 14:34"
+            "date": "2019 年 02 月 15 日 14:34",
+            "VersionNumber": 101
           },
+          "Id": "583",
           "Name": "3.EditorToolKit",
           "VersionNumber": 101,
           "FileName": "3.EditorToolKit_v0.1.1.unitypackage"
@@ -328,8 +362,10 @@
             "version": "v0.1.0",
             "content": "move folder",
             "author": "liangxie",
-            "date": "2019 年 01 月 24 日 11:52"
+            "date": "2019 年 01 月 24 日 11:52",
+            "VersionNumber": 100
           },
+          "Id": "488",
           "Name": "3.EditorToolKit",
           "VersionNumber": 100,
           "FileName": "3.EditorToolKit_v0.1.0.unitypackage"
@@ -342,7 +378,7 @@
       "Type": 0,
       "AccessRight": 0,
       "VersionNumber": 202,
-      "Installed": false
+      "Installed": true
     },
     {
       "Name": "4.ScriptCollection",
@@ -352,7 +388,8 @@
             "version": "v0.1.0",
             "content": "move folder",
             "author": "liangxie",
-            "date": "2019 年 01 月 24 日 11:52"
+            "date": "2019 年 01 月 24 日 11:52",
+            "VersionNumber": 100
           }
         ]
       },
@@ -368,8 +405,10 @@
             "version": "v0.1.0",
             "content": "move folder",
             "author": "liangxie",
-            "date": "2019 年 01 月 24 日 11:52"
+            "date": "2019 年 01 月 24 日 11:52",
+            "VersionNumber": 100
           },
+          "Id": "489",
           "Name": "4.ScriptCollection",
           "VersionNumber": 100,
           "FileName": "4.ScriptCollection_v0.1.0.unitypackage"
@@ -382,7 +421,7 @@
       "Type": 0,
       "AccessRight": 0,
       "VersionNumber": 100,
-      "Installed": false
+      "Installed": true
     },
     {
       "Name": "5.ShaderLib",
@@ -392,7 +431,8 @@
             "version": "v0.1.0",
             "content": "remove folder",
             "author": "liangxie",
-            "date": "2019 年 01 月 24 日 11:53"
+            "date": "2019 年 01 月 24 日 11:53",
+            "VersionNumber": 100
           }
         ]
       },
@@ -408,8 +448,10 @@
             "version": "v0.1.0",
             "content": "remove folder",
             "author": "liangxie",
-            "date": "2019 年 01 月 24 日 11:53"
+            "date": "2019 年 01 月 24 日 11:53",
+            "VersionNumber": 100
           },
+          "Id": "490",
           "Name": "5.ShaderLib",
           "VersionNumber": 100,
           "FileName": "5.ShaderLib_v0.1.0.unitypackage"
@@ -422,7 +464,7 @@
       "Type": 0,
       "AccessRight": 0,
       "VersionNumber": 100,
-      "Installed": false
+      "Installed": true
     },
     {
       "Name": "6.ECS",
@@ -432,19 +474,22 @@
             "version": "v0.1.3",
             "content": "fix variable rename error",
             "author": "liangxie",
-            "date": "2019 年 02 月 14 日 09:46"
+            "date": "2019 年 02 月 14 日 09:46",
+            "VersionNumber": 103
           },
           {
             "version": "v0.1.2",
             "content": "fix component template's code style",
             "author": "liangxie",
-            "date": "2019 年 02 月 14 日 08:22"
+            "date": "2019 年 02 月 14 日 08:22",
+            "VersionNumber": 102
           },
           {
             "version": "v0.1.1",
             "content": "remove unused code",
             "author": "liangxie",
-            "date": "2019 年 02 月 13 日 23:06"
+            "date": "2019 年 02 月 13 日 23:06",
+            "VersionNumber": 101
           }
         ]
       },
@@ -460,8 +505,10 @@
             "version": "v0.1.3",
             "content": "fix variable rename error",
             "author": "liangxie",
-            "date": "2019 年 02 月 14 日 09:46"
+            "date": "2019 年 02 月 14 日 09:46",
+            "VersionNumber": 103
           },
+          "Id": "574",
           "Name": "6.ECS",
           "VersionNumber": 103,
           "FileName": "6.ECS_v0.1.3.unitypackage"
@@ -477,8 +524,10 @@
             "version": "v0.1.2",
             "content": "fix component template's code style",
             "author": "liangxie",
-            "date": "2019 年 02 月 14 日 08:22"
+            "date": "2019 年 02 月 14 日 08:22",
+            "VersionNumber": 102
           },
+          "Id": "573",
           "Name": "6.ECS",
           "VersionNumber": 102,
           "FileName": "6.ECS_v0.1.2.unitypackage"
@@ -494,8 +543,10 @@
             "version": "v0.1.1",
             "content": "remove unused code",
             "author": "liangxie",
-            "date": "2019 年 02 月 13 日 23:06"
+            "date": "2019 年 02 月 13 日 23:06",
+            "VersionNumber": 101
           },
+          "Id": "570",
           "Name": "6.ECS",
           "VersionNumber": 101,
           "FileName": "6.ECS_v0.1.1.unitypackage"
@@ -518,13 +569,15 @@
             "version": "v0.0.2",
             "content": "add UpdateKernel Command",
             "author": "liangxie",
-            "date": "2019 年 02 月 15 日 21:42"
+            "date": "2019 年 02 月 15 日 21:42",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "add mvvm graph designer",
             "author": "liangxie",
-            "date": "2019 年 02 月 15 日 18:06"
+            "date": "2019 年 02 月 15 日 18:06",
+            "VersionNumber": 1
           }
         ]
       },
@@ -540,8 +593,10 @@
             "version": "v0.0.2",
             "content": "add UpdateKernel Command",
             "author": "liangxie",
-            "date": "2019 年 02 月 15 日 21:42"
+            "date": "2019 年 02 月 15 日 21:42",
+            "VersionNumber": 2
           },
+          "Id": "585",
           "Name": "7.MVVM",
           "VersionNumber": 2,
           "FileName": "7.MVVM_v0.0.2.unitypackage"
@@ -557,8 +612,10 @@
             "version": "v0.0.1",
             "content": "add mvvm graph designer",
             "author": "liangxie",
-            "date": "2019 年 02 月 15 日 18:06"
+            "date": "2019 年 02 月 15 日 18:06",
+            "VersionNumber": 1
           },
+          "Id": "584",
           "Name": "7.MVVM",
           "VersionNumber": 1,
           "FileName": "7.MVVM_v0.0.1.unitypackage"
@@ -581,7 +638,8 @@
             "version": "v0.0.3",
             "content": "refactor:behavior design",
             "author": "ZED9587",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           }
         ]
       },
@@ -597,8 +655,10 @@
             "version": "v0.0.3",
             "content": "refactor:behavior design",
             "author": "ZED9587",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "329",
           "Name": "9.ZEDkit",
           "VersionNumber": 3,
           "FileName": "9.ZEDkit_v0.0.3.unitypackage"
@@ -621,19 +681,22 @@
             "version": "v0.0.3",
             "content": "refactor:remove MonoSingleton",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "remove itween use DOTween.",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "基础功能",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -649,8 +712,10 @@
             "version": "v0.0.3",
             "content": "refactor:remove MonoSingleton",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "164",
           "Name": "DoodleJump",
           "VersionNumber": 3,
           "FileName": "DoodleJump_v0.0.3.unitypackage"
@@ -666,8 +731,10 @@
             "version": "v0.0.2",
             "content": "remove itween use DOTween.",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "163",
           "Name": "DoodleJump",
           "VersionNumber": 2,
           "FileName": "DoodleJump_v0.0.2.unitypackage"
@@ -683,8 +750,10 @@
             "version": "v0.0.1",
             "content": "基础功能",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "160",
           "Name": "DoodleJump",
           "VersionNumber": 1,
           "FileName": "DoodleJump_v0.0.1.unitypackage"
@@ -700,6 +769,75 @@
       "Installed": false
     },
     {
+      "Name": "EditorKit",
+      "readme": {
+        "items": [
+          {
+            "version": "v0.0.2",
+            "content": "upgrade editor kit",
+            "author": "liangxie",
+            "date": "2019 年 04 月 07 日 22:19",
+            "VersionNumber": 2
+          },
+          {
+            "version": "v0.0.1",
+            "content": "first commit",
+            "author": "liangxie",
+            "date": "2019 年 04 月 07 日 22:18",
+            "VersionNumber": 1
+          }
+        ]
+      },
+      "PackageVersions": [
+        {
+          "Version": "v0.0.2",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/EditorKit_v0.0.2.unitypackage",
+          "InstallPath": "Assets/QFramework/EditorKit/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.2",
+            "content": "upgrade editor kit",
+            "author": "liangxie",
+            "date": "2019 年 04 月 07 日 22:19",
+            "VersionNumber": 2
+          },
+          "Id": "619",
+          "Name": "EditorKit",
+          "VersionNumber": 2,
+          "FileName": "EditorKit_v0.0.2.unitypackage"
+        },
+        {
+          "Version": "v0.0.1",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/EditorKit_v0.0.1.unitypackage",
+          "InstallPath": "Assets/QFramework/EditorKit/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.0.1",
+            "content": "first commit",
+            "author": "liangxie",
+            "date": "2019 年 04 月 07 日 22:18",
+            "VersionNumber": 1
+          },
+          "Id": "617",
+          "Name": "EditorKit",
+          "VersionNumber": 1,
+          "FileName": "EditorKit_v0.0.1.unitypackage"
+        }
+      ],
+      "Version": "v0.0.2",
+      "DownloadUrl": "http://liangxiegame.com/media/EditorKit_v0.0.2.unitypackage",
+      "InstallPath": "Assets/QFramework/EditorKit/",
+      "DocUrl": "http://liangxiegame.com",
+      "Type": 0,
+      "AccessRight": 0,
+      "VersionNumber": 2,
+      "Installed": false
+    },
+    {
       "Name": "Example",
       "readme": {
         "items": [
@@ -707,31 +845,36 @@
             "version": "v0.0.45",
             "content": "update ui example",
             "author": "liangxie",
-            "date": "2019 年 01 月 29 日 21:05"
+            "date": "2019 年 01 月 29 日 21:05",
+            "VersionNumber": 45
           },
           {
             "version": "v0.0.44",
             "content": "fix example's namespace 2 QF.Example",
             "author": "liangxie",
-            "date": "2019 年 01 月 29 日 15:48"
+            "date": "2019 年 01 月 29 日 15:48",
+            "VersionNumber": 44
           },
           {
             "version": "v0.0.42",
             "content": "add IOC Example",
             "author": "liangxie",
-            "date": "2019 年 01 月 26 日 18:32"
+            "date": "2019 年 01 月 26 日 18:32",
+            "VersionNumber": 42
           },
           {
             "version": "v0.0.41",
             "content": "remov catlib example",
             "author": "liangxie",
-            "date": "2019 年 01 月 26 日 18:27"
+            "date": "2019 年 01 月 26 日 18:27",
+            "VersionNumber": 41
           },
           {
             "version": "v0.0.40",
             "content": "support 5.6",
             "author": "liangxie",
-            "date": "2019 年 01 月 25 日 12:39"
+            "date": "2019 年 01 月 25 日 12:39",
+            "VersionNumber": 40
           }
         ]
       },
@@ -747,8 +890,10 @@
             "version": "v0.0.45",
             "content": "update ui example",
             "author": "liangxie",
-            "date": "2019 年 01 月 29 日 21:05"
+            "date": "2019 年 01 月 29 日 21:05",
+            "VersionNumber": 45
           },
+          "Id": "541",
           "Name": "Example",
           "VersionNumber": 45,
           "FileName": "Example_v0.0.45.unitypackage"
@@ -764,8 +909,10 @@
             "version": "v0.0.44",
             "content": "fix example's namespace 2 QF.Example",
             "author": "liangxie",
-            "date": "2019 年 01 月 29 日 15:48"
+            "date": "2019 年 01 月 29 日 15:48",
+            "VersionNumber": 44
           },
+          "Id": "527",
           "Name": "Example",
           "VersionNumber": 44,
           "FileName": "Example_v0.0.44.unitypackage"
@@ -781,8 +928,10 @@
             "version": "v0.0.42",
             "content": "add IOC Example",
             "author": "liangxie",
-            "date": "2019 年 01 月 26 日 18:32"
+            "date": "2019 年 01 月 26 日 18:32",
+            "VersionNumber": 42
           },
+          "Id": "500",
           "Name": "Example",
           "VersionNumber": 42,
           "FileName": "Example_v0.0.42.unitypackage"
@@ -798,8 +947,10 @@
             "version": "v0.0.41",
             "content": "remov catlib example",
             "author": "liangxie",
-            "date": "2019 年 01 月 26 日 18:27"
+            "date": "2019 年 01 月 26 日 18:27",
+            "VersionNumber": 41
           },
+          "Id": "497",
           "Name": "Example",
           "VersionNumber": 41,
           "FileName": "Example_v0.0.41.unitypackage"
@@ -815,8 +966,10 @@
             "version": "v0.0.40",
             "content": "support 5.6",
             "author": "liangxie",
-            "date": "2019 年 01 月 25 日 12:39"
+            "date": "2019 年 01 月 25 日 12:39",
+            "VersionNumber": 40
           },
+          "Id": "492",
           "Name": "Example",
           "VersionNumber": 40,
           "FileName": "Example_v0.0.40.unitypackage"
@@ -829,7 +982,7 @@
       "Type": 0,
       "AccessRight": 0,
       "VersionNumber": 45,
-      "Installed": false
+      "Installed": true
     },
     {
       "Name": "Framework",
@@ -839,67 +992,78 @@
             "version": "v0.0.19",
             "content": "fix export android's bug",
             "author": "liangxie",
-            "date": "2019 年 02 月 12 日 19:11"
+            "date": "2019 年 02 月 12 日 19:11",
+            "VersionNumber": 19
           },
           {
             "version": "v0.0.18",
             "content": "code gen improvement",
             "author": "liangxie",
-            "date": "2019 年 02 月 03 日 14:57"
+            "date": "2019 年 02 月 03 日 14:57",
+            "VersionNumber": 18
           },
           {
             "version": "v0.0.17",
             "content": "fix:load assembly bug",
             "author": "liangxie",
-            "date": "2019 年 01 月 27 日 16:39"
+            "date": "2019 年 01 月 27 日 16:39",
+            "VersionNumber": 17
           },
           {
             "version": "v0.0.16",
             "content": "using iOC 2 manage the PM",
             "author": "liangxie",
-            "date": "2019 年 01 月 27 日 16:28"
+            "date": "2019 年 01 月 27 日 16:28",
+            "VersionNumber": 16
           },
           {
             "version": "v0.0.15",
             "content": "add uFrame 的 IOC 解决方案，详情查看 Example。",
             "author": "liangxie",
-            "date": "2019 年 01 月 26 日 18:32"
+            "date": "2019 年 01 月 26 日 18:32",
+            "VersionNumber": 15
           },
           {
             "version": "v0.0.14",
             "content": "suprot 5.6",
             "author": "liangxie",
-            "date": "2019 年 01 月 25 日 12:40"
+            "date": "2019 年 01 月 25 日 12:40",
+            "VersionNumber": 14
           },
           {
             "version": "v0.0.13",
             "content": "ActionKit 集成到 Core 里",
             "author": "liangxie",
-            "date": "2019 年 01 月 24 日 10:05"
+            "date": "2019 年 01 月 24 日 10:05",
+            "VersionNumber": 13
           },
           {
             "version": "v0.0.12",
             "content": "0.Libs=>0.Core",
             "author": "liangxie",
-            "date": "2019 年 01 月 21 日 20:08"
+            "date": "2019 年 01 月 21 日 20:08",
+            "VersionNumber": 12
           },
           {
             "version": "v0.0.11",
             "content": "Package Manager Data Structure Improvements",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 11
           },
           {
             "version": "v0.0.10",
             "content": "releas v0.0.10",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 10
           },
           {
             "version": "v0.0.1",
             "content": "test",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -915,8 +1079,10 @@
             "version": "v0.0.19",
             "content": "fix export android's bug",
             "author": "liangxie",
-            "date": "2019 年 02 月 12 日 19:11"
+            "date": "2019 年 02 月 12 日 19:11",
+            "VersionNumber": 19
           },
+          "Id": "561",
           "Name": "Framework",
           "VersionNumber": 19,
           "FileName": "Framework_v0.0.19.unitypackage"
@@ -932,8 +1098,10 @@
             "version": "v0.0.18",
             "content": "code gen improvement",
             "author": "liangxie",
-            "date": "2019 年 02 月 03 日 14:57"
+            "date": "2019 年 02 月 03 日 14:57",
+            "VersionNumber": 18
           },
+          "Id": "556",
           "Name": "Framework",
           "VersionNumber": 18,
           "FileName": "Framework_v0.0.18.unitypackage"
@@ -949,8 +1117,10 @@
             "version": "v0.0.17",
             "content": "fix:load assembly bug",
             "author": "liangxie",
-            "date": "2019 年 01 月 27 日 16:39"
+            "date": "2019 年 01 月 27 日 16:39",
+            "VersionNumber": 17
           },
+          "Id": "511",
           "Name": "Framework",
           "VersionNumber": 17,
           "FileName": "Framework_v0.0.17.unitypackage"
@@ -966,8 +1136,10 @@
             "version": "v0.0.16",
             "content": "using iOC 2 manage the PM",
             "author": "liangxie",
-            "date": "2019 年 01 月 27 日 16:28"
+            "date": "2019 年 01 月 27 日 16:28",
+            "VersionNumber": 16
           },
+          "Id": "510",
           "Name": "Framework",
           "VersionNumber": 16,
           "FileName": "Framework_v0.0.16.unitypackage"
@@ -983,8 +1155,10 @@
             "version": "v0.0.15",
             "content": "add uFrame 的 IOC 解决方案，详情查看 Example。",
             "author": "liangxie",
-            "date": "2019 年 01 月 26 日 18:32"
+            "date": "2019 年 01 月 26 日 18:32",
+            "VersionNumber": 15
           },
+          "Id": "501",
           "Name": "Framework",
           "VersionNumber": 15,
           "FileName": "Framework_v0.0.15.unitypackage"
@@ -1000,8 +1174,10 @@
             "version": "v0.0.14",
             "content": "suprot 5.6",
             "author": "liangxie",
-            "date": "2019 年 01 月 25 日 12:40"
+            "date": "2019 年 01 月 25 日 12:40",
+            "VersionNumber": 14
           },
+          "Id": "494",
           "Name": "Framework",
           "VersionNumber": 14,
           "FileName": "Framework_v0.0.14.unitypackage"
@@ -1017,8 +1193,10 @@
             "version": "v0.0.13",
             "content": "ActionKit 集成到 Core 里",
             "author": "liangxie",
-            "date": "2019 年 01 月 24 日 10:05"
+            "date": "2019 年 01 月 24 日 10:05",
+            "VersionNumber": 13
           },
+          "Id": "483",
           "Name": "Framework",
           "VersionNumber": 13,
           "FileName": "Framework_v0.0.13.unitypackage"
@@ -1034,8 +1212,10 @@
             "version": "v0.0.12",
             "content": "0.Libs=>0.Core",
             "author": "liangxie",
-            "date": "2019 年 01 月 21 日 20:08"
+            "date": "2019 年 01 月 21 日 20:08",
+            "VersionNumber": 12
           },
+          "Id": "469",
           "Name": "Framework",
           "VersionNumber": 12,
           "FileName": "Framework_v0.0.12.unitypackage"
@@ -1051,8 +1231,10 @@
             "version": "v0.0.11",
             "content": "Package Manager Data Structure Improvements",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 11
           },
+          "Id": "383",
           "Name": "Framework",
           "VersionNumber": 11,
           "FileName": "Framework_v0.0.11.unitypackage"
@@ -1068,8 +1250,10 @@
             "version": "v0.0.10",
             "content": "releas v0.0.10",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 10
           },
+          "Id": "322",
           "Name": "Framework",
           "VersionNumber": 10,
           "FileName": "Framework_v0.0.10.unitypackage"
@@ -1085,8 +1269,10 @@
             "version": "v0.0.10",
             "content": "releas v0.0.10",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 10
           },
+          "Id": "335",
           "Name": "Framework",
           "VersionNumber": 10,
           "FileName": "Framework_v0.0.10.unitypackage"
@@ -1102,8 +1288,10 @@
             "version": "v0.0.1",
             "content": "test",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "128",
           "Name": "Framework",
           "VersionNumber": 1,
           "FileName": "Framework_v0.0.1.unitypackage"
@@ -1126,25 +1314,29 @@
             "version": "v0.0.4",
             "content": "fix path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 20:06"
+            "date": "2019 年 03 月 08 日 20:06",
+            "VersionNumber": 4
           },
           {
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "base function",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -1160,8 +1352,10 @@
             "version": "v0.0.4",
             "content": "fix path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 20:06"
+            "date": "2019 年 03 月 08 日 20:06",
+            "VersionNumber": 4
           },
+          "Id": "592",
           "Name": "GameHPUIShader",
           "VersionNumber": 4,
           "FileName": "GameHPUIShader_v0.0.4.unitypackage"
@@ -1177,8 +1371,10 @@
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "261",
           "Name": "GameHPUIShader",
           "VersionNumber": 3,
           "FileName": "GameHPUIShader_v0.0.3.unitypackage"
@@ -1194,8 +1390,10 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "255",
           "Name": "GameHPUIShader",
           "VersionNumber": 2,
           "FileName": "GameHPUIShader_v0.0.2.unitypackage"
@@ -1211,8 +1409,10 @@
             "version": "v0.0.1",
             "content": "base function",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "113",
           "Name": "GameHPUIShader",
           "VersionNumber": 1,
           "FileName": "GameHPUIShader_v0.0.1.unitypackage"
@@ -1235,13 +1435,15 @@
             "version": "v0.0.2",
             "content": "change type",
             "author": "liangxie",
-            "date": "2019 年 01 月 12 日 01:21"
+            "date": "2019 年 01 月 12 日 01:21",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "pack from github",
             "author": "liangxie",
-            "date": "2019 年 01 月 12 日 01:20"
+            "date": "2019 年 01 月 12 日 01:20",
+            "VersionNumber": 1
           }
         ]
       },
@@ -1257,8 +1459,10 @@
             "version": "v0.0.2",
             "content": "change type",
             "author": "liangxie",
-            "date": "2019 年 01 月 12 日 01:21"
+            "date": "2019 年 01 月 12 日 01:21",
+            "VersionNumber": 2
           },
+          "Id": "446",
           "Name": "Graphy",
           "VersionNumber": 2,
           "FileName": "Graphy_v0.0.2.unitypackage"
@@ -1274,8 +1478,10 @@
             "version": "v0.0.1",
             "content": "pack from github",
             "author": "liangxie",
-            "date": "2019 年 01 月 12 日 01:20"
+            "date": "2019 年 01 月 12 日 01:20",
+            "VersionNumber": 1
           },
+          "Id": "445",
           "Name": "Graphy",
           "VersionNumber": 1,
           "FileName": "Graphy_v0.0.1.unitypackage"
@@ -1291,8 +1497,10 @@
             "version": "v0.0.1",
             "content": "pack from github",
             "author": "liangxie",
-            "date": "2019 年 01 月 12 日 01:20"
+            "date": "2019 年 01 月 12 日 01:20",
+            "VersionNumber": 1
           },
+          "Id": "444",
           "Name": "Graphy",
           "VersionNumber": 1,
           "FileName": "Graphy_v0.0.1.unitypackage"
@@ -1315,19 +1523,22 @@
             "version": "v0.0.4",
             "content": "fix lib path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 20:07"
+            "date": "2019 年 03 月 08 日 20:07",
+            "VersionNumber": 4
           },
           {
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           }
         ]
       },
@@ -1343,8 +1554,10 @@
             "version": "v0.0.4",
             "content": "fix lib path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 20:07"
+            "date": "2019 年 03 月 08 日 20:07",
+            "VersionNumber": 4
           },
+          "Id": "593",
           "Name": "MathShader",
           "VersionNumber": 4,
           "FileName": "MathShader_v0.0.4.unitypackage"
@@ -1360,8 +1573,10 @@
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "262",
           "Name": "MathShader",
           "VersionNumber": 3,
           "FileName": "MathShader_v0.0.3.unitypackage"
@@ -1377,8 +1592,10 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "256",
           "Name": "MathShader",
           "VersionNumber": 2,
           "FileName": "MathShader_v0.0.2.unitypackage"
@@ -1401,7 +1618,8 @@
             "version": "v0.0.1",
             "content": "move from libs",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -1417,8 +1635,10 @@
             "version": "v0.0.1",
             "content": "move from libs",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "359",
           "Name": "MecanimEventSyetem",
           "VersionNumber": 1,
           "FileName": "MecanimEventSyetem_v0.0.1.unitypackage"
@@ -1441,7 +1661,8 @@
             "version": "v0.5.0",
             "content": "add package delete admin",
             "author": "liangxie",
-            "date": "2019 年 02 月 14 日 10:23"
+            "date": "2019 年 02 月 14 日 10:23",
+            "VersionNumber": 500
           }
         ]
       },
@@ -1457,8 +1678,10 @@
             "version": "v0.5.0",
             "content": "add package delete admin",
             "author": "liangxie",
-            "date": "2019 年 02 月 14 日 10:23"
+            "date": "2019 年 02 月 14 日 10:23",
+            "VersionNumber": 500
           },
+          "Id": "575",
           "Name": "PackageAdmin",
           "VersionNumber": 500,
           "FileName": "PackageAdmin_v0.5.0.unitypackage"
@@ -1481,19 +1704,22 @@
             "version": "v0.0.3",
             "content": "add pixel font",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "更改插件地址",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "汉化自 UniPix，UniPix 是免费的 2D 图像制作工具，但是作者不更新了，以后可能会从 Asset Store 上下架。",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -1509,8 +1735,10 @@
             "version": "v0.0.3",
             "content": "add pixel font",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "356",
           "Name": "PixelKit",
           "VersionNumber": 3,
           "FileName": "PixelKit_v0.0.3.unitypackage"
@@ -1526,8 +1754,10 @@
             "version": "v0.0.3",
             "content": "add pixel font",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "425",
           "Name": "PixelKit",
           "VersionNumber": 3,
           "FileName": "PixelKit_v0.0.3.unitypackage"
@@ -1543,8 +1773,10 @@
             "version": "v0.0.2",
             "content": "更改插件地址",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "303",
           "Name": "PixelKit",
           "VersionNumber": 2,
           "FileName": "PixelKit_v0.0.2.unitypackage"
@@ -1560,8 +1792,10 @@
             "version": "v0.0.1",
             "content": "汉化自 UniPix，UniPix 是免费的 2D 图像制作工具，但是作者不更新了，以后可能会从 Asset Store 上下架。",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "238",
           "Name": "PixelKit",
           "VersionNumber": 1,
           "FileName": "PixelKit_v0.0.1.unitypackage"
@@ -1584,37 +1818,43 @@
             "version": "v0.0.18",
             "content": "重构 StageManager 完毕",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 18
           },
           {
             "version": "v0.0.17",
             "content": "重构 IStage",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 17
           },
           {
             "version": "v0.0.16",
             "content": "独立出来 StageManager",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 16
           },
           {
             "version": "v0.0.15",
             "content": "提取数据到 Stage.cs 中",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 15
           },
           {
             "version": "v0.0.13",
             "content": "提出些 Lagecy Component",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 13
           },
           {
             "version": "v0.0.12",
             "content": "* add home music\n* rename 2 PlatformRunner",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 12
           }
         ]
       },
@@ -1630,8 +1870,10 @@
             "version": "v0.0.18",
             "content": "重构 StageManager 完毕",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 18
           },
+          "Id": "192",
           "Name": "PlatformRunner",
           "VersionNumber": 18,
           "FileName": "PlatformRunner_v0.0.18.unitypackage"
@@ -1647,8 +1889,10 @@
             "version": "v0.0.17",
             "content": "重构 IStage",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 17
           },
+          "Id": "191",
           "Name": "PlatformRunner",
           "VersionNumber": 17,
           "FileName": "PlatformRunner_v0.0.17.unitypackage"
@@ -1664,8 +1908,10 @@
             "version": "v0.0.16",
             "content": "独立出来 StageManager",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 16
           },
+          "Id": "185",
           "Name": "PlatformRunner",
           "VersionNumber": 16,
           "FileName": "PlatformRunner_v0.0.16.unitypackage"
@@ -1681,8 +1927,10 @@
             "version": "v0.0.15",
             "content": "提取数据到 Stage.cs 中",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 15
           },
+          "Id": "171",
           "Name": "PlatformRunner",
           "VersionNumber": 15,
           "FileName": "PlatformRunner_v0.0.15.unitypackage"
@@ -1698,8 +1946,10 @@
             "version": "v0.0.13",
             "content": "提出些 Lagecy Component",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 13
           },
+          "Id": "169",
           "Name": "PlatformRunner",
           "VersionNumber": 13,
           "FileName": "PlatformRunner_v0.0.13.unitypackage"
@@ -1715,8 +1965,10 @@
             "version": "v0.0.12",
             "content": "* add home music\n* rename 2 PlatformRunner",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 12
           },
+          "Id": "162",
           "Name": "PlatformRunner",
           "VersionNumber": 12,
           "FileName": "PlatformRunner_v0.0.12.unitypackage"
@@ -1739,19 +1991,22 @@
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "basic function",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -1767,8 +2022,10 @@
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "263",
           "Name": "PostFXBloomShader",
           "VersionNumber": 3,
           "FileName": "PostFXBloomShader_v0.0.3.unitypackage"
@@ -1784,8 +2041,10 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "257",
           "Name": "PostFXBloomShader",
           "VersionNumber": 2,
           "FileName": "PostFXBloomShader_v0.0.2.unitypackage"
@@ -1801,8 +2060,10 @@
             "version": "v0.0.1",
             "content": "basic function",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "93",
           "Name": "PostFXBloomShader",
           "VersionNumber": 1,
           "FileName": "PostFXBloomShader_v0.0.1.unitypackage"
@@ -1825,25 +2086,29 @@
             "version": "v0.0.4",
             "content": "fix lib path's error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 20:09"
+            "date": "2019 年 03 月 08 日 20:09",
+            "VersionNumber": 4
           },
           {
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "basic function",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -1859,8 +2124,10 @@
             "version": "v0.0.4",
             "content": "fix lib path's error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 20:09"
+            "date": "2019 年 03 月 08 日 20:09",
+            "VersionNumber": 4
           },
+          "Id": "594",
           "Name": "PostFXBlurShader",
           "VersionNumber": 4,
           "FileName": "PostFXBlurShader_v0.0.4.unitypackage"
@@ -1876,8 +2143,10 @@
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "264",
           "Name": "PostFXBlurShader",
           "VersionNumber": 3,
           "FileName": "PostFXBlurShader_v0.0.3.unitypackage"
@@ -1893,8 +2162,10 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "258",
           "Name": "PostFXBlurShader",
           "VersionNumber": 2,
           "FileName": "PostFXBlurShader_v0.0.2.unitypackage"
@@ -1910,8 +2181,10 @@
             "version": "v0.0.1",
             "content": "basic function",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "158",
           "Name": "PostFXBlurShader",
           "VersionNumber": 1,
           "FileName": "PostFXBlurShader_v0.0.1.unitypackage"
@@ -1934,25 +2207,29 @@
             "version": "v0.0.4",
             "content": "fix lib path's error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 20:39"
+            "date": "2019 年 03 月 08 日 20:39",
+            "VersionNumber": 4
           },
           {
             "version": "v0.0.3",
             "content": "add material",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "basic function",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -1968,8 +2245,10 @@
             "version": "v0.0.4",
             "content": "fix lib path's error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 20:39"
+            "date": "2019 年 03 月 08 日 20:39",
+            "VersionNumber": 4
           },
+          "Id": "595",
           "Name": "PostFXFireParticleShader",
           "VersionNumber": 4,
           "FileName": "PostFXFireParticleShader_v0.0.4.unitypackage"
@@ -1985,8 +2264,10 @@
             "version": "v0.0.3",
             "content": "add material",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "386",
           "Name": "PostFXFireParticleShader",
           "VersionNumber": 3,
           "FileName": "PostFXFireParticleShader_v0.0.3.unitypackage"
@@ -2002,8 +2283,10 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "279",
           "Name": "PostFXFireParticleShader",
           "VersionNumber": 2,
           "FileName": "PostFXFireParticleShader_v0.0.2.unitypackage"
@@ -2019,8 +2302,10 @@
             "version": "v0.0.1",
             "content": "basic function",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "115",
           "Name": "PostFXFireParticleShader",
           "VersionNumber": 1,
           "FileName": "PostFXFireParticleShader_v0.0.1.unitypackage"
@@ -2043,25 +2328,29 @@
             "version": "v0.0.4",
             "content": "fix lib path's error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 20:41"
+            "date": "2019 年 03 月 08 日 20:41",
+            "VersionNumber": 4
           },
           {
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "completed basic funtionc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -2077,8 +2366,10 @@
             "version": "v0.0.4",
             "content": "fix lib path's error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 20:41"
+            "date": "2019 年 03 月 08 日 20:41",
+            "VersionNumber": 4
           },
+          "Id": "596",
           "Name": "PostFXGrayShader",
           "VersionNumber": 4,
           "FileName": "PostFXGrayShader_v0.0.4.unitypackage"
@@ -2094,8 +2385,10 @@
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "280",
           "Name": "PostFXGrayShader",
           "VersionNumber": 3,
           "FileName": "PostFXGrayShader_v0.0.3.unitypackage"
@@ -2111,8 +2404,10 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "259",
           "Name": "PostFXGrayShader",
           "VersionNumber": 2,
           "FileName": "PostFXGrayShader_v0.0.2.unitypackage"
@@ -2128,8 +2423,10 @@
             "version": "v0.0.1",
             "content": "completed basic funtionc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "88",
           "Name": "PostFXGrayShader",
           "VersionNumber": 1,
           "FileName": "PostFXGrayShader_v0.0.1.unitypackage"
@@ -2152,19 +2449,22 @@
             "version": "v0.0.3",
             "content": "fix lib path's compile error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 20:53"
+            "date": "2019 年 03 月 08 日 20:53",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "basic func",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -2180,8 +2480,10 @@
             "version": "v0.0.3",
             "content": "fix lib path's compile error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 20:53"
+            "date": "2019 年 03 月 08 日 20:53",
+            "VersionNumber": 3
           },
+          "Id": "597",
           "Name": "PostFXLavaShader",
           "VersionNumber": 3,
           "FileName": "PostFXLavaShader_v0.0.3.unitypackage"
@@ -2197,8 +2499,10 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "260",
           "Name": "PostFXLavaShader",
           "VersionNumber": 2,
           "FileName": "PostFXLavaShader_v0.0.2.unitypackage"
@@ -2214,8 +2518,10 @@
             "version": "v0.0.1",
             "content": "basic func",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "112",
           "Name": "PostFXLavaShader",
           "VersionNumber": 1,
           "FileName": "PostFXLavaShader_v0.0.1.unitypackage"
@@ -2238,19 +2544,22 @@
             "version": "v0.0.3",
             "content": "fix lib path's error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 20:54"
+            "date": "2019 年 03 月 08 日 20:54",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "Base Fixed",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -2266,8 +2575,10 @@
             "version": "v0.0.3",
             "content": "fix lib path's error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 20:54"
+            "date": "2019 年 03 月 08 日 20:54",
+            "VersionNumber": 3
           },
+          "Id": "598",
           "Name": "PostFXRainShader",
           "VersionNumber": 3,
           "FileName": "PostFXRainShader_v0.0.3.unitypackage"
@@ -2283,8 +2594,10 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "281",
           "Name": "PostFXRainShader",
           "VersionNumber": 2,
           "FileName": "PostFXRainShader_v0.0.2.unitypackage"
@@ -2300,8 +2613,10 @@
             "version": "v0.0.1",
             "content": "Base Fixed",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "101",
           "Name": "PostFXRainShader",
           "VersionNumber": 1,
           "FileName": "PostFXRainShader_v0.0.1.unitypackage"
@@ -2324,31 +2639,36 @@
             "version": "v0.0.5",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 21:29"
+            "date": "2019 年 03 月 08 日 21:29",
+            "VersionNumber": 5
           },
           {
             "version": "v0.0.4",
             "content": "add material",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 4
           },
           {
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "code 排版",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "基础功能完善",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -2364,8 +2684,10 @@
             "version": "v0.0.5",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 21:29"
+            "date": "2019 年 03 月 08 日 21:29",
+            "VersionNumber": 5
           },
+          "Id": "599",
           "Name": "PostFXScreenRaindropShader",
           "VersionNumber": 5,
           "FileName": "PostFXScreenRaindropShader_v0.0.5.unitypackage"
@@ -2381,8 +2703,10 @@
             "version": "v0.0.4",
             "content": "add material",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 4
           },
+          "Id": "385",
           "Name": "PostFXScreenRaindropShader",
           "VersionNumber": 4,
           "FileName": "PostFXScreenRaindropShader_v0.0.4.unitypackage"
@@ -2398,8 +2722,10 @@
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "282",
           "Name": "PostFXScreenRaindropShader",
           "VersionNumber": 3,
           "FileName": "PostFXScreenRaindropShader_v0.0.3.unitypackage"
@@ -2415,8 +2741,10 @@
             "version": "v0.0.2",
             "content": "code 排版",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "96",
           "Name": "PostFXScreenRaindropShader",
           "VersionNumber": 2,
           "FileName": "PostFXScreenRaindropShader_v0.0.2.unitypackage"
@@ -2432,8 +2760,10 @@
             "version": "v0.0.1",
             "content": "基础功能完善",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "94",
           "Name": "PostFXScreenRaindropShader",
           "VersionNumber": 1,
           "FileName": "PostFXScreenRaindropShader_v0.0.1.unitypackage"
@@ -2456,25 +2786,29 @@
             "version": "v0.0.4",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 21:32"
+            "date": "2019 年 03 月 08 日 21:32",
+            "VersionNumber": 4
           },
           {
             "version": "v0.0.3",
             "content": "add material",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "basic function complete",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -2490,8 +2824,10 @@
             "version": "v0.0.4",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 21:32"
+            "date": "2019 年 03 月 08 日 21:32",
+            "VersionNumber": 4
           },
+          "Id": "600",
           "Name": "PostFXSnowShader",
           "VersionNumber": 4,
           "FileName": "PostFXSnowShader_v0.0.4.unitypackage"
@@ -2507,8 +2843,10 @@
             "version": "v0.0.3",
             "content": "add material",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "384",
           "Name": "PostFXSnowShader",
           "VersionNumber": 3,
           "FileName": "PostFXSnowShader_v0.0.3.unitypackage"
@@ -2524,8 +2862,10 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "287",
           "Name": "PostFXSnowShader",
           "VersionNumber": 2,
           "FileName": "PostFXSnowShader_v0.0.2.unitypackage"
@@ -2541,8 +2881,10 @@
             "version": "v0.0.1",
             "content": "basic function complete",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "111",
           "Name": "PostFXSnowShader",
           "VersionNumber": 1,
           "FileName": "PostFXSnowShader_v0.0.1.unitypackage"
@@ -2565,31 +2907,36 @@
             "version": "v0.0.9",
             "content": "add UIHelper\nperfect LuaBehaviour\nprovide Demo (need move prefabs)",
             "author": "vin129",
-            "date": "2019 年 02 月 25 日 16:18"
+            "date": "2019 年 02 月 25 日 16:18",
+            "VersionNumber": 9
           },
           {
             "version": "v0.0.8",
             "content": "适应 framework v0.0.17\nToLua 初始化成功",
             "author": "vin129",
-            "date": "2019 年 02 月 01 日 17:47"
+            "date": "2019 年 02 月 01 日 17:47",
+            "VersionNumber": 8
           },
           {
             "version": "v0.0.6",
             "content": "update UILuaPanel",
             "author": "vin129",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 6
           },
           {
             "version": "v0.0.5",
             "content": "fix 0 error",
             "author": "vin129",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 5
           },
           {
             "version": "v0.0.4",
             "content": "导入 ToLua 模块",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 4
           }
         ]
       },
@@ -2605,8 +2952,10 @@
             "version": "v0.0.9",
             "content": "add UIHelper\nperfect LuaBehaviour\nprovide Demo (need move prefabs)",
             "author": "vin129",
-            "date": "2019 年 02 月 25 日 16:18"
+            "date": "2019 年 02 月 25 日 16:18",
+            "VersionNumber": 9
           },
+          "Id": "590",
           "Name": "ScriptKit",
           "VersionNumber": 9,
           "FileName": "ScriptKit_v0.0.9.unitypackage"
@@ -2622,8 +2971,10 @@
             "version": "v0.0.8",
             "content": "适应 framework v0.0.17\nToLua 初始化成功",
             "author": "vin129",
-            "date": "2019 年 02 月 01 日 17:47"
+            "date": "2019 年 02 月 01 日 17:47",
+            "VersionNumber": 8
           },
+          "Id": "552",
           "Name": "ScriptKit",
           "VersionNumber": 8,
           "FileName": "ScriptKit_v0.0.8.unitypackage"
@@ -2639,8 +2990,10 @@
             "version": "v0.0.6",
             "content": "update UILuaPanel",
             "author": "vin129",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 6
           },
+          "Id": "427",
           "Name": "ScriptKit",
           "VersionNumber": 6,
           "FileName": "ScriptKit_v0.0.6.unitypackage"
@@ -2656,8 +3009,10 @@
             "version": "v0.0.5",
             "content": "fix 0 error",
             "author": "vin129",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 5
           },
+          "Id": "380",
           "Name": "ScriptKit",
           "VersionNumber": 5,
           "FileName": "ScriptKit_v0.0.5.unitypackage"
@@ -2673,8 +3028,10 @@
             "version": "v0.0.5",
             "content": "fix 0 error",
             "author": "vin129",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 5
           },
+          "Id": "426",
           "Name": "ScriptKit",
           "VersionNumber": 5,
           "FileName": "ScriptKit_v0.0.5.unitypackage"
@@ -2690,8 +3047,10 @@
             "version": "v0.0.4",
             "content": "导入 ToLua 模块",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 4
           },
+          "Id": "379",
           "Name": "ScriptKit",
           "VersionNumber": 4,
           "FileName": "ScriptKit_v0.0.4.unitypackage"
@@ -2714,7 +3073,8 @@
             "version": "v0.0.1",
             "content": "init",
             "author": "liangxie",
-            "date": "2019 年 01 月 22 日 00:19"
+            "date": "2019 年 01 月 22 日 00:19",
+            "VersionNumber": 1
           }
         ]
       },
@@ -2730,8 +3090,10 @@
             "version": "v0.0.1",
             "content": "init",
             "author": "liangxie",
-            "date": "2019 年 01 月 22 日 00:19"
+            "date": "2019 年 01 月 22 日 00:19",
+            "VersionNumber": 1
           },
+          "Id": "470",
           "Name": "ShaderForge",
           "VersionNumber": 1,
           "FileName": "ShaderForge_v0.0.1.unitypackage"
@@ -2754,25 +3116,29 @@
             "version": "v0.0.4",
             "content": "测试提交",
             "author": "827922094",
-            "date": "2019 年 01 月 23 日 22:11"
+            "date": "2019 年 01 月 23 日 22:11",
+            "VersionNumber": 4
           },
           {
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "提交测试",
             "author": "827922094",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -2788,8 +3154,10 @@
             "version": "v0.0.4",
             "content": "测试提交",
             "author": "827922094",
-            "date": "2019 年 01 月 23 日 22:11"
+            "date": "2019 年 01 月 23 日 22:11",
+            "VersionNumber": 4
           },
+          "Id": "478",
           "Name": "StateMachine",
           "VersionNumber": 4,
           "FileName": "StateMachine_v0.0.4.unitypackage"
@@ -2805,8 +3173,10 @@
             "version": "v0.0.4",
             "content": "测试提交",
             "author": "827922094",
-            "date": "2019 年 01 月 23 日 22:22"
+            "date": "2019 年 01 月 23 日 22:22",
+            "VersionNumber": 4
           },
+          "Id": "480",
           "Name": "StateMachine",
           "VersionNumber": 4,
           "FileName": "StateMachine_v0.0.4.unitypackage"
@@ -2822,8 +3192,10 @@
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "307",
           "Name": "StateMachine",
           "VersionNumber": 3,
           "FileName": "StateMachine_v0.0.3.unitypackage"
@@ -2839,8 +3211,10 @@
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "306",
           "Name": "StateMachine",
           "VersionNumber": 3,
           "FileName": "StateMachine_v0.0.3.unitypackage"
@@ -2856,8 +3230,10 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "305",
           "Name": "StateMachine",
           "VersionNumber": 2,
           "FileName": "StateMachine_v0.0.2.unitypackage"
@@ -2873,8 +3249,10 @@
             "version": "v0.0.1",
             "content": "提交测试",
             "author": "827922094",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "132",
           "Name": "StateMachine",
           "VersionNumber": 1,
           "FileName": "StateMachine_v0.0.1.unitypackage"
@@ -2890,8 +3268,10 @@
             "version": "v0.0.1",
             "content": "提交测试",
             "author": "827922094",
-            "date": "2019 年 01 月 23 日 22:17"
+            "date": "2019 年 01 月 23 日 22:17",
+            "VersionNumber": 1
           },
+          "Id": "479",
           "Name": "StateMachine",
           "VersionNumber": 1,
           "FileName": "StateMachine_v0.0.1.unitypackage"
@@ -2914,7 +3294,8 @@
             "version": "v0.0.1",
             "content": "尝试提交代码",
             "author": "827922094",
-            "date": "2019 年 01 月 23 日 22:25"
+            "date": "2019 年 01 月 23 日 22:25",
+            "VersionNumber": 1
           }
         ]
       },
@@ -2930,8 +3311,10 @@
             "version": "v0.0.1",
             "content": "尝试提交代码",
             "author": "827922094",
-            "date": "2019 年 01 月 23 日 22:25"
+            "date": "2019 年 01 月 23 日 22:25",
+            "VersionNumber": 1
           },
+          "Id": "481",
           "Name": "StateMachineEditor",
           "VersionNumber": 1,
           "FileName": "StateMachineEditor_v0.0.1.unitypackage"
@@ -2954,13 +3337,15 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "first commit",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -2976,8 +3361,10 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "299",
           "Name": "ToLua",
           "VersionNumber": 2,
           "FileName": "ToLua_v0.0.2.unitypackage"
@@ -2993,8 +3380,10 @@
             "version": "v0.0.1",
             "content": "first commit",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "178",
           "Name": "ToLua",
           "VersionNumber": 1,
           "FileName": "ToLua_v0.0.1.unitypackage"
@@ -3017,19 +3406,22 @@
             "version": "v0.0.10",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 10
           },
           {
             "version": "v0.0.9",
             "content": "move",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 9
           },
           {
             "version": "v0.0.8",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 8
           }
         ]
       },
@@ -3045,8 +3437,10 @@
             "version": "v0.0.10",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 10
           },
+          "Id": "300",
           "Name": "TodoListDemo",
           "VersionNumber": 10,
           "FileName": "TodoListDemo_v0.0.10.unitypackage"
@@ -3062,8 +3456,10 @@
             "version": "v0.0.9",
             "content": "move",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 9
           },
+          "Id": "179",
           "Name": "TodoListDemo",
           "VersionNumber": 9,
           "FileName": "TodoListDemo_v0.0.9.unitypackage"
@@ -3079,8 +3475,10 @@
             "version": "v0.0.8",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 8
           },
+          "Id": "37",
           "Name": "TodoListDemo",
           "VersionNumber": 8,
           "FileName": "TodoListDemo_v0.0.8.unitypackage"
@@ -3103,37 +3501,43 @@
             "version": "v0.0.7",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 21:48"
+            "date": "2019 年 03 月 08 日 21:48",
+            "VersionNumber": 7
           },
           {
             "version": "v0.0.6",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 6
           },
           {
             "version": "v0.0.5",
             "content": "refactor by GaussianBlur.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 5
           },
           {
             "version": "v0.0.4",
             "content": "refactor by UIGrabPass.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 4
           },
           {
             "version": "v0.0.3",
             "content": "refactor by ui.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           }
         ]
       },
@@ -3149,8 +3553,10 @@
             "version": "v0.0.7",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 21:48"
+            "date": "2019 年 03 月 08 日 21:48",
+            "VersionNumber": 7
           },
+          "Id": "601",
           "Name": "UIImageBloomShader",
           "VersionNumber": 7,
           "FileName": "UIImageBloomShader_v0.0.7.unitypackage"
@@ -3166,8 +3572,10 @@
             "version": "v0.0.6",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 6
           },
+          "Id": "267",
           "Name": "UIImageBloomShader",
           "VersionNumber": 6,
           "FileName": "UIImageBloomShader_v0.0.6.unitypackage"
@@ -3183,8 +3591,10 @@
             "version": "v0.0.5",
             "content": "refactor by GaussianBlur.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 5
           },
+          "Id": "156",
           "Name": "UIImageBloomShader",
           "VersionNumber": 5,
           "FileName": "UIImageBloomShader_v0.0.5.unitypackage"
@@ -3200,8 +3610,10 @@
             "version": "v0.0.4",
             "content": "refactor by UIGrabPass.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 4
           },
+          "Id": "155",
           "Name": "UIImageBloomShader",
           "VersionNumber": 4,
           "FileName": "UIImageBloomShader_v0.0.4.unitypackage"
@@ -3217,8 +3629,10 @@
             "version": "v0.0.3",
             "content": "refactor by ui.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "139",
           "Name": "UIImageBloomShader",
           "VersionNumber": 3,
           "FileName": "UIImageBloomShader_v0.0.3.unitypackage"
@@ -3234,8 +3648,10 @@
             "version": "v0.0.2",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "61",
           "Name": "UIImageBloomShader",
           "VersionNumber": 2,
           "FileName": "UIImageBloomShader_v0.0.2.unitypackage"
@@ -3258,25 +3674,29 @@
             "version": "v0.0.4",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 21:51"
+            "date": "2019 年 03 月 08 日 21:51",
+            "VersionNumber": 4
           },
           {
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "refactor by ui.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "高斯模糊实现",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -3292,8 +3712,10 @@
             "version": "v0.0.4",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 21:51"
+            "date": "2019 年 03 月 08 日 21:51",
+            "VersionNumber": 4
           },
+          "Id": "602",
           "Name": "UIImageBlurAdvancedShader",
           "VersionNumber": 4,
           "FileName": "UIImageBlurAdvancedShader_v0.0.4.unitypackage"
@@ -3309,8 +3731,10 @@
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "273",
           "Name": "UIImageBlurAdvancedShader",
           "VersionNumber": 3,
           "FileName": "UIImageBlurAdvancedShader_v0.0.3.unitypackage"
@@ -3326,8 +3750,10 @@
             "version": "v0.0.2",
             "content": "refactor by ui.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "147",
           "Name": "UIImageBlurAdvancedShader",
           "VersionNumber": 2,
           "FileName": "UIImageBlurAdvancedShader_v0.0.2.unitypackage"
@@ -3343,8 +3769,10 @@
             "version": "v0.0.1",
             "content": "高斯模糊实现",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "72",
           "Name": "UIImageBlurAdvancedShader",
           "VersionNumber": 1,
           "FileName": "UIImageBlurAdvancedShader_v0.0.1.unitypackage"
@@ -3367,25 +3795,29 @@
             "version": "v0.0.4",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 21:53"
+            "date": "2019 年 03 月 08 日 21:53",
+            "VersionNumber": 4
           },
           {
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "refactor by UI.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "基础功能",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -3401,8 +3833,10 @@
             "version": "v0.0.4",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 21:53"
+            "date": "2019 年 03 月 08 日 21:53",
+            "VersionNumber": 4
           },
+          "Id": "603",
           "Name": "UIImageBlurFocusShader",
           "VersionNumber": 4,
           "FileName": "UIImageBlurFocusShader_v0.0.4.unitypackage"
@@ -3418,8 +3852,10 @@
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "274",
           "Name": "UIImageBlurFocusShader",
           "VersionNumber": 3,
           "FileName": "UIImageBlurFocusShader_v0.0.3.unitypackage"
@@ -3435,8 +3871,10 @@
             "version": "v0.0.2",
             "content": "refactor by UI.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "148",
           "Name": "UIImageBlurFocusShader",
           "VersionNumber": 2,
           "FileName": "UIImageBlurFocusShader_v0.0.2.unitypackage"
@@ -3452,8 +3890,10 @@
             "version": "v0.0.1",
             "content": "基础功能",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "71",
           "Name": "UIImageBlurFocusShader",
           "VersionNumber": 1,
           "FileName": "UIImageBlurFocusShader_v0.0.1.unitypackage"
@@ -3476,31 +3916,36 @@
             "version": "v0.0.4",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:17"
+            "date": "2019 年 03 月 08 日 23:17",
+            "VersionNumber": 4
           },
           {
             "version": "v0.0.3",
             "content": "插件上传成功",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "refactor by PostFX.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "refactor by UI.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
           {
             "version": "v0.0.0",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 0
           }
         ]
       },
@@ -3516,8 +3961,10 @@
             "version": "v0.0.4",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:17"
+            "date": "2019 年 03 月 08 日 23:17",
+            "VersionNumber": 4
           },
+          "Id": "604",
           "Name": "UIImageBlurShader",
           "VersionNumber": 4,
           "FileName": "UIImageBlurShader_v0.0.4.unitypackage"
@@ -3533,8 +3980,10 @@
             "version": "v0.0.3",
             "content": "插件上传成功",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "275",
           "Name": "UIImageBlurShader",
           "VersionNumber": 3,
           "FileName": "UIImageBlurShader_v0.0.3.unitypackage"
@@ -3550,8 +3999,10 @@
             "version": "v0.0.2",
             "content": "refactor by PostFX.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "168",
           "Name": "UIImageBlurShader",
           "VersionNumber": 2,
           "FileName": "UIImageBlurShader_v0.0.2.unitypackage"
@@ -3567,8 +4018,10 @@
             "version": "v0.0.1",
             "content": "refactor by UI.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "134",
           "Name": "UIImageBlurShader",
           "VersionNumber": 1,
           "FileName": "UIImageBlurShader_v0.0.1.unitypackage"
@@ -3584,8 +4037,10 @@
             "version": "v0.0.0",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 0
           },
+          "Id": "35",
           "Name": "UIImageBlurShader",
           "VersionNumber": 0,
           "FileName": "UIImageBlurShader_v0.0.0.unitypackage"
@@ -3608,13 +4063,15 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -3630,8 +4087,10 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "288",
           "Name": "UIImageBoomShader",
           "VersionNumber": 2,
           "FileName": "UIImageBoomShader_v0.0.2.unitypackage"
@@ -3647,8 +4106,10 @@
             "version": "v0.0.1",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "58",
           "Name": "UIImageBoomShader",
           "VersionNumber": 1,
           "FileName": "UIImageBoomShader_v0.0.1.unitypackage"
@@ -3671,25 +4132,29 @@
             "version": "v0.0.4",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:19"
+            "date": "2019 年 03 月 08 日 23:19",
+            "VersionNumber": 4
           },
           {
             "version": "v0.0.3",
             "content": "插件更改",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -3705,8 +4170,10 @@
             "version": "v0.0.4",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:19"
+            "date": "2019 年 03 月 08 日 23:19",
+            "VersionNumber": 4
           },
+          "Id": "605",
           "Name": "UIImageBumpsShader",
           "VersionNumber": 4,
           "FileName": "UIImageBumpsShader_v0.0.4.unitypackage"
@@ -3722,8 +4189,10 @@
             "version": "v0.0.3",
             "content": "插件更改",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "276",
           "Name": "UIImageBumpsShader",
           "VersionNumber": 3,
           "FileName": "UIImageBumpsShader_v0.0.3.unitypackage"
@@ -3739,8 +4208,10 @@
             "version": "v0.0.2",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "57",
           "Name": "UIImageBumpsShader",
           "VersionNumber": 2,
           "FileName": "UIImageBumpsShader_v0.0.2.unitypackage"
@@ -3756,8 +4227,10 @@
             "version": "v0.0.1",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "56",
           "Name": "UIImageBumpsShader",
           "VersionNumber": 1,
           "FileName": "UIImageBumpsShader_v0.0.1.unitypackage"
@@ -3780,13 +4253,15 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -3802,8 +4277,10 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "289",
           "Name": "UIImageColorFilterShader",
           "VersionNumber": 2,
           "FileName": "UIImageColorFilterShader_v0.0.2.unitypackage"
@@ -3819,8 +4296,10 @@
             "version": "v0.0.1",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "60",
           "Name": "UIImageColorFilterShader",
           "VersionNumber": 1,
           "FileName": "UIImageColorFilterShader_v0.0.1.unitypackage"
@@ -3843,25 +4322,29 @@
             "version": "v0.0.4",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:23"
+            "date": "2019 年 03 月 08 日 23:23",
+            "VersionNumber": 4
           },
           {
             "version": "v0.0.3",
             "content": "类型更改",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "refactor by UI.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "basic function",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -3877,8 +4360,10 @@
             "version": "v0.0.4",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:23"
+            "date": "2019 年 03 月 08 日 23:23",
+            "VersionNumber": 4
           },
+          "Id": "606",
           "Name": "UIImageFlashLightShader",
           "VersionNumber": 4,
           "FileName": "UIImageFlashLightShader_v0.0.4.unitypackage"
@@ -3894,8 +4379,10 @@
             "version": "v0.0.3",
             "content": "类型更改",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "277",
           "Name": "UIImageFlashLightShader",
           "VersionNumber": 3,
           "FileName": "UIImageFlashLightShader_v0.0.3.unitypackage"
@@ -3911,8 +4398,10 @@
             "version": "v0.0.2",
             "content": "refactor by UI.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "149",
           "Name": "UIImageFlashLightShader",
           "VersionNumber": 2,
           "FileName": "UIImageFlashLightShader_v0.0.2.unitypackage"
@@ -3928,8 +4417,10 @@
             "version": "v0.0.1",
             "content": "basic function",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "100",
           "Name": "UIImageFlashLightShader",
           "VersionNumber": 1,
           "FileName": "UIImageFlashLightShader_v0.0.1.unitypackage"
@@ -3952,25 +4443,29 @@
             "version": "v0.0.3",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:24"
+            "date": "2019 年 03 月 08 日 23:24",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "refactor by ui.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
           {
             "version": "v0.0.0",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 0
           }
         ]
       },
@@ -3986,8 +4481,10 @@
             "version": "v0.0.3",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:24"
+            "date": "2019 年 03 月 08 日 23:24",
+            "VersionNumber": 3
           },
+          "Id": "607",
           "Name": "UIImageGradientShader",
           "VersionNumber": 3,
           "FileName": "UIImageGradientShader_v0.0.3.unitypackage"
@@ -4003,8 +4500,10 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "278",
           "Name": "UIImageGradientShader",
           "VersionNumber": 2,
           "FileName": "UIImageGradientShader_v0.0.2.unitypackage"
@@ -4020,8 +4519,10 @@
             "version": "v0.0.1",
             "content": "refactor by ui.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "137",
           "Name": "UIImageGradientShader",
           "VersionNumber": 1,
           "FileName": "UIImageGradientShader_v0.0.1.unitypackage"
@@ -4037,8 +4538,10 @@
             "version": "v0.0.0",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 0
           },
+          "Id": "38",
           "Name": "UIImageGradientShader",
           "VersionNumber": 0,
           "FileName": "UIImageGradientShader_v0.0.0.unitypackage"
@@ -4061,43 +4564,50 @@
             "version": "v0.0.7",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:25"
+            "date": "2019 年 03 月 08 日 23:25",
+            "VersionNumber": 7
           },
           {
             "version": "v0.0.6",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 6
           },
           {
             "version": "v0.0.5",
             "content": "refactor 4 ui.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 5
           },
           {
             "version": "v0.0.4",
             "content": "using UI.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 4
           },
           {
             "version": "v0.0.3",
             "content": "add comment",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "添加注释",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -4113,8 +4623,10 @@
             "version": "v0.0.7",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:25"
+            "date": "2019 年 03 月 08 日 23:25",
+            "VersionNumber": 7
           },
+          "Id": "608",
           "Name": "UIImageGrayShader",
           "VersionNumber": 7,
           "FileName": "UIImageGrayShader_v0.0.7.unitypackage"
@@ -4130,8 +4642,10 @@
             "version": "v0.0.6",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 6
           },
+          "Id": "269",
           "Name": "UIImageGrayShader",
           "VersionNumber": 6,
           "FileName": "UIImageGrayShader_v0.0.6.unitypackage"
@@ -4147,8 +4661,10 @@
             "version": "v0.0.5",
             "content": "refactor 4 ui.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 5
           },
+          "Id": "133",
           "Name": "UIImageGrayShader",
           "VersionNumber": 5,
           "FileName": "UIImageGrayShader_v0.0.5.unitypackage"
@@ -4164,8 +4680,10 @@
             "version": "v0.0.4",
             "content": "using UI.cginc",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 4
           },
+          "Id": "131",
           "Name": "UIImageGrayShader",
           "VersionNumber": 4,
           "FileName": "UIImageGrayShader_v0.0.4.unitypackage"
@@ -4181,8 +4699,10 @@
             "version": "v0.0.3",
             "content": "add comment",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "124",
           "Name": "UIImageGrayShader",
           "VersionNumber": 3,
           "FileName": "UIImageGrayShader_v0.0.3.unitypackage"
@@ -4198,8 +4718,10 @@
             "version": "v0.0.2",
             "content": "添加注释",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "117",
           "Name": "UIImageGrayShader",
           "VersionNumber": 2,
           "FileName": "UIImageGrayShader_v0.0.2.unitypackage"
@@ -4215,8 +4737,10 @@
             "version": "v0.0.1",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "34",
           "Name": "UIImageGrayShader",
           "VersionNumber": 1,
           "FileName": "UIImageGrayShader_v0.0.1.unitypackage"
@@ -4239,19 +4763,22 @@
             "version": "v0.0.3",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:44"
+            "date": "2019 年 03 月 08 日 23:44",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -4267,8 +4794,10 @@
             "version": "v0.0.3",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:44"
+            "date": "2019 年 03 月 08 日 23:44",
+            "VersionNumber": 3
           },
+          "Id": "616",
           "Name": "UIImageOutlineAlphaShader",
           "VersionNumber": 3,
           "FileName": "UIImageOutlineAlphaShader_v0.0.3.unitypackage"
@@ -4284,8 +4813,10 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "283",
           "Name": "UIImageOutlineAlphaShader",
           "VersionNumber": 2,
           "FileName": "UIImageOutlineAlphaShader_v0.0.2.unitypackage"
@@ -4301,8 +4832,10 @@
             "version": "v0.0.1",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "55",
           "Name": "UIImageOutlineAlphaShader",
           "VersionNumber": 1,
           "FileName": "UIImageOutlineAlphaShader_v0.0.1.unitypackage"
@@ -4325,19 +4858,22 @@
             "version": "v0.0.3",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:43"
+            "date": "2019 年 03 月 08 日 23:43",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -4353,8 +4889,10 @@
             "version": "v0.0.3",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:43"
+            "date": "2019 年 03 月 08 日 23:43",
+            "VersionNumber": 3
           },
+          "Id": "615",
           "Name": "UIImageOutlineShader",
           "VersionNumber": 3,
           "FileName": "UIImageOutlineShader_v0.0.3.unitypackage"
@@ -4370,8 +4908,10 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "284",
           "Name": "UIImageOutlineShader",
           "VersionNumber": 2,
           "FileName": "UIImageOutlineShader_v0.0.2.unitypackage"
@@ -4387,8 +4927,10 @@
             "version": "v0.0.1",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "54",
           "Name": "UIImageOutlineShader",
           "VersionNumber": 1,
           "FileName": "UIImageOutlineShader_v0.0.1.unitypackage"
@@ -4411,25 +4953,29 @@
             "version": "v0.0.4",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:42"
+            "date": "2019 年 03 月 08 日 23:42",
+            "VersionNumber": 4
           },
           {
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "first",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "基础功能",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -4445,8 +4991,10 @@
             "version": "v0.0.4",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:42"
+            "date": "2019 年 03 月 08 日 23:42",
+            "VersionNumber": 4
           },
+          "Id": "614",
           "Name": "UIImageReflectionShader",
           "VersionNumber": 4,
           "FileName": "UIImageReflectionShader_v0.0.4.unitypackage"
@@ -4462,8 +5010,10 @@
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "285",
           "Name": "UIImageReflectionShader",
           "VersionNumber": 3,
           "FileName": "UIImageReflectionShader_v0.0.3.unitypackage"
@@ -4479,8 +5029,10 @@
             "version": "v0.0.2",
             "content": "first",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "82",
           "Name": "UIImageReflectionShader",
           "VersionNumber": 2,
           "FileName": "UIImageReflectionShader_v0.0.2.unitypackage"
@@ -4496,8 +5048,10 @@
             "version": "v0.0.1",
             "content": "基础功能",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "81",
           "Name": "UIImageReflectionShader",
           "VersionNumber": 1,
           "FileName": "UIImageReflectionShader_v0.0.1.unitypackage"
@@ -4520,19 +5074,22 @@
             "version": "v0.0.2",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:42"
+            "date": "2019 年 03 月 08 日 23:42",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
           {
             "version": "v0.0.0",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 0
           }
         ]
       },
@@ -4548,8 +5105,10 @@
             "version": "v0.0.2",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:42"
+            "date": "2019 年 03 月 08 日 23:42",
+            "VersionNumber": 2
           },
+          "Id": "613",
           "Name": "UIImageReliefShader",
           "VersionNumber": 2,
           "FileName": "UIImageReliefShader_v0.0.2.unitypackage"
@@ -4565,8 +5124,10 @@
             "version": "v0.0.1",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "268",
           "Name": "UIImageReliefShader",
           "VersionNumber": 1,
           "FileName": "UIImageReliefShader_v0.0.1.unitypackage"
@@ -4582,8 +5143,10 @@
             "version": "v0.0.0",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 0
           },
+          "Id": "40",
           "Name": "UIImageReliefShader",
           "VersionNumber": 0,
           "FileName": "UIImageReliefShader_v0.0.0.unitypackage"
@@ -4606,7 +5169,8 @@
             "version": "v0.0.1",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -4622,8 +5186,10 @@
             "version": "v0.0.1",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "290",
           "Name": "UIImageRoundCorner",
           "VersionNumber": 1,
           "FileName": "UIImageRoundCorner_v0.0.1.unitypackage"
@@ -4639,8 +5205,10 @@
             "version": "v0.0.1",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "272",
           "Name": "UIImageRoundCorner",
           "VersionNumber": 1,
           "FileName": "UIImageRoundCorner_v0.0.1.unitypackage"
@@ -4663,13 +5231,15 @@
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.0",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 0
           }
         ]
       },
@@ -4685,8 +5255,10 @@
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "291",
           "Name": "UIImageRoundCornerShader",
           "VersionNumber": 3,
           "FileName": "UIImageRoundCornerShader_v0.0.3.unitypackage"
@@ -4702,8 +5274,10 @@
             "version": "v0.0.0",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 0
           },
+          "Id": "23",
           "Name": "UIImageRoundCorner",
           "VersionNumber": 0,
           "FileName": "UIImageRoundCorner_v0.0.0.unitypackage"
@@ -4726,19 +5300,22 @@
             "version": "v0.0.2",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:40"
+            "date": "2019 年 03 月 08 日 23:40",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
           {
             "version": "v0.0.0",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 0
           }
         ]
       },
@@ -4754,8 +5331,10 @@
             "version": "v0.0.2",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:40"
+            "date": "2019 年 03 月 08 日 23:40",
+            "VersionNumber": 2
           },
+          "Id": "612",
           "Name": "UIImageSharpShader",
           "VersionNumber": 2,
           "FileName": "UIImageSharpShader_v0.0.2.unitypackage"
@@ -4771,8 +5350,10 @@
             "version": "v0.0.1",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "266",
           "Name": "UIImageSharpShader",
           "VersionNumber": 1,
           "FileName": "UIImageSharpShader_v0.0.1.unitypackage"
@@ -4788,8 +5369,10 @@
             "version": "v0.0.0",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 0
           },
+          "Id": "36",
           "Name": "UIImageSharpShader",
           "VersionNumber": 0,
           "FileName": "UIImageSharpShader_v0.0.0.unitypackage"
@@ -4812,19 +5395,22 @@
             "version": "v0.0.2",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:39"
+            "date": "2019 年 03 月 08 日 23:39",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
           {
             "version": "v0.0.0",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 0
           }
         ]
       },
@@ -4840,8 +5426,10 @@
             "version": "v0.0.2",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:39"
+            "date": "2019 年 03 月 08 日 23:39",
+            "VersionNumber": 2
           },
+          "Id": "611",
           "Name": "UIImageSpotLightShader",
           "VersionNumber": 2,
           "FileName": "UIImageSpotLightShader_v0.0.2.unitypackage"
@@ -4857,8 +5445,10 @@
             "version": "v0.0.1",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "265",
           "Name": "UIImageSpotLightShader",
           "VersionNumber": 1,
           "FileName": "UIImageSpotLightShader_v0.0.1.unitypackage"
@@ -4874,8 +5464,10 @@
             "version": "v0.0.0",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 0
           },
+          "Id": "39",
           "Name": "UIImageSpotLightShader",
           "VersionNumber": 0,
           "FileName": "UIImageSpotLightShader_v0.0.0.unitypackage"
@@ -4898,25 +5490,29 @@
             "version": "v0.0.4",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:38"
+            "date": "2019 年 03 月 08 日 23:38",
+            "VersionNumber": 4
           },
           {
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
           {
             "version": "v0.0.2",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
           {
             "version": "v0.0.1",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -4932,8 +5528,10 @@
             "version": "v0.0.4",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:38"
+            "date": "2019 年 03 月 08 日 23:38",
+            "VersionNumber": 4
           },
+          "Id": "610",
           "Name": "UIImageWaveCircleShader",
           "VersionNumber": 4,
           "FileName": "UIImageWaveCircleShader_v0.0.4.unitypackage"
@@ -4949,8 +5547,10 @@
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "271",
           "Name": "UIImageWaveCircleShader",
           "VersionNumber": 3,
           "FileName": "UIImageWaveCircleShader_v0.0.3.unitypackage"
@@ -4966,8 +5566,10 @@
             "version": "v0.0.2",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "63",
           "Name": "UIImageWaveCircleShader",
           "VersionNumber": 2,
           "FileName": "UIImageWaveCircleShader_v0.0.2.unitypackage"
@@ -4983,8 +5585,10 @@
             "version": "v0.0.1",
             "content": "",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "62",
           "Name": "UIImageWaveCircleShader",
           "VersionNumber": 1,
           "FileName": "UIImageWaveCircleShader_v0.0.1.unitypackage"
@@ -5007,19 +5611,22 @@
             "version": "v0.0.5",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:37"
+            "date": "2019 年 03 月 08 日 23:37",
+            "VersionNumber": 5
           },
           {
             "version": "v0.0.4",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 4
           },
           {
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           }
         ]
       },
@@ -5035,8 +5642,10 @@
             "version": "v0.0.5",
             "content": "fix lib's path error",
             "author": "liangxie",
-            "date": "2019 年 03 月 08 日 23:37"
+            "date": "2019 年 03 月 08 日 23:37",
+            "VersionNumber": 5
           },
+          "Id": "609",
           "Name": "UIImageWaveDirectionShader",
           "VersionNumber": 5,
           "FileName": "UIImageWaveDirectionShader_v0.0.5.unitypackage"
@@ -5052,8 +5661,10 @@
             "version": "v0.0.4",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 4
           },
+          "Id": "286",
           "Name": "UIImageWaveDirectionShader",
           "VersionNumber": 4,
           "FileName": "UIImageWaveDirectionShader_v0.0.4.unitypackage"
@@ -5069,8 +5680,10 @@
             "version": "v0.0.3",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 3
           },
+          "Id": "270",
           "Name": "UIImageWaveDirectionShader",
           "VersionNumber": 3,
           "FileName": "UIImageWaveDirectionShader_v0.0.3.unitypackage"
@@ -5093,7 +5706,8 @@
             "version": "v0.0.1",
             "content": "add note",
             "author": "liangxieus",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           }
         ]
       },
@@ -5109,8 +5723,10 @@
             "version": "v0.0.1",
             "content": "add note",
             "author": "liangxieus",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 1
           },
+          "Id": "293",
           "Name": "Unfinity Games",
           "VersionNumber": 1,
           "FileName": "Unfinity Games_v0.0.1.unitypackage"
@@ -5133,7 +5749,8 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           }
         ]
       },
@@ -5149,8 +5766,10 @@
             "version": "v0.0.2",
             "content": "更改类型",
             "author": "liangxie",
-            "date": "2019 年 01 月 11 日 17:36"
+            "date": "2019 年 01 月 11 日 17:36",
+            "VersionNumber": 2
           },
+          "Id": "296",
           "Name": "XLua",
           "VersionNumber": 2,
           "FileName": "XLua_v0.0.2.unitypackage"
@@ -5173,19 +5792,22 @@
             "version": "v0.0.22",
             "content": "change file name",
             "author": "liangxie",
-            "date": "2019 年 02 月 13 日 22:10"
+            "date": "2019 年 02 月 13 日 22:10",
+            "VersionNumber": 22
           },
           {
             "version": "v0.0.21",
             "content": "change kernel's namespace",
             "author": "liangxie",
-            "date": "2019 年 02 月 13 日 22:04"
+            "date": "2019 年 02 月 13 日 22:04",
+            "VersionNumber": 21
           },
           {
             "version": "v0.0.20",
             "content": "merge kernel",
             "author": "liangxie",
-            "date": "2019 年 02 月 13 日 22:01"
+            "date": "2019 年 02 月 13 日 22:01",
+            "VersionNumber": 20
           }
         ]
       },
@@ -5201,8 +5823,10 @@
             "version": "v0.0.22",
             "content": "change file name",
             "author": "liangxie",
-            "date": "2019 年 02 月 13 日 22:10"
+            "date": "2019 年 02 月 13 日 22:10",
+            "VersionNumber": 22
           },
+          "Id": "568",
           "Name": "uFrameMVVM",
           "VersionNumber": 22,
           "FileName": "uFrameMVVM_v0.0.22.unitypackage"
@@ -5218,8 +5842,10 @@
             "version": "v0.0.21",
             "content": "change kernel's namespace",
             "author": "liangxie",
-            "date": "2019 年 02 月 13 日 22:04"
+            "date": "2019 年 02 月 13 日 22:04",
+            "VersionNumber": 21
           },
+          "Id": "567",
           "Name": "uFrameMVVM",
           "VersionNumber": 21,
           "FileName": "uFrameMVVM_v0.0.21.unitypackage"
@@ -5235,8 +5861,10 @@
             "version": "v0.0.20",
             "content": "merge kernel",
             "author": "liangxie",
-            "date": "2019 年 02 月 13 日 22:01"
+            "date": "2019 年 02 月 13 日 22:01",
+            "VersionNumber": 20
           },
+          "Id": "566",
           "Name": "uFrameMVVM",
           "VersionNumber": 20,
           "FileName": "uFrameMVVM_v0.0.20.unitypackage"

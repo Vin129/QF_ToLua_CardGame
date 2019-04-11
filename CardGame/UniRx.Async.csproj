@@ -51,95 +51,95 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\AsyncUnit.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\CancellationTokenEqualityComparer.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\CancellationTokenExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\CancellationTokenSourceExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\CompilerServices\AsyncMethodBuilderAttribute.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\CompilerServices\AsyncUniTaskMethodBuilder.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\CompilerServices\AsyncUniTaskVoidMethodBuilder.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\CompilerServices\MoveNextRunner.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\DiagnosticsExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\EnumerableAsyncExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\EnumeratorAsyncExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\IAwaiter.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Internal\ArrayPool.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Internal\ArrayPoolUtil.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Internal\ArrayUtil.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Internal\CancellationTokenHelper.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Internal\ContinuationQueue.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Internal\Error.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Internal\Hack.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Internal\LazyPromise.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Internal\MinimumQueue.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Internal\PlayerLoopRunner.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Internal\PromiseHelper.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Internal\ReusablePromise.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Internal\RuntimeHelpersAbstraction.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Internal\TaskTracker.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Internal\WeakDictionary.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\PlayerLoopHelper.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Progress.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncAnimatorTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncAwakeTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncBeginDragTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncCancelTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncCanvasGroupChangedTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncCollision2DTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncCollisionTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncDeselectTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncDestroyTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncDragTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncDropTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncEnableDisableTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncEndDragTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncEventTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncFixedUpdateTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncInitializePotentialDragTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncJointTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncLateUpdateTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncMouseTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncMoveTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncParticleTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncPointerClickTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncPointerDownTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncPointerEnterTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncPointerExitTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncPointerUpTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncRectTransformTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncScrollTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncSelectTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncStartTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncSubmitTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncTransformChangedTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncTrigger2DTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncTriggerBase.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncTriggerExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncTriggerTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncUpdateSelectedTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncUpdateTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\Triggers\AsyncVisibleTrigger.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UniTask.Bridge.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UniTask.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UniTask.Delay.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UniTask.Factory.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UniTask.Run.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UniTask.Threading.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UniTask.WaitUntil.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UniTask.WhenAll.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UniTask.WhenAll.Generated.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UniTask.WhenAny.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UniTask.WhenAny.Generated.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UniTaskCompletionSource.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UniTaskExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UniTaskExtensions.Shorthand.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UniTaskScheduler.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UniTaskVoid.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UnityAsyncExtensions.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UnityAsyncExtensions.Jobs.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UnityAsyncExtensions.uGUI.cs" />
-     <Compile Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UnityEqualityComparer.cs" />
-     <None Include="Assets\QFramework\Framework\0.Libs\6.UniRx\Scripts\Async\UniRx.Async.asmdef" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\AsyncUnit.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\CancellationTokenEqualityComparer.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\CancellationTokenExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\CancellationTokenSourceExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\CompilerServices\AsyncMethodBuilderAttribute.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\CompilerServices\AsyncUniTaskMethodBuilder.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\CompilerServices\AsyncUniTaskVoidMethodBuilder.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\CompilerServices\MoveNextRunner.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\DiagnosticsExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\EnumerableAsyncExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\EnumeratorAsyncExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\IAwaiter.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Internal\ArrayPool.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Internal\ArrayPoolUtil.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Internal\ArrayUtil.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Internal\CancellationTokenHelper.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Internal\ContinuationQueue.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Internal\Error.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Internal\Hack.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Internal\LazyPromise.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Internal\MinimumQueue.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Internal\PlayerLoopRunner.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Internal\PromiseHelper.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Internal\ReusablePromise.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Internal\RuntimeHelpersAbstraction.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Internal\TaskTracker.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Internal\WeakDictionary.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\PlayerLoopHelper.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Progress.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncAnimatorTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncAwakeTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncBeginDragTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncCancelTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncCanvasGroupChangedTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncCollision2DTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncCollisionTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncDeselectTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncDestroyTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncDragTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncDropTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncEnableDisableTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncEndDragTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncEventTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncFixedUpdateTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncInitializePotentialDragTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncJointTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncLateUpdateTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncMouseTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncMoveTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncParticleTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncPointerClickTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncPointerDownTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncPointerEnterTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncPointerExitTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncPointerUpTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncRectTransformTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncScrollTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncSelectTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncStartTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncSubmitTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncTransformChangedTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncTrigger2DTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncTriggerBase.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncTriggerExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncTriggerTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncUpdateSelectedTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncUpdateTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\Triggers\AsyncVisibleTrigger.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UniTask.Bridge.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UniTask.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UniTask.Delay.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UniTask.Factory.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UniTask.Run.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UniTask.Threading.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UniTask.WaitUntil.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UniTask.WhenAll.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UniTask.WhenAll.Generated.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UniTask.WhenAny.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UniTask.WhenAny.Generated.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UniTaskCompletionSource.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UniTaskExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UniTaskExtensions.Shorthand.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UniTaskScheduler.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UniTaskVoid.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UnityAsyncExtensions.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UnityAsyncExtensions.Jobs.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UnityAsyncExtensions.uGUI.cs" />
+     <Compile Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UnityEqualityComparer.cs" />
+     <None Include="Assets\QFramework\Framework\0.Core\Plugins\UniRx\Async\UniRx.Async.asmdef" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>E:/Unity2017.4.14/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
  </Reference>
@@ -347,27 +347,6 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>E:/Unity2017.4.14/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
- </Reference>
- <Reference Include="ProtobufNet">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/ProtobufNet.dll</HintPath>
- </Reference>
- <Reference Include="QFramework.Log">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/QFramework.Log.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
- </Reference>
- <Reference Include="DOTweenEditor">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Libs/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="CString">
- <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/ScriptKit/ToLua/Plugins/CString.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -385,6 +364,42 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Rocks">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Mdb">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject-usage">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/Source/Usage/Zenject-usage.dll</HintPath>
+ </Reference>
+ <Reference Include="CString">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/ScriptKit/ToLua/Plugins/CString.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Pdb">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll</HintPath>
+ </Reference>
+ <Reference Include="ProtobufNet">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/ProtobufNet.dll</HintPath>
+ </Reference>
+ <Reference Include="QFramework.Log">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/QFramework.Log.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>F:/vin129/CardGame/CardGame/Assets/QFramework/Framework/0.Core/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

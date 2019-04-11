@@ -1,5 +1,5 @@
 /****************************************************************************
- * 2019.3 XAVIER
+ * 2019.4 XAVIER
  ****************************************************************************/
 
 using System;
@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using QFramework;
 
-namespace QFramework.CardGame
+namespace QFramework.Example
 {
 	public class TestViewData : UIPanelData
 	{

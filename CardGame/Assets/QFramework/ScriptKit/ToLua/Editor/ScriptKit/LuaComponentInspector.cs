@@ -5,7 +5,6 @@ using System.Collections;
 using System.IO;
 using UnityEditor.SceneManagement;
 using System.Text.RegularExpressions;
-using QFramework;
 using Object = UnityEngine.Object;
 
 namespace QFramework

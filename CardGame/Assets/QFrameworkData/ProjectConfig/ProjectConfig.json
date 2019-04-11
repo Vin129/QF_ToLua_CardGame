@@ -1,5 +1,5 @@
 {
-  "Namespace": "QFramework.CardGame",
+  "Namespace": "QFramework.Example",
   "UIScriptDir": "/Scripts/UI",
   "UIPrefabDir": "/Art/UIPrefab"
 }
