@@ -1,5 +1,5 @@
 local TimerMgr = class("TimeMgr")
-require("Common/Timer")
+require("Common/VTimer")
 function TimerMgr:ctor()
     self.mTimerList = {};
 end

@@ -1,4 +1,4 @@
-local DelayTimer = class("DelayTimer",Timer)
+local DelayTimer = class("DelayTimer",VTimer)
 
 --[[
     mDelayTime 延迟触发 

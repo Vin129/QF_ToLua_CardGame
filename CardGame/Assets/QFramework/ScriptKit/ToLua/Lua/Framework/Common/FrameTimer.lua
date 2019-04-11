@@ -1,4 +1,4 @@
-local FrameTimer = class("FrameTimer",Timer)
+local FrameTimer = class("FrameTimer",VTimer)
 
 function FrameTimer:ctor(callback)
     self:Init(callback);
