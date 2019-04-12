@@ -1,7 +1,0 @@
-ManifestFileVersion: 0
-CRC: 1427717086
-AssetBundleManifest:
-  AssetBundleInfos:
-    Info_0:
-      Name: testview_prefab
-      Dependencies: {}
