@@ -12,11 +12,11 @@ end
 function TestView:RegisterUIEvent()
 
 	QUIHelper.SetButtonClickEvent(self.Button1,function()
-		log("click Button1")
+
 	end)
 
 	QUIHelper.SetButtonClickEvent(self.Button2,function()
-		log("click Button2")
+
 	end)
 end
 

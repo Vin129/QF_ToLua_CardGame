@@ -74,8 +74,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 224019450004105880}
-  - component: {fileID: 114660541851378802}
-  - component: {fileID: 114733383369594824}
+  - component: {fileID: 114661083168280602}
+  - component: {fileID: 114526687505026676}
   m_Layer: 5
   m_Name: TestView
   m_TagString: Untagged
@@ -215,6 +215,21 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114526687505026676
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1687699925292352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f99a8e4956adf549a569dd640591b2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mSubPanelInfos: []
+  LuaCp: {fileID: 0}
+  Button1: {fileID: 114295391188882198}
+  Button2: {fileID: 114587076220180550}
 --- !u!114 &114587076220180550
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -256,7 +271,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &114660541851378802
+--- !u!114 &114661083168280602
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -264,13 +279,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1687699925292352}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f99a8e4956adf549a569dd640591b2d, type: 3}
+  m_Script: {fileID: 11500000, guid: 4620b112f2ecb43ed975497118f412e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mSubPanelInfos: []
-  LuaCp: {fileID: 0}
-  Button1: {fileID: 114295391188882198}
-  Button2: {fileID: 114587076220180550}
+  LuaPath: Game.UI.TestView
+  LuaFilePath: /Game/UI/TestView.lua
 --- !u!114 &114731147653839706
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -285,19 +298,6 @@ MonoBehaviour:
   MarkType: 0
   CustomComponentName: 
   CustomComment: 
---- !u!114 &114733383369594824
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1687699925292352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4620b112f2ecb43ed975497118f412e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LuaPath: Game.UI.TestView
-  LuaFilePath: F:/vin129/CardGame/CardGame/Assets/QFramework/Scriptkit/ToLua/Lua/Game/UI/TestView.lua
 --- !u!114 &114765509205330044
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -28,14 +28,14 @@ namespace QFramework{
 			var uiLuaPanel =  uiPrefab.GetComponent<UILuaPanel>();
 			if(lc.IsNull()){
 				lc = uiPrefab.AddComponent<LuaComponent>();
-				var newPath = filePath;
-				var resultString = Regex.Split(newPath, "/Lua/", RegexOptions.IgnoreCase);
-				newPath = resultString[1];
-				newPath = newPath.Replace(".lua", "");
-				newPath = newPath.Replace("/", ".");
-				lc.LuaPath = newPath;
-				lc.LuaFilePath = filePath;
-			}	
+			}
+			var newPath = filePath;
+			var resultString = Regex.Split(newPath, "/Lua/", RegexOptions.IgnoreCase);
+			newPath = resultString[1];
+			newPath = newPath.Replace(".lua", "");
+			newPath = newPath.Replace("/", ".");
+			lc.LuaPath = newPath;
+			lc.LuaFilePath = filePath.Replace(LuaConst.luaDir + "/","");
 			Debug.Log("<color=#EE6A50> >>>>>>>Success ToLua Code </color>");
 		} 
 	}
