@@ -2386,6 +2386,13 @@
       "readme": {
         "items": [
           {
+            "version": "v0.1.1",
+            "content": "add TestView",
+            "author": "vin129",
+            "date": "2019 年 04 月 23 日 16:15",
+            "VersionNumber": 101
+          },
+          {
             "version": "v0.1.0",
             "content": "Update Tolua\nBase available version\nAdd  LuaCodeGenerator",
             "author": "vin129",
@@ -2430,6 +2437,25 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.1.1",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.1.1.unitypackage",
+          "InstallPath": "Assets/QFramework/ScriptKit/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.1.1",
+            "content": "add TestView",
+            "author": "vin129",
+            "date": "2019 年 04 月 23 日 16:15",
+            "VersionNumber": 101
+          },
+          "Id": "631",
+          "Name": "ScriptKit",
+          "VersionNumber": 101,
+          "FileName": "ScriptKit_v0.1.1.unitypackage"
+        },
         {
           "Version": "v0.1.0",
           "Type": 0,
@@ -2564,13 +2590,13 @@
           "FileName": "ScriptKit_v0.0.4.unitypackage"
         }
       ],
-      "Version": "v0.1.0",
-      "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.1.0.unitypackage",
+      "Version": "v0.1.1",
+      "DownloadUrl": "http://liangxiegame.com/media/ScriptKit_v0.1.1.unitypackage",
       "InstallPath": "Assets/QFramework/ScriptKit/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 100,
+      "VersionNumber": 101,
       "Installed": true
     },
     {

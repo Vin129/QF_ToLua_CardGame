@@ -24,7 +24,7 @@ if not FRAMEWORK_INITED then
 	--=======================TEST Init===========================
 	log("Init Sucess")
 	-- Resources
-	-- UIMgr.OpenPanel("Resources/TestView")
+	UIMgr.OpenPanel("Resources/TestView")
 
 	-- AssetBundle
 	-- UIMgr.OpenPanel("TestView",QFramework.UILevel.PopUI,"testview_prefab")
