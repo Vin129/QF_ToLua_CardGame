@@ -268,6 +268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mSubPanelInfos: []
+  LuaCp: {fileID: 0}
   Button1: {fileID: 114295391188882198}
   Button2: {fileID: 114587076220180550}
 --- !u!114 &114731147653839706

@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 2660562671
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: testimage_png
+      Dependencies: {}
+    Info_1:
+      Name: uimsg_prefab
+      Dependencies: {}
+    Info_2:
+      Name: assetobj_prefab
+      Dependencies: {}
+    Info_3:
+      Name: spriteatlas_spriteatlas
+      Dependencies: {}
+    Info_4:
+      Name: uitestunirx_prefab
+      Dependencies: {}
+    Info_5:
+      Name: uiconnect_prefab
+      Dependencies: {}
+    Info_6:
+      Name: testview_prefab
+      Dependencies: {}

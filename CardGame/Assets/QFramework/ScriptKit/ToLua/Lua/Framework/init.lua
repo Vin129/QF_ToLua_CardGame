@@ -20,8 +20,13 @@ if not FRAMEWORK_INITED then
 
 	FRAMEWORK_INITED = true
 
-
-	--TEST
+	-- ResMgr.Init();
+	--=======================TEST Init===========================
 	log("Init Sucess")
-	UIMgr.OpenPanel("Resources/TestView")
+	-- Resources
+	-- UIMgr.OpenPanel("Resources/TestView")
+
+	-- AssetBundle
+	-- UIMgr.OpenPanel("TestView",QFramework.UILevel.PopUI,"testview_prefab")
+	--=======================================================
 end 
