@@ -61,7 +61,7 @@ namespace QFramework
 						newPath = newPath.Replace("/", ".");
 
 						obj.FindProperty("LuaPath").stringValue = newPath;
-						obj.FindProperty("LuaFilePath").stringValue = DragAndDrop.paths[0];
+						obj.FindProperty("LuaFilePath").stringValue = DragAndDrop.paths[0].Replace(LuaConst.luaDir,"");
 						obj.ApplyModifiedPropertiesWithoutUndo();
 						AssetDatabase.SaveAssets();
 						AssetDatabase.Refresh();
@@ -69,15 +69,12 @@ namespace QFramework
 					}
 				}
 			}
-
-			if (obj.FindProperty("LuaFilePath").stringValue.IsNotNullAndEmpty())
-			{
+			if(!LuaConst.luaDir.IsNullOrEmpty()){
 				if (GUILayout.Button("选择脚本"))
 				{
-					Selection.activeObject =
-						AssetDatabase.LoadAssetAtPath<Object>(obj.FindProperty("LuaFilePath").stringValue);
-
-
+					// Selection.activeObject =
+					// 	AssetDatabase.LoadAssetAtPath(LuaConst.luaDir,typeof(UnityEngine.Object));
+					// var path = AssetDatabase.GetAssetPath(Selection.activeObject);
 				}
 			}
 		}
