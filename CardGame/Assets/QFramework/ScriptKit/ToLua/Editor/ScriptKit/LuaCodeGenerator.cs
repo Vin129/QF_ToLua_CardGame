@@ -6,7 +6,7 @@ namespace QFramework{
     public class LuaCodeGenerator{
 		private const int mToLua = 1; 
 		private const string mFileSuffix = ".lua";
-		private static string mFilePath = LuaConst.luaDir + ScriptBaseSetting.ScriptPath;
+		private static string mFilePath = ScriptBaseSetting.GetScriptPath(mToLua);
 		private static IBaseTemplate[] mTemplates = {new LuaUIPanelCodeTemplate() as IBaseTemplate,new LuaPanelComponentsCodeTemplate() as IBaseTemplate,new LuaPanelTemplate() as IBaseTemplate};
 
 		private static ScriptKitCodeBind mScriptCodeBind = (GameObject uiPrefab,string filePath)=>{addScriptComponent(uiPrefab,filePath);};

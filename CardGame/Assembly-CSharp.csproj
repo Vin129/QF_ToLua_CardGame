@@ -287,6 +287,9 @@
      <Compile Include="Assets\QFramework\Framework\4.ScriptCollection\Math.cs" />
      <Compile Include="Assets\QFramework\Framework\4.ScriptCollection\ParticleScaler.cs" />
      <Compile Include="Assets\QFramework\Framework\5.ShaderLib\Scripts\PostFXBehaviour.cs" />
+     <Compile Include="Assets\QFramework\ScriptKit\Base\BaseOutlet.cs" />
+     <Compile Include="Assets\QFramework\ScriptKit\Base\IPlug.cs" />
+     <Compile Include="Assets\QFramework\ScriptKit\Base\PlugCollector.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\Base\ScriptBaseSetting.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\Demo\Scripts\GameMain.cs" />
      <Compile Include="Assets\QFramework\ScriptKit\Helper\EventTrigger\CustomDropdown.cs" />

@@ -5,13 +5,12 @@ using QFramework;
 public class GameMain : MonoBehaviour {
     public static GameMain Instance;
 
-    public LuaMain LuaMain;
     private void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
         Instance = this;
         ResMgr.Init();
-        LuaMain = LuaMain.getInstance();
+        BaseOutlet.Instance.Init();
     }
 
     void Start () {
