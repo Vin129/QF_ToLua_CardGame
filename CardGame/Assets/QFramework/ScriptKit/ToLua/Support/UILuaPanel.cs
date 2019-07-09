@@ -47,22 +47,22 @@ namespace QFramework
 
         void OnEnable()
         {
-            CallLuaFunction(LuaMain.FuncName.OnEnable);
+            CallLuaFunction(LuaPlug.FuncName.OnEnable);
         }
 
         void Start()
         {
-            CallLuaFunction(LuaMain.FuncName.Start);
+            CallLuaFunction(LuaPlug.FuncName.Start);
         }
 
         void Update()
         {
-            CallLuaFunction(LuaMain.FuncName.Update);
+            CallLuaFunction(LuaPlug.FuncName.Update);
         }
 
         void OnDisable()
         {
-            CallLuaFunction(LuaMain.FuncName.OnDisable);
+            CallLuaFunction(LuaPlug.FuncName.OnDisable);
         }
 
         protected override void OnClose()
@@ -111,12 +111,12 @@ namespace QFramework
             }
 
             if (LuaCp.Initilize(LuaPath))
-                CallLuaFunction(LuaMain.FuncName.Awake);
+                CallLuaFunction(LuaPlug.FuncName.Awake);
         }
 
         public void LuaDispose()
         {
-            CallLuaFunction(LuaMain.FuncName.OnDestroy);
+            CallLuaFunction(LuaPlug.FuncName.OnDestroy);
             if (LuaCp)
                 LuaCp.DisposeLuaTable();
         }

@@ -76,7 +76,7 @@ namespace QFramework
 		//初始化函数，可以被重写，已添加其他
 		protected virtual bool Init()
 		{		
-			mSelfLuaTable = LuaMain.getInstance().addLuaFile(LuaPath, gameObject);
+			mSelfLuaTable = LuaPlug.getInstance().addLuaFile(LuaPath, gameObject);
 			LuaClassName = CallLuaFunctionRString("getClassName");
 			
 			mSelfLuaTable["gameObject"] = gameObject;
@@ -145,32 +145,32 @@ namespace QFramework
 		//void Awake()
 		//{
 		//	if (Initilize(LuaPath))
-		//		CallLuaFunction(LuaMain.FuncName.Awake);
+		//		CallLuaFunction(LuaPlug.FuncName.Awake);
 		//}
 
 		//void OnEnable()
 		//{
-		//	CallLuaFunction(LuaMain.FuncName.OnEnable);
+		//	CallLuaFunction(LuaPlug.FuncName.OnEnable);
 		//}
 
 		//void Start()
 		//{
-		//	CallLuaFunction(LuaMain.FuncName.Start);
+		//	CallLuaFunction(LuaPlug.FuncName.Start);
 		//}
 
 		//void Update()
 		//{
-		//	CallLuaFunction(LuaMain.FuncName.Update);
+		//	CallLuaFunction(LuaPlug.FuncName.Update);
 		//}
 
 		//void OnDisable()
 		//{
-		//	CallLuaFunction(LuaMain.FuncName.OnDisable);
+		//	CallLuaFunction(LuaPlug.FuncName.OnDisable);
 		//}
 
 		//void OnDestroy()
 		//{
-		//	CallLuaFunction(LuaMain.FuncName.OnDestroy);
+		//	CallLuaFunction(LuaPlug.FuncName.OnDestroy);
 
 		//	if (null != mSelfLuaTable)
 		//	{
@@ -189,7 +189,7 @@ namespace QFramework
 
 		// void onClick()
 		// {
-		// 	CallLuaFunction(LuaMain.FuncName.onClick);
+		// 	CallLuaFunction(LuaPlug.FuncName.onClick);
 		// }
 	}
 }
