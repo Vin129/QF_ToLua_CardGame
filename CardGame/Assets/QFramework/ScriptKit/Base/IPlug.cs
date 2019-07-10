@@ -1,7 +1,7 @@
 using System.Collections;
 
 public interface IPlug  {
-	int plugId {get;}
+	int PlugId {get;}
 
 	void Init();
 	void Destroy();

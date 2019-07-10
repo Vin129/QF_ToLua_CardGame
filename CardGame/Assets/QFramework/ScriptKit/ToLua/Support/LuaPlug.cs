@@ -8,7 +8,13 @@ using UnityEditor;
 #endif
 public class LuaPlug:IPlug
 {
-    private int plugId = 1;
+    public int PlugId
+    {
+        get
+        {
+            return 1;
+        }
+    }
 
     //lua环境，需要在使用前给其赋值
     private static LuaState mLuaState = null;
@@ -60,7 +66,7 @@ public class LuaPlug:IPlug
     private static GameObject luaCoroutine = null;
 
     //初始化
-    private void Init()
+    public void Init()
     {
 #if UNITY_EDITOR
         //LuaFileUtils.Instance.beZip = UseAssetBundleLuaInEditor;
@@ -203,6 +209,8 @@ public class LuaPlug:IPlug
 //			LuaPlug.getDisposeInstance().Destroy ();
 
     }
+
+
 
 #if UNITY_EDITOR
     static int m_SimulateAssetBundleInEditor = -1;
