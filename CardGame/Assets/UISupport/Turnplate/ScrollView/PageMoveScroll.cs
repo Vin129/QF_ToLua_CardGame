@@ -26,7 +26,12 @@ public class PageMoveScroll : MonoBehaviour {
 
     public void Init() {
         mScrollRect = GetComponent<ScrollRect>();
-        count = mScrollRect.content.GetActiveChildCount();
+        int activeCount = 0;
+        for (int i = 0;i<mScrollRect.content.childCount;i++) {
+            if (mScrollRect.content.GetChild(i).gameObject.activeInHierarchy)
+                activeCount++;
+        }
+        count = activeCount;
         onePageValue = 1 / count;
     }
 
