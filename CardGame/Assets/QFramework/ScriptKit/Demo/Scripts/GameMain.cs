@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using QFramework;
+using ScriptKit;
 public class GameMain : MonoBehaviour {
     public static GameMain Instance;
 

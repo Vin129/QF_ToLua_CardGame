@@ -1,5 +1,4 @@
-namespace QFramework
-{
+namespace ScriptKit {
     public interface ILuaComponentBind
     {
         string LuaPath { get; set; }

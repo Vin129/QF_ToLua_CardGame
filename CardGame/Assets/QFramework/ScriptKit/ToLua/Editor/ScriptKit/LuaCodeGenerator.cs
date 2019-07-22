@@ -1,4 +1,5 @@
-namespace QFramework{
+using QFramework;
+namespace ScriptKit{
 	using UnityEngine;
 	using UnityEditor;
     using System.Text.RegularExpressions;

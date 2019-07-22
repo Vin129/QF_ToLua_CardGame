@@ -26,9 +26,8 @@
 using UnityEngine;
 using LuaInterface;
 using UnityEngine.UI;
-
-namespace QFramework
-{
+using QFramework;
+namespace ScriptKit {
 	public class LuaComponent : MonoBehaviour
 	{
 		protected static class FuncName

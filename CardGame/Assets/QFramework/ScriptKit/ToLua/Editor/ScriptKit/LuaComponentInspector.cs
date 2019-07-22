@@ -6,8 +6,8 @@ using System.IO;
 using UnityEditor.SceneManagement;
 using System.Text.RegularExpressions;
 using Object = UnityEngine.Object;
-
-namespace QFramework
+using QFramework;
+namespace ScriptKit
 {
 	[CustomEditor(typeof(LuaComponent))]
 	public class LuaComponentInspectorEditor : UnityEditor.Editor

@@ -1,8 +1,9 @@
 using System.Collections;
+namespace ScriptKit {
+	public interface IPlug  {
+		int PlugId {get;}
 
-public interface IPlug  {
-	int PlugId {get;}
-
-	void Init();
-	void Destroy();
+		void Init();
+		void Destroy();
+	}
 }
