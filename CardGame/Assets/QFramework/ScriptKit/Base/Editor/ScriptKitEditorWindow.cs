@@ -1,11 +1,15 @@
+/****************************************************************************
+ * Copyright (c) 2019.7 vin129
+ ****************************************************************************/
+
 namespace ScriptKit
 {
     using UnityEngine;
     using UnityEditor;
+    using LitJson;
+    using V_UIExtension;
     public class ScriptKitEditorWindow:EditorWindow
     {
-
-
         private static ScriptKitEditorWindow instance;
         private static Contents contents;
 
@@ -20,7 +24,7 @@ namespace ScriptKit
         public static void ShowWindow()
         {
             instance = EditorWindow.GetWindow<ScriptKitEditorWindow>();
-            instance.titleContent = new GUIContent("ScriptKit" + ScriptBaseSetting.VERSIONS);
+            instance.titleContent = new GUIContent(ScriptBaseSetting.GetHotScriptName() + "Kit" + ScriptBaseSetting.VERSIONS);
             instance.Init();
             instance.Show();
         }
@@ -54,8 +58,7 @@ namespace ScriptKit
 			}
             if (GUILayout.Button("Save Setting"))
 			{
-                scriptPath = scriptPathHead + scriptPathTail;
-				EditorPrefs.SetString(ScriptBaseSetting.SCRIPT_PATH_KEY,scriptPath);
+               SaveData();
 			}
 
             GUILayout.EndVertical();
@@ -68,8 +71,17 @@ namespace ScriptKit
         }
 
         private void OnDisable(){
+            // scriptPath = scriptPathHead + scriptPathTail;
+            // EditorPrefs.SetString(ScriptBaseSetting.SCRIPT_PATH_KEY,scriptPath);
+        }
+
+        private void SaveData(){
             scriptPath = scriptPathHead + scriptPathTail;
             EditorPrefs.SetString(ScriptBaseSetting.SCRIPT_PATH_KEY,scriptPath);
+            var jsonData = new JsonData();
+            jsonData[ScriptBaseSetting.SCRIPT_PATH_KEY] = scriptPath;
+            // var jsonContent = jsonData.ToJson();
+            jsonData.SaveJsonData(ScriptBaseSetting.SETTING_DATA_PATH);
         }
 
          private class Contents
