@@ -12,7 +12,7 @@ namespace ScriptKit
     {
         private static ScriptKitEditorWindow instance;
         private static Contents contents;
-
+        private static string hotScriptName;
         private GUIStyle guiStyle;
 
         private Vector2 scrollPos;
@@ -24,7 +24,8 @@ namespace ScriptKit
         public static void ShowWindow()
         {
             instance = EditorWindow.GetWindow<ScriptKitEditorWindow>();
-            instance.titleContent = new GUIContent(ScriptBaseSetting.GetHotScriptName() + "Kit" + ScriptBaseSetting.VERSIONS);
+            hotScriptName = ScriptBaseSetting.GetHotScriptName();
+            instance.titleContent = new GUIContent(hotScriptName + "Kit" + ScriptBaseSetting.VERSIONS);
             instance.Init();
             instance.Show();
         }
@@ -43,7 +44,7 @@ namespace ScriptKit
         public void OnGUI(){
             scrollPos = EditorGUILayout.BeginScrollView(scrollPos);
 			GUILayout.BeginVertical();
-            GUILayout.Label("Path:" + scriptPath);
+            GUILayout.Label(string.Format("{0}CodePath:{1}",hotScriptName,scriptPath));
             GUILayout.BeginHorizontal();
 			GUILayout.Label(contents.ScriptPathHeadContent);
             GUILayout.TextField(scriptPathHead);
@@ -87,9 +88,9 @@ namespace ScriptKit
          private class Contents
 		{
 			public readonly GUIContent ScriptPathHeadContent = new GUIContent("ScriptPathHead:",
-				"Please don't modify it without authorization");
+				"Based on different scripts");
             public readonly GUIContent ScriptPathTailConten  = new GUIContent("ScriptPathTail:",
-            "Path = ScriptPathHead + ScriptPathTail ");
+                "CodeGenerator Path");
 		}
     }
 }
