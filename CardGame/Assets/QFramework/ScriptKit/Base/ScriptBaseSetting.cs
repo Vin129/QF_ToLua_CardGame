@@ -5,8 +5,9 @@
 using System;
 using System.IO;
 using UnityEngine;
-
+using LitJson;
 namespace ScriptKit {
+	using V_UIExtension;
 #if UNITY_EDITOR
 	using UnityEditor;
 #endif
@@ -18,7 +19,8 @@ namespace ScriptKit {
 
 		public static string SETTING_DATA_PATH = Application.dataPath + "/ScriptKitData/BaseSetting.json";
 #region  EditorKey 
-		public static string SCRIPT_PATH_KEY = "SCRIPT_PATH";
+		public static string KEY_SCRIPT_PATH_TAIl = "SCRIPT_PATH_TAIL";
+		public static string KEY_SCRIPT_PATH = "SCRIPT_PATH";
 #endregion
 
 #if UNITY_EDITOR
@@ -36,13 +38,58 @@ namespace ScriptKit {
 #region SettingSupprot	
 		public static string[] ScriptPathHeads = {String.Empty,LUA_DIR};
 		public static string NOW_PATH_HEAD = ScriptPathHeads[NOW_SCRIPT_TYPE] ?? String.Empty;
-		public static string NOW_PATH_TAIL = ScriptPathTail ?? String.Empty;
+		public static string NOW_PATH_TAIL {
+			get{
+				if(!BaseData.Keys.Contains(KEY_SCRIPT_PATH_TAIl)){
+					return ScriptPathTail;
+				}	
+				return BaseData[KEY_SCRIPT_PATH_TAIl].ToString();
+			}
+			set{
+				BaseData[KEY_SCRIPT_PATH_TAIl] = value;
+			}
+		}
 #endregion
 
+
+		private static JsonData baseData;
+		public static JsonData BaseData{
+			get{
+				if(baseData == null)
+				{
+					if(File.Exists(SETTING_DATA_PATH)){
+						StreamReader reader = new StreamReader(SETTING_DATA_PATH);
+						string jsonText = reader.ReadToEnd();
+						reader.Close();
+						baseData = JsonMapper.ToObject(jsonText);
+					}else{
+						baseData = new JsonData();
+					}	
+				}
+				return baseData;
+			}
+			set{
+				baseData = value;
+			}
+		}
+		public static void SetBaseData(string key,string value){
+			BaseData[key] = value;
+		}
+		public static void SaveBaseData(){
+			BaseData.SaveJsonData(SETTING_DATA_PATH);
+		}
+
 		public static string GetScriptPath(int scriptType){
-			if(ScriptPathHeads[scriptType] == null)
-				return ScriptPathTail;
-			return ScriptPathHeads[scriptType] + ScriptPathTail;
+			if(!BaseData.Keys.Contains(KEY_SCRIPT_PATH))
+			{
+				if(ScriptPathHeads[scriptType] == null)
+					return ScriptPathTail;
+				return ScriptPathHeads[scriptType] + ScriptPathTail;
+			}
+			else
+			{
+				return BaseData[KEY_SCRIPT_PATH].ToString();
+			}
 		}
 
 		public static string GetHotScriptName(){

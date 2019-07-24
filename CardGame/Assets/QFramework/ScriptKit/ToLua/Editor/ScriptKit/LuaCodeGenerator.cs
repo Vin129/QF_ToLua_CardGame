@@ -15,6 +15,7 @@ namespace ScriptKit{
 		[MenuItem("Assets/@Script Kit - Create ToLua Code")]
 		public static void CreateHotScriptCode(){
 			Debug.Log("<color=#EE6A50> >>>>>>>Create ToLua Code  </color>");
+			Debug.Log(string.Format("<color=#EE6A50> >>>>>>>File Path : {0}</color>",mFilePath));
 			var info = new ScriptKitInfo();
 			info.HotScriptType = mToLua;
 			info.HotScriptFilePath = mFilePath;

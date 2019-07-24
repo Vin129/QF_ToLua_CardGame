@@ -33,12 +33,12 @@ namespace ScriptKit
         public void Init(){
             contents = new Contents();
             guiStyle = new GUIStyle();
-            scriptPath = EditorPrefs.GetString(ScriptBaseSetting.SCRIPT_PATH_KEY,string.Empty);
+            scriptPath = EditorPrefs.GetString(ScriptBaseSetting.KEY_SCRIPT_PATH,string.Empty);
             scriptPathHead = ScriptBaseSetting.NOW_PATH_HEAD;
             scriptPathTail = ScriptBaseSetting.NOW_PATH_TAIL;
             if(scriptPath.Equals(string.Empty))
                 scriptPath = scriptPathHead + scriptPathTail;
-            EditorPrefs.SetString(ScriptBaseSetting.SCRIPT_PATH_KEY,scriptPath);
+            EditorPrefs.SetString(ScriptBaseSetting.KEY_SCRIPT_PATH,scriptPath);
         }
 
         public void OnGUI(){
@@ -55,7 +55,7 @@ namespace ScriptKit
             GUILayout.EndHorizontal();
 	        if (GUILayout.Button("Clear Setting"))
 			{
-				EditorPrefs.DeleteKey(ScriptBaseSetting.SCRIPT_PATH_KEY);
+				EditorPrefs.DeleteKey(ScriptBaseSetting.KEY_SCRIPT_PATH);
 			}
             if (GUILayout.Button("Save Setting"))
 			{
@@ -68,21 +68,23 @@ namespace ScriptKit
 
         private void OnEnable()
 		{
-			
+
         }
 
-        private void OnDisable(){
-            // scriptPath = scriptPathHead + scriptPathTail;
-            // EditorPrefs.SetString(ScriptBaseSetting.SCRIPT_PATH_KEY,scriptPath);
+        private void OnDisable()
+        {
+
         }
 
         private void SaveData(){
             scriptPath = scriptPathHead + scriptPathTail;
-            EditorPrefs.SetString(ScriptBaseSetting.SCRIPT_PATH_KEY,scriptPath);
-            var jsonData = new JsonData();
-            jsonData[ScriptBaseSetting.SCRIPT_PATH_KEY] = scriptPath;
-            // var jsonContent = jsonData.ToJson();
-            jsonData.SaveJsonData(ScriptBaseSetting.SETTING_DATA_PATH);
+            EditorPrefs.SetString(ScriptBaseSetting.KEY_SCRIPT_PATH,scriptPath);
+            ScriptBaseSetting.SetBaseData(ScriptBaseSetting.KEY_SCRIPT_PATH_TAIl,scriptPathTail);
+            ScriptBaseSetting.SetBaseData(ScriptBaseSetting.KEY_SCRIPT_PATH,scriptPath);
+            ScriptBaseSetting.SaveBaseData();
+            AssetDatabase.SaveAssets();
+			AssetDatabase.Refresh();
+            Debug.Log("<color=#EE6A50>Save Data Sucess!</color>");
         }
 
          private class Contents
