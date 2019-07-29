@@ -53,12 +53,11 @@ namespace ScriptKit {
         //预存函数提高效率
         protected Dictionary<string, LuaFunction> mDictFunc = new Dictionary<string, LuaFunction>();
 
-        public static LuaPlug getInstance()
+        public static LuaPlug GetInstance()
         {
             if (mInstance == null)
             {
                 mInstance = new LuaPlug();
-                mInstance.Init();
             }
 
             return mInstance;

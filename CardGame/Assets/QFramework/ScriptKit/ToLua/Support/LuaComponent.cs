@@ -75,7 +75,7 @@ namespace ScriptKit {
 		//初始化函数，可以被重写，已添加其他
 		protected virtual bool Init()
 		{		
-			mSelfLuaTable = LuaPlug.getInstance().addLuaFile(LuaPath, gameObject);
+			mSelfLuaTable = LuaPlug.GetInstance().addLuaFile(LuaPath, gameObject);
 			LuaClassName = CallLuaFunctionRString("getClassName");
 			
 			mSelfLuaTable["gameObject"] = gameObject;

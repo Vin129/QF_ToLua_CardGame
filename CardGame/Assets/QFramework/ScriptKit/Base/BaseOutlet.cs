@@ -12,7 +12,7 @@ namespace ScriptKit {
 		}
 
 		public void Init(){
-			
+			mPlugCtor.InitPlug();
 		}
 	}
 }
