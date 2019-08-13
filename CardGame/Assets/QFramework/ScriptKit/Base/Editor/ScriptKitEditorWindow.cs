@@ -20,7 +20,7 @@ namespace ScriptKit
         private string scriptPathTail;
         private string scriptPath;
   
-        [MenuItem("ScriptKit/Setting")]
+        [MenuItem("ScriptKit/Setting #S")]
         public static void ShowWindow()
         {
             instance = EditorWindow.GetWindow<ScriptKitEditorWindow>();
